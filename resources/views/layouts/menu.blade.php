@@ -1,140 +1,92 @@
-<header>
-<div id="head">
-    	<div class="headerTopArea">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-5 col-sm-3 col-xs-5">
-    					<div class="langOpt">
-    						<span class="langTxt">Language: &nbsp;</span>
-    						<span class="langIcon"><span class="langCode">en</span><i class="icofont icofont-caret-down"></i> </span>
-    						<ul class="lang">
-    							<li data-code="en">english</li>
-    							<li data-code="bn">bengali</li>
-    							<li data-code="ar">aribic</li>
-    							<li data-code="da">dansk</li>
-    						</ul>
-    					</div>
-    				</div>
-    				<div class="col-md-7 col-sm-9 col-xs-7">
-    					<ul class="topInfo">
-    						<li class="call"><a href="tel:+214-5212-829"><i class="icofont icofont-ui-call"></i>+214-5212-829</a></li>
-    						<li class="email"><a href="mailto:support@spark.com"><i class="icofont icofont-ui-v-card"></i>support@spark.com</a></li>
-							<li class="clientAreaLi"><span><i class="icofont icofont-user-alt-3"></i>Client area</span></li>
-    					</ul>
-    					<div class="clientLogin">
-    						<form action="login.php" method="post">
-    							<div class="closeBtn"><i class="icofont icofont-close"></i></div>
-    							<div class="h5">sign in</div>
-    							<div class="userName"><input name="userName" placeholder="Username" type="text"></div>
-    							<div class="password"><input name="password" placeholder="Password" type="password"></div>
-    							<input type="submit" value="sign in">
-    							<div class="h5">Forgot Passsword? <a href="#">Click here</a></div>
-    							<div class="logBtm">
-    								<div class="h5">Don’t have an account yet?</div>
-    								<a href="#" class="signUp">Click here to sign up.</a>
-    							</div>
-    						</form>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    	<div class="headerBottomArea">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-3 col-sm-3 col-xs-9">
-    					<a href="index" class="logo"><img src="img\logo.png" alt=""></a>
-    				</div>
-    				<div class="col-md-8 menuCol col-sm-9 col-xs-9">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-								<span class="sr-only"></span>
-								<i class="fa fa-navicon"></i>
-							</button>
-						</div>
-    					<nav id="navbar" class="collapse navbar-collapse">
-    						<ul id="nav">
-    							<li><a href="index">Home</a>
-    							</li>
-    							<li><a href="#">hosting</a>
-									<ul class="sub-menu">
-    									<li><a href="webHosting">web hosting</a></li>
-    									<li><a href="cloudHosting">cloud hosting</a></li>
-    									<li><a href="vpnHosting">vpn hosting</a></li>
-    									<li><a href="sharedHosting">shared hosting</a></li>
-									</ul>
-    							</li>
-    							<li><a href="domainSearch">domain</a></li>
-    							<li class="dropdown-megamenu"><a href="#">pages</a>
-    								<ul class="mega-menu clearfix">
-										<li class="mMenuCol">
-											<ul class="menuRow">
-												<li><a href="index-1">homepage v1</a></li>
-												<li><a href="index-2">homepage v2</a></li>
-											</ul>
-											<ul class="menuRow">
-												<li><a href="about">about</a></li>
-												<li><a href="domainSearch">domain search</a></li>
-												<li><a href="webHosting">web hosting</a></li>
-												<li><a href="cloudHosting">cloud hosting</a></li>
-												<li><a href="vpnHosting">vpn hosting</a></li>
-											</ul>
-										</li>
-   										<li class="mMenuCol">
-   											<ul class="menuRow">
-   												<li><a href="accountManage">My account</a></li>
-   												<li><a href="domainManage">domain settings</a></li>
-   												<li><a href="hostManage">hosting settings</a></li>
-   											</ul>
-   											<ul class="menuRow">
-   												<li><a href="testimonial">testimonial</a></li>
-   												<li><a href="faq">faq</a></li>
-   												<li><a href="support">support</a></li>
-   												<li><a href="contact">contact</a></li>
-   											</ul>
-   										</li>
-   										<li class="mMenuCol">
-   											<ul class="menuRow">
-   												<li><a href="cart">cart</a></li>
-   												<li><a href="checkout">checkout</a></li>
-   											</ul>
-   											<ul class="menuRow">
-   												<li><a href="blog">blog</a></li>
-   												<li><a href="single-blog">single blog</a></li>
-   											</ul>
-   											<ul class="menuRow">
-   												<li><a href="comingSoon">coming soon</a></li>
-   												<li><a href="404">404</a></li>
-   											</ul>
-   										</li>
-   										<li class="mMenuCol">
-   											<div class="menuDiscount">
-   												<div class="discountImg"><img src="img\icon\menu-img.png" alt=""></div>
-   												<span>10% discount on</span>
-   												<div class="h3">any hosting</div>
-   												<a href="#">Try it now!</a>
-   											</div>
-   										</li>
-    								</ul>
-    							</li>
-    							<li><a href="support">Support</a></li>
-    							<li><a href="#">Blog</a>
-									<ul class="sub-menu">
-    									<li><a href="blog">Blog</a></li>
-    									<li><a href="single-blog">single blog</a></li>
-									</ul>
-    							</li>
-    							<li><a href="contact">Contact</a></li>
-    						</ul>
-    					</nav>
-    				</div>
-    				<div class="col-md-1 cartCol">
-    					<a href="cart" class="cart">
-    						<span class="count">3</span>
-    						<i class="icofont icofont-cart-alt"></i>
-    					</a>
-    				</div>
-				</div>
-    		</div>
-    	</div>
-		</header>
+<!-- Theme Main Menu ____________________________ -->
+<div class="theme-main-menu theme-main-menu-v-two">
+  <div class="container">
+    <div class="main-menu menu-skew-div clear-fix menu-skew-v-two">
+      <!-- Menu -->
+      <nav class="navbar">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed tran3s" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only tran3s">Toggle navigation</span>
+            <span class="icon-bar tran3s"></span>
+            <span class="icon-bar tran3s"></span>
+            <span class="icon-bar tran3s"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown-holder active current-page-item Active-manu"><a href="index.html">Home</a>
+              <ul class="sub-menu">
+                <li><a href="index.html" class="tran3s">Home Version one</a></li>
+                <li><a href="index-2.html" class="tran3s">Home Version two</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown-holder"><a href="#">Events</a>
+              <ul class="sub-menu">
+                <li><a href="events-v1.html" class="tran3s">Events Version one</a></li>
+                <li><a href="events-v2.html" class="tran3s">Events Version two</a></li>
+                <li><a href="events-details.html" class="tran3s">Events Details</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown-holder"><a href="#">Campaigns</a>
+              <ul class="sub-menu">
+                <li><a href="causes.html" class="tran3s">Causes</a></li>
+                <li><a href="causes-sidebar.html" class="tran3s">Causes Sidebar</a></li>
+                <li><a href="causes-details.html" class="tran3s">Causes Details</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown-holder"><a href="#">Pages</a>
+              <ul class="sub-menu">
+                <li><a href="about-us.html" class="tran3s">About Us</a></li>
+                <li><a href="gallery.html" class="tran3s">Gallery</a></li>
+                <li><a href="team.html" class="tran3s">Team</a></li>
+                <li><a href="join-volunteer.html" class="tran3s">Join Volunteer</a></li>
+                <li><a href="faq.html" class="tran3s">Faq</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown-holder"><a href="#">Blog</a>
+              <ul class="sub-menu">
+                <li><a href="blog-v1.html" class="tran3s">Blog Version one</a></li>
+                <li><a href="blog-v2.html" class="tran3s">Blog Version Two</a></li>
+                <li><a href="blog-details.html" class="tran3s">Blog Details</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown-holder"><a href="#">Shop</a>
+              <ul class="sub-menu">
+                <li><a href="shop.html" class="tran3s">Shop</a></li>
+                <li><a href="shop-details.html" class="tran3s">Shop Details</a></li>
+              </ul>
+            </li>
+
+            <li><a href="contact-us.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div class="float-right">
+        <div class="search-button-content clear-fix">
+          <button class="cart tran3s"><i class="flaticon-shopping-bag"></i> <span>0</span></button>
+            <button class="search tran3s" id="search-button"><i class="flaticon-search"></i></button>
+            <div class="search-box tran5s" id="searchWrapper">
+              <button id="close-button" class="p-color"><i class="fa fa-times" aria-hidden="true"></i></button>
+              <div class="container">
+                <img src="{{ asset('images/logo/theme-main-logo-1.png')}}" alt="Logo">
+                <form action="#">
+                  <input type="text" placeholder="Search....">
+                  <button class="p-bg-color"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+              </div>
+            </div> <!-- /.search-box -->
+            <a href="#" class="a-comon main-menu-button">Donation <i class="flaticon-hand"></i></a>
+          </div> <!-- /.right-content -->
+      </div> <!-- /.float-right -->
+    </div> <!-- / menu-skew-div -->
+  </div> <!-- /.container main-menu -->
+</div> <!-- /.main-menu -->

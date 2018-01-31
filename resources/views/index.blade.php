@@ -1,183 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<!-- Mirrored from themazine.com/html/chcharity/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 04:59:38 GMT -->
-<head>
-		<meta charset="UTF-8">
-		<!-- For Resposive Device -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- For IE -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-		<title> CHcharity || Responsive html5 template </title>
-
-
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="{{ asset('images/logo/favicon-1.png')}}">
-
-		<!-- Main style sheet -->
-		<link rel="stylesheet" href="{{ asset('css/style.css')}}">
-		<!-- responsive style sheet -->
-		<link rel="stylesheet" href="{{ asset('css/responsive.css')}}">
-
-		<!-- Fix Internet Explorer ______________________________________-->
-
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="vendor/html5shiv.js"></script>
-			<script src="vendor/respond.js"></script>
-		<![endif]-->
-	</head>
-
-	<body>
-
-		<div class="main-page-wrapper">
-
-			<!-- Header _________________________________ -->
-			<section class="header-section">
-				<div class="top-header top-header-v-two">
-					<div class="container">
-						<div class="clear-fix">
-							<ul class="float-left top-header-left">
-								<li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i> Program</a></li>
-								<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a></li>
-								<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i> Contact</a></li>
-							</ul> <!-- /.top-header-left -->
-							<ul class="float-right top-header-right">
-								<li class="Our-Help"><a href="#">Need Our Help</a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-							</ul> <!-- /.top-header-right -->
-						</div> <!-- /.clear-fix -->
-					</div> <!-- /.container -->
-				</div> <!-- /.top-header -->
-				<div class="middle-header">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4 col-xs-12">
-								<div class="them-logo"><a href="#"><img src="{{ asset('images/logo/theme-main-logo-1.png')}}" alt="logo"></a></div><!-- /.them-logo -->
-							</div> <!-- /.col -->
-							<div class="col-md-8 col-xs-12">
-								<div class="middle-header-contant">
-									<ul class="clear-fix">
-										<li>
-											<i class="flaticon-clock"></i>
-											<p>Monday - Saturday</p>
-											<span>10 am to 06 pm</span>
-										</li>
-										<li>
-											<i class="flaticon-smartphone"></i>
-											<p>Want to talk with us</p>
-											<span>+88 01912704287</span>
-										</li>
-										<li>
-											<i class="flaticon-envelope"></i>
-											<p>Send me Emial</p>
-											<a href="#">info_c@gmail.com</a>
-										</li>
-									</ul> <!-- /.clear-fix -->
-								</div> <!-- /.middle-header-contant -->
-							</div> <!-- /.col -->
-						</div> <!-- /.row -->
-					</div> <!-- /.container -->
-				</div> <!-- /.middle-header -->
-
-				<!-- Theme Main Menu ____________________________ -->
-				<div class="theme-main-menu theme-main-menu-v-two">
-					<div class="container">
-						<div class="main-menu menu-skew-div clear-fix menu-skew-v-two">
-							<!-- Menu -->
-							<nav class="navbar">
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed tran3s" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-										<span class="sr-only tran3s">Toggle navigation</span>
-										<span class="icon-bar tran3s"></span>
-										<span class="icon-bar tran3s"></span>
-										<span class="icon-bar tran3s"></span>
-									</button>
-								</div>
-
-								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse" id="navbar-collapse-1">
-									<ul class="nav navbar-nav">
-										<li class="dropdown-holder active current-page-item Active-manu"><a href="index.html">Home</a>
-											<ul class="sub-menu">
-												<li><a href="index.html" class="tran3s">Home Version one</a></li>
-												<li><a href="index-2.html" class="tran3s">Home Version two</a></li>
-											</ul>
-										</li>
-
-										<li class="dropdown-holder"><a href="#">Events</a>
-											<ul class="sub-menu">
-												<li><a href="events-v1.html" class="tran3s">Events Version one</a></li>
-												<li><a href="events-v2.html" class="tran3s">Events Version two</a></li>
-												<li><a href="events-details.html" class="tran3s">Events Details</a></li>
-											</ul>
-										</li>
-
-										<li class="dropdown-holder"><a href="#">Campaigns</a>
-											<ul class="sub-menu">
-												<li><a href="causes.html" class="tran3s">Causes</a></li>
-												<li><a href="causes-sidebar.html" class="tran3s">Causes Sidebar</a></li>
-												<li><a href="causes-details.html" class="tran3s">Causes Details</a></li>
-											</ul>
-										</li>
-
-										<li class="dropdown-holder"><a href="#">Pages</a>
-											<ul class="sub-menu">
-												<li><a href="about-us.html" class="tran3s">About Us</a></li>
-												<li><a href="gallery.html" class="tran3s">Gallery</a></li>
-												<li><a href="team.html" class="tran3s">Team</a></li>
-												<li><a href="join-volunteer.html" class="tran3s">Join Volunteer</a></li>
-												<li><a href="faq.html" class="tran3s">Faq</a></li>
-											</ul>
-										</li>
-
-										<li class="dropdown-holder"><a href="#">Blog</a>
-											<ul class="sub-menu">
-												<li><a href="blog-v1.html" class="tran3s">Blog Version one</a></li>
-												<li><a href="blog-v2.html" class="tran3s">Blog Version Two</a></li>
-												<li><a href="blog-details.html" class="tran3s">Blog Details</a></li>
-											</ul>
-										</li>
-
-										<li class="dropdown-holder"><a href="#">Shop</a>
-											<ul class="sub-menu">
-												<li><a href="shop.html" class="tran3s">Shop</a></li>
-												<li><a href="shop-details.html" class="tran3s">Shop Details</a></li>
-											</ul>
-										</li>
-
-										<li><a href="contact-us.html">Contact</a></li>
-									</ul>
-								</div><!-- /.navbar-collapse -->
-							</nav>
-
-							<div class="float-right">
-								<div class="search-button-content clear-fix">
-									<button class="cart tran3s"><i class="flaticon-shopping-bag"></i> <span>0</span></button>
-						   			<button class="search tran3s" id="search-button"><i class="flaticon-search"></i></button>
-						   			<div class="search-box tran5s" id="searchWrapper">
-						   				<button id="close-button" class="p-color"><i class="fa fa-times" aria-hidden="true"></i></button>
-						   				<div class="container">
-						   					<img src="{{ asset('images/logo/theme-main-logo-1.png')}}" alt="Logo">
-						   					<form action="#">
-						   						<input type="text" placeholder="Search....">
-						   						<button class="p-bg-color"><i class="fa fa-search" aria-hidden="true"></i></button>
-						   					</form>
-						   				</div>
-						   			</div> <!-- /.search-box -->
-						   			<a href="#" class="a-comon main-menu-button">Donation <i class="flaticon-hand"></i></a>
-						   		</div> <!-- /.right-content -->
-							</div> <!-- /.float-right -->
-						</div> <!-- / menu-skew-div -->
-					</div> <!-- /.container main-menu -->
-				</div> <!-- /.main-menu -->
-			</section>
-
+@section('content')
 			<!-- Theme Main Banner ____________________________ -->
 			<section>
 				<div id="theme-main-banner">
@@ -432,7 +255,7 @@
 				<div class="company-history-shape-img-bottom"><img src="{{ asset('images/shape/shape-2.png')}}" alt="shape-img"></div><!-- /.company-history-shape-img-bottom -->
 			</section> <!-- /.company-history-section -->
 
-			<!--  Our SEO Experts  _________________________________ -->
+			<!--  Our SEO Experts  _________________________________
 			<section class="Our-SEO-Experts Our-SEO-Experts-padding">
 				<div class="container">
 					<div id="our-SEO-experts-slider" class="owl-carousel owl-theme">
@@ -450,8 +273,8 @@
 									<h5><a href="#">Ghost Baby</a></h5>
 									<p>Charity Specialist</p>
 								</div>
-							</div> <!-- /.Experts-item -->
-						</div> <!-- /.item -->
+							</div> --><!-- /.Experts-item
+						</div>--> <!-- /.item
 						<div class="item">
 							<div class="Experts-item">
 								<div class="Experts-img">
@@ -466,8 +289,8 @@
 									<h5><a href="#">Foqrul Munna</a></h5>
 									<p>Volunteer</p>
 								</div>
-							</div> <!-- /.Experts-item -->
-						</div> <!-- /.item -->
+							</div> --><!-- /.Experts-item
+						</div> --><!-- /.item
 						<div class="item">
 							<div class="Experts-item">
 								<div class="Experts-img">
@@ -482,8 +305,8 @@
 									<h5><a href="#">Mahfuz Riad</a></h5>
 									<p>Fund Specialist</p>
 								</div>
-							</div> <!-- /.Experts-item -->
-						</div> <!-- /.item -->
+							</div>--> <!-- /.Experts-item
+						</div> --> <!-- /.item
 						<div class="item">
 							<div class="Experts-item">
 								<div class="Experts-img">
@@ -498,8 +321,8 @@
 									<h5><a href="#">Sayful Milon</a></h5>
 									<p>Adoption</p>
 								</div>
-							</div> <!-- /.Experts-item -->
-						</div> <!-- /.item -->
+							</div> --><!-- /.Experts-item
+						</div> --><!-- /.item
 						<div class="item">
 							<div class="Experts-item">
 								<div class="Experts-img">
@@ -514,11 +337,11 @@
 									<h5><a href="#">Abdur Rob</a></h5>
 									<p>Volunteer</p>
 								</div>
-							</div> <!-- /.Experts-item -->
-						</div> <!-- /.item -->
-					</div> <!-- /.our-SEO-experts-slider -->
-				</div> <!-- /.container -->
-			</section> <!-- /.Our-SEO-Experts -->
+							</div> --><!-- /.Experts-item
+						</div> --><!-- /.item
+					</div> --><!-- /.our-SEO-experts-slider
+				</div> --><!-- /.container
+			</section> --><!-- /.Our-SEO-Experts -->
 
 			<!-- Upcoming Events ____________________________ -->
 			<section class="Upcoming-Events">
@@ -641,170 +464,4 @@
 					</div> <!-- /.home-news-update-wrapper -->
 				</div> <!-- /.container -->
 			</section> <!-- /.news-update-section -->
-
-			<!-- Children Care List  _________________________________ -->
-			<section class="Children-Care-list-margin margin-top-0">
-				<div class="container">
-					<div class="Children-Care-list">
-						<div id="Children-Care-List-Slider" class="owl-carousel owl-theme">
-							<div class="item">
-								<div class="text-center list-item">
-									<i class="flaticon-handshake"></i>
-									<h6><a href="#">Children’s Care</a></h6>
-								</div> <!-- /.list-item -->
-							</div> <!-- /.item -->
-							<div class="item">
-								<div class="text-center list-item">
-									<i class="flaticon-donation-1"></i>
-									<h6><a href="#">Donate</a></h6>
-								</div> <!-- /.list-item -->
-							</div> <!-- /.item -->
-							<div class="item">
-								<div class="text-center list-item">
-									<i class="flaticon-donation"></i>
-									<h6><a href="#">Volunteer</a></h6>
-								</div> <!-- /.list-item -->
-							</div> <!-- /.item -->
-							<div class="item">
-								<div class="text-center list-item">
-									<i class="flaticon-donation-2"></i>
-									<h6><a href="#">Protect Planet</a></h6>
-								</div> <!-- /.list-item -->
-							</div> <!-- /.item -->
-						</div> <!-- / #Children-Care-List-Slider -->
-					</div> <!-- /.Children-Care-list -->
-				</div> <!-- /.container -->
-			</section> <!-- /.Children-Care-list-margin -->
-
-			<!-- them-main-footer-section _________________________________ -->
-			<footer class="them-main-footer-section">
-				<div class="main-footer-top-section">
-					<div class="container">
-						<div class="footer-top-item">
-							<h3>In 2017 donations from the UK transformed <br>the lives of more than</h3>
-							<div class="Subscribe-footer-form">
-								<p>Latest news delivered right to your inbox!</p>
-								<form action="#">
-									<input type="text">
-									<button class="tran3s hvr-bounce-to-right">Subscribe</button>
-								</form>
-							</div> <!-- /.Subscribe-footer-form -->
-						</div> <!-- /.footer-top-item -->
-					</div> <!-- /.container -->
-				</div> <!-- /.main-footer-top-section -->
-
-				<div class="them-main-footer-containt-item">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-5 col-xs-12">
-								<div class="footer-containt-item-text-and-logo">
-									<div class="footer-logo"><a href="#"><img src="{{ asset('images/logo/theme-main-logo-2.png')}}" alt="logo"></a></div>
-									<p>We offer a suite of services and support to help minimise the impact of multiple sclerosis on your life and ensure your journey is not undertaken alone, while the search for a cure continues</p>
-								</div> <!-- /.footer-containt-item-text-and-logo -->
-							</div> <!-- /.col -->
-							<div class="col-md-7 col-xs-12">
-								<div class="row">
-									<div class="col-xs-4 footer-containt-width">
-										<div class="footer-containt-item">
-											<ul>
-												<li><a href="#">Donate</a></li>
-												<li><a href="#">Events</a></li>
-												<li><a href="#">Interpreter Service</a></li>
-												<li><a href="#">Archives</a></li>
-												<li><a href="#">Apply to volunteer</a></li>
-												<li><a href="#">Privacy</a></li>
-											</ul>
-										</div> <!-- /.footer-containt-item -->
-									</div> <!-- /.col -->
-									<div class="col-xs-4 footer-containt-width">
-										<div class="footer-containt-item">
-											<ul>
-												<li><a href="#">Who we are</a></li>
-												<li><a href="#">Shop</a></li>
-												<li><a href="#">Careers</a></li>
-												<li><a href="#">Certifications</a></li>
-												<li><a href="#">News</a></li>
-											</ul>
-										</div> <!-- /.footer-containt-item -->
-									</div> <!-- /.col -->
-									<div class="col-xs-4 footer-containt-width">
-										<div class="footer-containt-item">
-											<ul>
-												<li><a href="#">Contact Us</a></li>
-												<li><a href="#">404 Page</a></li>
-												<li><a href="#">Coming Soon</a></li>
-												<li><a href="#">About us</a></li>
-											</ul>
-										</div> <!-- /.footer-containt-item -->
-									</div> <!-- /.col -->
-								</div> <!-- /.row -->
-							</div> <!-- /.col -->
-						</div> <!-- /.row -->
-					</div> <!-- /.container -->
-				</div> <!-- /.them-main-footer-containt-item -->
-
-				<div class="main-footer-bottom-section">
-					<div class="container">
-						<div class="clear-fix">
-							<ul class="footer-bottom-left-said">
-								<li><span>Love <a href="#">Template_mr</a> ©2017,</span></li>
-								<li><span><a href="#">Chcharity</a> All Rights Reserved</span></li>
-							</ul> <!-- /.footer-bottom-left-said -->
-							<ul class="footer-bottom-right-said">
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-							</ul> <!-- /.footer-bottom-right-said -->
-						</div> <!-- /.clear-fix -->
-					</div> <!-- /.container -->
-				</div> <!-- /.main-footer-bottom-section -->
-			</footer> <!-- /.them-main-footer-section -->
-			<!--  PAGE===END  _________________________________ -->
-		</div> <!-- /.main-page-wrapper -->
-
-
-		<!-- Scroll Top Button -->
-		<button class="scroll-top tran7s p-color-bg">
-			<i class="fa fa-angle-up" aria-hidden="true"></i>
-		</button>
-
-		<!-- pre loader  -->
-	 	<div id="loader-wrapper">
-			<div id="loader"></div>
-		</div>
-
-
-
-		<!-- js file -->
-		<!-- Main js file/jquery -->
-		<script src="{{ asset('vendor/jquery-2.2.3.min.js')}}"></script>
-		<!-- bootstrap-select.min.js -->
-		<script src="{{ asset('vendor/bootstrap-select-1.10.0/dist/js/bootstrap-select.min.js')}}"></script>
-		<!-- bootstrap js -->
-		<script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
-		<!-- camera js -->
-		<script src="{{ asset('vendor/Camera-master/scripts/camera.min.js')}}"></script>
-		<script src="{{ asset('vendor/Camera-master/scripts/jquery.easing.1.3.js')}}"></script>
-		<!-- Owl carousel -->
-		<script src="{{ asset('vendor/OwlCarousel2/dist/owl.carousel.min.js')}}"></script>
-		<!-- appear & countTo -->
-		<script src="{{ asset('vendor/jquery.appear.js')}}"></script>
-		<script src="{{ asset('vendor/jquery.countTo.js')}}"></script>
-		<!-- fancybox -->
-		<script src="{{ asset('vendor/fancybox/dist/jquery.fancybox.min.js')}}"></script> <!-- video -->
-		<!--   <script src="vendor/fancybox/jquery.fancybox.pack.js"></script>   img -->
-		<!-- Gallery - isotop -->
-		<script type="text/javascript" src="{{ asset('vendor/isotope.pkgd.min.js')}}"></script>
-		<!-- WOW js -->
-		<script type="text/javascript" src="{{ asset('vendor/WOW-master/dist/wow.min.js')}}"></script>
-		<!-- Circle Progress -->
-		<script type="text/javascript" src="{{ asset('vendor/circle-progress.js')}}"></script>
-		<!-- Style js -->
-		<script src="{{ asset('js/custom.js')}}"></script>
-
-	</body>
-
-<!-- Mirrored from themazine.com/html/chcharity/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 04:59:52 GMT -->
-</html>
+@endsection

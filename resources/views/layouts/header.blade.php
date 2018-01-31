@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>D4H - Buy Hosting, Domain, Technology HTML Template</title>
 
-    <!-- main css file -->
-    <link rel="stylesheet" href="{{ asset('css\custom\style.css') }}">
-	<!-- responsive css file -->
-    <link rel="stylesheet" href="{{ asset('css\responsive\responsive.css')}}">
-    <!-- favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('img\favicon.png')}}">
+<!-- Mirrored from themazine.com/html/chcharity/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 04:59:38 GMT -->
+<head>
+		<meta charset="UTF-8">
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title> CHcharity || Responsive html5 template </title>
 
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    </head>
-    <body class="home v2">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="{{ asset('images/logo/favicon-1.png')}}">
 
-	<div class="preloader">
-		<div class="sk-cube-grid">
-		  <div class="sk-cube sk-cube1"></div>
-		  <div class="sk-cube sk-cube2"></div>
-		  <div class="sk-cube sk-cube3"></div>
-		  <div class="sk-cube sk-cube4"></div>
-		  <div class="sk-cube sk-cube5"></div>
-		  <div class="sk-cube sk-cube6"></div>
-		  <div class="sk-cube sk-cube7"></div>
-		  <div class="sk-cube sk-cube8"></div>
-		  <div class="sk-cube sk-cube9"></div>
-		</div>
-	</div>
+		<!-- Main style sheet -->
+		<link rel="stylesheet" href="{{ asset('css/style.css')}}">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" href="{{ asset('css/responsive.css')}}">
+
+		<!-- Fix Internet Explorer ______________________________________-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="main-page-wrapper">
+
+
+
+<!-- Header _________________________________ -->
+<section class="header-section">
+  <div class="top-header top-header-v-two">
+    <div class="container">
+      <div class="clear-fix">
+        <ul class="float-left top-header-left">
+          <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i> Program</a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a></li>
+          <li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i> Contact</a></li>
+        </ul> <!-- /.top-header-left -->
+        <ul class="float-right top-header-right">
+          <li class="Our-Help"><a href="#">Need Our Help</a></li>
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+        </ul> <!-- /.top-header-right -->
+      </div> <!-- /.clear-fix -->
+    </div> <!-- /.container -->
+  </div> <!-- /.top-header -->
+  <div class="middle-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <div class="them-logo"><a href="#"><img src="{{ asset('images/logo/theme-main-logo-1.png')}}" alt="logo"></a></div><!-- /.them-logo -->
+        </div> <!-- /.col -->
+        <div class="col-md-8 col-xs-12">
+          <div class="middle-header-contant">
+            <ul class="clear-fix">
+              <li>
+                <i class="flaticon-clock"></i>
+                <p>Monday - Saturday</p>
+                <span>10 am to 06 pm</span>
+              </li>
+              <li>
+                <i class="flaticon-smartphone"></i>
+                <p>Want to talk with us</p>
+                <span>+88 01912704287</span>
+              </li>
+              <li>
+                <i class="flaticon-envelope"></i>
+                <p>Send me Emial</p>
+                <a href="#">info_c@gmail.com</a>
+              </li>
+            </ul> <!-- /.clear-fix -->
+          </div> <!-- /.middle-header-contant -->
+        </div> <!-- /.col -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </div> <!-- /.middle-header -->
