@@ -184,7 +184,7 @@ button {
 ul {
 	list-style-type: none;
 }
-img {max-width: 100%; display: block;}
+img {max-height: 100%; display: block;}
 input,textarea {outline: none; -webkit-box-shadow: none; box-shadow: none;-webkit-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
 .main-page-wrapper {overflow-x: hidden !important;}
 .clear-fix {
@@ -363,8 +363,7 @@ img,
 	color: #fff;
 	line-height: 79px;
 	font-size: 22px;
-	width: 60px;
-	margin-right: 10px;
+	width: 50px;
 }
 .cart span {
 	font-family: 'Montserrat', sans-serif;
@@ -416,11 +415,11 @@ img,
 	box-shadow: none;
 	z-index: 9999;
 }
-.main-menu .navbar-nav >li {margin-right: 40px;}
+.main-menu .navbar-nav >li {margin-right: 22px;}
 .main-menu .navbar-nav >li:last-child {margin-right: 0;}
 .main-menu .navbar-nav >li>a {
 	background: transparent;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #fff;
@@ -433,7 +432,7 @@ img,
 .main-menu .navbar-nav >li.active>a,
 .main-menu .navbar-nav >li:hover a,
 .main-menu .navbar-nav >li:focus a {
-	color: #7F1F21;
+	color: #953133;
 }
 .main-menu nav ul li.dropdown-holder .fa {
 	display: none;

@@ -1,6 +1,6 @@
 <!-- Theme Main Menu ____________________________ -->
 <div class="theme-main-menu theme-main-menu-v-two">
-  <div class="container">
+  <div class="container-fluid">
     <div class="main-menu menu-skew-div clear-fix menu-skew-v-two">
       <!-- Menu -->
       <nav class="navbar">
@@ -79,13 +79,15 @@
               </ul>
             </li>
 
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="contact-us.html">About Us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
 
       <div class="float-right">
         <div class="search-button-content clear-fix">
+          <button class="cart tran3s" style="font-size:20px">Shop</button>
+
           <button class="cart tran3s"><i class="flaticon-shopping-bag"></i> <span>0</span></button>
             <button class="search tran3s" id="search-button"><i class="flaticon-search"></i></button>
             <div class="search-box tran5s" id="searchWrapper">

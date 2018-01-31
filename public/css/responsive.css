@@ -62,14 +62,14 @@
 	.main-menu {position: relative;}
 	.navbar {position: static;}
     .main-menu .navbar-collapse {position: absolute; left: 0; right: 0; width: 100%; float: none; border: none;}
-	.main-menu .navbar-nav {background: #e54900; margin-top: 0px; max-height: 330px; overflow-y: auto;}
+	.main-menu .navbar-nav {background: #6f0f11; margin-top: 0px; max-height: 330px; overflow-y: auto;}
     .navbar-nav,.navbar-nav>li,.navbar-header,.theme-main-menu .navbar-toggle {float: none;}
 	.navbar-collapse.collapse{display: none !important;}
     .navbar-collapse.collapse.in,.navbar-toggle{display: block !important;}
 	.main-menu .navbar-nav >li>a {line-height: 46px; border-right: none; color: #fff; padding: 0 60px 0 15px;}
 	.main-menu .navbar-nav >li.active,
 	.main-menu .navbar-nav>li {border-top: solid 1px #fff;}
-	.main-menu .navbar-nav>li.dropdown-holder .sub-menu { 
+	.main-menu .navbar-nav>li.dropdown-holder .sub-menu {
 		-webkit-transition: none;
 		   -moz-transition: none;
 			-ms-transition: none;
@@ -118,7 +118,7 @@
 	#theme-main-banner .camera_prev, #theme-main-banner .camera_next {display: none;}
 	#theme-main-banner .camera_caption .container h1>br {display: none;}
 	.You-Can-Bring .You-Can-Bring-Title h3 {margin: 0 0 25px 0;}
-	.You-Can-Bring .You-Can-Bring-Title p {padding: 20px 0 0 0; border-top: solid 1px #fd580b; border-left: none;}
+	.You-Can-Bring .You-Can-Bring-Title p {padding: 20px 0 0 0; border-top: solid 1px #7F1F21; border-left: none;}
 	.Events-Item-Wrapper>li .events-img, .Events-Item-Wrapper>li .day, .Events-Item-Wrapper>li .events-text {float: none; width: 100%;}
 	.Events-Item-Wrapper>li .day {padding-left: 0; margin-top: 35px;}
 	.Events-Item-Wrapper>li .events-text {margin: 40px 0; padding: 0 8px;}

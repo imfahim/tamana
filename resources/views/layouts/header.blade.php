@@ -59,25 +59,26 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-xs-12">
-          <div class="them-logo"><a href="#"><img src="{{ asset('images/logo/theme-main-logo-1.png')}}" alt="logo"></a></div><!-- /.them-logo -->
-        </div> <!-- /.col -->
+          <div class="them-logo"><a href="#"><img src="{{ asset('images/logo/logo.png')}}" alt="logo"></a></div><!-- /.them-logo -->
+
+			  </div> <!-- /.col -->
         <div class="col-md-8 col-xs-12">
           <div class="middle-header-contant">
             <ul class="clear-fix">
               <li>
-                <i class="flaticon-clock"></i>
+                <!--<i class="flaticon-clock"></i>
                 <p>Monday - Saturday</p>
-                <span>10 am to 06 pm</span>
+                <span>10 am to 06 pm</span>-->
               </li>
               <li>
-                <i class="flaticon-smartphone"></i>
+                <!--<i class="flaticon-smartphone"></i>
                 <p>Want to talk with us</p>
-                <span>+88 01912704287</span>
+                <span>+88 01912704287</span>-->
               </li>
               <li>
-                <i class="flaticon-envelope"></i>
+                <!--<i class="flaticon-envelope float-right"></i>
                 <p>Send me Emial</p>
-                <a href="#">info_c@gmail.com</a>
+                <a href="#">info_c@gmail.com</a>-->
               </li>
             </ul> <!-- /.clear-fix -->
           </div> <!-- /.middle-header-contant -->
