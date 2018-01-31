@@ -24,7 +24,7 @@
               </ul>
             </li>
 
-            <li class="dropdown-holder"><a href="#">Events</a>
+            <li class="dropdown-holder"><a href="#">Centres</a>
               <ul class="sub-menu">
                 <li><a href="events-v1.html" class="tran3s">Events Version one</a></li>
                 <li><a href="events-v2.html" class="tran3s">Events Version two</a></li>
@@ -32,7 +32,7 @@
               </ul>
             </li>
 
-            <li class="dropdown-holder"><a href="#">Campaigns</a>
+            <li class="dropdown-holder"><a href="#">Training Cell</a>
               <ul class="sub-menu">
                 <li><a href="causes.html" class="tran3s">Causes</a></li>
                 <li><a href="causes-sidebar.html" class="tran3s">Causes Sidebar</a></li>
@@ -40,7 +40,7 @@
               </ul>
             </li>
 
-            <li class="dropdown-holder"><a href="#">Pages</a>
+            <li class="dropdown-holder"><a href="#">Services</a>
               <ul class="sub-menu">
                 <li><a href="about-us.html" class="tran3s">About Us</a></li>
                 <li><a href="gallery.html" class="tran3s">Gallery</a></li>
@@ -50,7 +50,7 @@
               </ul>
             </li>
 
-            <li class="dropdown-holder"><a href="#">Blog</a>
+            <li class="dropdown-holder"><a href="#">Achievements</a>
               <ul class="sub-menu">
                 <li><a href="blog-v1.html" class="tran3s">Blog Version one</a></li>
                 <li><a href="blog-v2.html" class="tran3s">Blog Version Two</a></li>
@@ -58,14 +58,28 @@
               </ul>
             </li>
 
-            <li class="dropdown-holder"><a href="#">Shop</a>
+            <li class="dropdown-holder"><a href="#">Events</a>
               <ul class="sub-menu">
                 <li><a href="shop.html" class="tran3s">Shop</a></li>
                 <li><a href="shop-details.html" class="tran3s">Shop Details</a></li>
               </ul>
             </li>
 
-            <li><a href="contact-us.html">Contact</a></li>
+            <li class="dropdown-holder"><a href="#">Support</a>
+              <ul class="sub-menu">
+                <li><a href="shop.html" class="tran3s">Shop</a></li>
+                <li><a href="shop-details.html" class="tran3s">Shop Details</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown-holder"><a href="#">Vacancies</a>
+              <ul class="sub-menu">
+                <li><a href="shop.html" class="tran3s">Shop</a></li>
+                <li><a href="shop-details.html" class="tran3s">Shop Details</a></li>
+              </ul>
+            </li>
+
+            <li><a href="contact-us.html">Contact Us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
@@ -90,3 +104,4 @@
     </div> <!-- / menu-skew-div -->
   </div> <!-- /.container main-menu -->
 </div> <!-- /.main-menu -->
+</section>
