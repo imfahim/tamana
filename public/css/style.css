@@ -640,7 +640,7 @@ img,
 .You-Can-Bring .You-Can-Bring-Title p {padding-left: 40px; border-left: solid 1px #7F1F21;}
 .You-Can-Bring .You-Can-Bring-Item-Wrapper>div.row,
 .You-Can-Bring .You-Can-Bring-Item-Wrapper>div.row>div {margin: 0; padding: 0;}
-.You-Can-Bring .You-Can-Bring-Item-Wrapper .Bring-Item {background: #7F1F21; padding: 70px 5px 60px;}
+.You-Can-Bring .You-Can-Bring-Item-Wrapper .Bring-Item {background: #7F1F21; padding: 50px 5px 60px; height: 400px;}
 .You-Can-Bring .You-Can-Bring-Item-Wrapper .Bring-Item.bring-item-bg-two {background: #32251c;}
 .You-Can-Bring .You-Can-Bring-Item-Wrapper .Bring-Item>h3 {color: #fff; margin-bottom: 30px;}
 .You-Can-Bring .You-Can-Bring-Item-Wrapper .Bring-Item>p {

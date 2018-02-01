@@ -7,29 +7,29 @@
 					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
-							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Donate to the <span>Ch<span>charity</span></span> Free Charity <br>a gift for the future</h1>
-							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>
-								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Donation Now</a>
-								<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Donate to  <span>TAMANA<span></span></span> today <!--<br>a gift for the future --></h1>
+							    <!--<h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>-->
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Donate Now</a>
+								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>-->
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
 					<div data-src="{{ asset('images/home/banner-slider-1.jpg')}}">
 						<div class="camera_caption">
 							<div class="container text-center">
-								<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Help Children Your Donation <br>Impacts Lives</h1>
-							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">join today</h6>
-								<a href="#" class="tran3s banner-button wow fadeInUp animated hvr-bounce-to-right" data-wow-delay="0.7s">Donation Now</a>
+								<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">In Special Consultative Status with <br><span> United Nation's Economic and Social Council</span></h1>
+							   <!-- <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">join today</h6>-->
+								<a href="#" class="tran3s banner-button wow fadeInUp animated hvr-bounce-to-right" data-wow-delay="0.7s">Volunteer</a>
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
 					<div data-src="{{ asset('images/home/banner-slider-2.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
-							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Donate to the <span>Ch<span>charity</span></span> Free Charity <br>a gift for the future</h1>
-							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>
-								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Donation Now</a>
-								<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">From the Founder and President's Desk </h1>
+							   <!-- <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>-->
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Read More</a>
+								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>-->
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
@@ -54,31 +54,59 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
 							<div class="Bring-Item text-center">
-								<h3>Help our School Children</h3>
-								<p>Be inspired! Take a look at the impact of our programmes which we've achievedthrough your support and donations</p>
-								<span>$ 1200 To Go</span>
-								<a href="#" class="a-comon hvr-bounce-to-right">Donation Now !</a>
+								<h3>AUTISM CENTRE</h3>
+								<p>Tamana was the first institution to recognize autism as a disability distinct from others and to start programs for autistic spectrum disorder in 1985...</p>
+								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
 							</div> <!-- /.Bring-Item -->
 						</div> <!-- /.col -->
 						<div class="col-md-4 col-sm-12">
 							<div class="Bring-Item bring-item-bg-two text-center">
-								<h3>EAST AFRICACRISIS APPEAL</h3>
-								<p>Be inspired! Take a look at the impact of our programmes which we've achievedthrough your support and donations</p>
-								<span>$ 1400 To Go</span>
-								<a href="#" class="a-comon hvr-bounce-to-right">Donation Now !</a>
+								<h3 style="font-size: 30px;">SPECIAL EDUCATION CENTRE</h3>
+								<p>The first branch of Tamana started in 1984 in tent. The school was shifted to present premises on 12th Feb. 1992 after inauguration by late lady Diana...</p>
+								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
 							</div> <!-- /.Bring-Item -->
 						</div> <!-- /.col -->
 						<div class="col-md-4 col-sm-12">
 							<div class="Bring-Item text-center">
-								<h3>Insurance costs Children</h3>
-								<p>Be inspired! Take a look at the impact of our programmes which we've achievedthrough your support and donations</p>
-								<span>$ 1500 To Go</span>
-								<a href="#" class="a-comon hvr-bounce-to-right">Donation Now !</a>
+								<h3 style="font-size: 28px;">SKILL DEVELOPMENT CENTRE</h3>
+								<p>Nai Disha, as the same name signifies, is a new direction taken by Tamana. Nai Disha was conceived with the realization that the young adults at Tamana have to be equipped with skills...</p>
+								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
 							</div> <!-- /.Bring-Item -->
 						</div> <!-- /.col -->
 					</div> <!-- /.row -->
 				</div> <!-- /.You-Can-Bring-Item-Wrapper -->
 			</section> <!-- /.You-Can-Bring -->
+
+			<!-- You Can Bring ____________________________ -->
+			<section class="You-Can-Bring">
+
+				<div class="You-Can-Bring-Item-Wrapper Bring-Item-Wrapper-V-Two">
+					<div class="row">
+						<div class="col-md-4 col-sm-12">
+							<div class="Bring-Item bring-item-bg-two text-center">
+								<h3>Reverse Intervention Centre</h3>
+								<p>Be inspired! Take a look at the impact of our programmes which we've achievedthrough your support and donations programmes which we've </p>
+								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
+							</div> <!-- /.Bring-Item -->
+						</div> <!-- /.col -->
+						<div class="col-md-4 col-sm-12">
+							<div class="Bring-Item text-center">
+								<h3>Teachers Training Cell</h3>
+								<p>August 12, 1994 saw the inauguration of the TEACHERS TRAINING CELL with the introduction of a year-long certificate course in Special Education... </p>
+								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
+							</div> <!-- /.Bring-Item -->
+						</div> <!-- /.col -->
+						<div class="col-md-4 col-sm-12">
+							<div class="Bring-Item bring-item-bg-two text-center">
+								<h3 style="font-size: 16px;">National Institute of Open Schooling for Special Individuals</h3>
+								<p>Over the last decade, Tamana has encouraged many research scholars from various universities to conduct their Masters and Doctoral dissertation at Tamana...</p>
+								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
+							</div> <!-- /.Bring-Item -->
+						</div> <!-- /.col -->
+					</div> <!-- /.row -->
+				</div> <!-- /.You-Can-Bring-Item-Wrapper -->
+			</section> <!-- /.You-Can-Bring -->
+
 
 			<!-- Urgent Program ____________________________ -->
 			<section class="Urgent-Program">
