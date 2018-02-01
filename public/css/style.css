@@ -263,7 +263,7 @@ img,
 .top-header .top-header-left li:last-child { margin-right: 0;}
 .top-header .top-header-right li {margin-right: 28px;}
 /*=====*/
-.middle-header {padding: 45px 0 35px;}
+.middle-header {padding: 2px 0 2px;}
 .middle-header .middle-header-contant ul>li {
 	float: left;
 	width: 33.333333%;
@@ -635,7 +635,7 @@ img,
 }
 .banner-bottom-section-button a:hover{color: #7F1F21;}
 /*==================================== You Can Bring ======================================*/
-.You-Can-Bring .You-Can-Bring-Title {padding: 120px 0 90px;}
+.You-Can-Bring .You-Can-Bring-Title {padding: 45px 0 20px;}
 .You-Can-Bring .You-Can-Bring-Title h3 {font-weight: 600; margin-top: 25px;}
 .You-Can-Bring .You-Can-Bring-Title p {padding-left: 40px; border-left: solid 1px #7F1F21;}
 .You-Can-Bring .You-Can-Bring-Item-Wrapper>div.row,

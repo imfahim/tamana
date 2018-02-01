@@ -9,7 +9,8 @@
 		<!-- For IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title> CHcharity || Responsive html5 template </title>
+
+		<title> Tamana || A non profit NGO for multiply challenged and autistic individuals </title>
 
 
 		<!-- Favicon -->
@@ -46,7 +47,7 @@
           <li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i> Contact</a></li>
         </ul> <!-- /.top-header-left -->
         <ul class="float-right top-header-right">
-          <li class="Our-Help"><a href="#">Need Our Help</a></li>
+          <li class="Our-Help"><a href="#">Support Autism</a></li>
           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -58,31 +59,9 @@
   <div class="middle-header">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-12 col-xs-12">
           <div class="them-logo"><a href="#"><img src="{{ asset('images/logo/logo.png')}}" alt="logo"></a></div><!-- /.them-logo -->
-
 			  </div> <!-- /.col -->
-        <div class="col-md-8 col-xs-12">
-          <div class="middle-header-contant">
-            <ul class="clear-fix">
-              <li>
-                <!--<i class="flaticon-clock"></i>
-                <p>Monday - Saturday</p>
-                <span>10 am to 06 pm</span>-->
-              </li>
-              <li>
-                <!--<i class="flaticon-smartphone"></i>
-                <p>Want to talk with us</p>
-                <span>+88 01912704287</span>-->
-              </li>
-              <li>
-                <!--<i class="flaticon-envelope float-right"></i>
-                <p>Send me Emial</p>
-                <a href="#">info_c@gmail.com</a>-->
-              </li>
-            </ul> <!-- /.clear-fix -->
-          </div> <!-- /.middle-header-contant -->
-        </div> <!-- /.col -->
       </div> <!-- /.row -->
     </div> <!-- /.container -->
   </div> <!-- /.middle-header -->

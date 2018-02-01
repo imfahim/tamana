@@ -42,14 +42,37 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-5 col-sm-6 col-xs-12">
-								<h3>You can bring real hope by $</h3>
+								<center><h3>WELCOME TO TAMANA<br>
+									 <img src="{{asset('images/founder.jpg')}}" class="img-rounded" alt="founder">
+								</h3></center>
 							</div> <!-- /.col -->
-							<div class="col-lg-7 col-sm-6 col-xs-12">
-								<p>Your donation powers the Red Cross response to nearly 64,000 disasters a year nationwide, providing shelter, food, emotional support and other necessities to those affected</p>
+							<div class="col-lg-7 col-sm-6 col-xs-12"><br><br><br>
+								<p>Tamana is a non-profit voluntary organisation registered in March 1984, created solely with the purpose of helping the cause of mentally challenged, multiply disabled and autistic. Tamana is recognized by Ministry of Social Justice and Empowerment, Govt. of India, Department of Social Welfare; Govt. of NCT Delhi and is registered with the National Trust...
+									<a href="#" style="color:#7F1F21;font-size:15px">Details >></a>
+								</p>
 							</div> <!-- /.col -->
 						</div> <!-- /.row -->
 					</div> <!-- /.container -->
 				</div> <!-- /.You-Can-Bring-Title -->
+
+				<div class="You-Can-Bring-Title" style="padding:0px 0px 50px;">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-7 col-sm-6 col-xs-12"><br><br><br>
+								<p style="padding-right:3px;border-right: solid 1px #7F1F21;border-left:0px">Three decades ago after the birth of my daughter Tamana, I had a dream to create a world of inclusion. It has taken 25 years of struggle by us to open the minds of Indian society to accept the disabled. As my daughter Tamana has grown into a well settled and independent adult, so has the organization. This growth has been nurtured by our optimism in drawing out...
+									<a href="#" style="color:#7F1F21;font-size:15px">Details >></a>
+								</p>
+							</div> <!-- /.col -->
+							<div class="col-lg-5 col-sm-6 col-xs-12">
+								<center><h3 style="font-size:25px">FOUNDER AND PRESIDENT'S DESK<br>
+									 <img src="{{asset('images/president.jpg')}}" class="img-rounded" alt="founder" height="150px">
+								</h3></center>
+							</div> <!-- /.col -->
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div> <!-- /.You-Can-Bring-Title -->
+
+
 				<div class="You-Can-Bring-Item-Wrapper Bring-Item-Wrapper-V-Two">
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
@@ -114,27 +137,16 @@
 					<div class="row">
 						<div class="col-md-6 col-xs-12">
 							<div class="Urgent-Program-Item">
-								<h2>Urgent Campaign for Rohinga</h2>
-								<p>We give a lifetime of support to soldiers and veterans from the British Army, and their immediate families, when they are in need. We make grants to individuals through their Regiments and Corps and support a wide range of specialist</p>
+								<center><h2>Early Intervention</h2></center>
+								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
 								<ul class="Urgent-Location">
-									<li>Homeless people</li>
-									<li><i class="fa fa-map-marker" aria-hidden="true"></i> Bc area 2034 , Uk</li>
-									<li>Sep14th, 2017</li>
+									<li>Autism Centre</li>
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
+									<li>9:30AM-12:30PM</li>
 								</ul> <!-- /.Urgent-Location -->
-								<ul class="Urgent-Piechart text-center">
-									<li>Donated</li>
-									<li>
-										<div class="donate-piechart tran3s">
-							                <div class="piechart"  data-border-color="rgba(253,88,11,1)" data-value=".90">
-											  <span>.90</span>
-											</div>
-							            </div> <!-- /.donate-piechart -->
-									</li>
-									<li>$ 1600 to Go</li>
-								</ul> <!-- /.Urgent-Piechart -->
+
 								<div class="Urgent-Massage text-center">
-									<p>Massage therapy is intended to enhance the patient’s treatment by reducing stress and anxiety and enabling patients to cope better with their illness, which can also increase recovery time</p>
-									<a href="#" class="one">Donation </a>
+									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
 									<a href="#" class="two">More Details</a>
 								</div> <!-- /.Urgent-Massage -->
 							</div> <!-- /.Urgent-Program-Item -->
@@ -152,8 +164,7 @@
 			<section class="Rcent-Causes-Section">
 				<div class="container">
 					<div class="Theme-title text-center">
-						<h2>Rcent Causes</h2>
-						<h6>We need you</h6>
+						<h2>Services</h2>
 					</div> <!-- /.Theme-title -->
 
 					<div class="Rcent-Causes-Item-Wrapper">
@@ -162,20 +173,9 @@
 								<div class="Causes-Item">
 									<div class="Causes-Img"><img src="{{ asset('images/home/img-1.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text">
-										<h3>Child Abuse Help <br>Prevention</h3>
-										<ul>
-											<li>Donated</li>
-											<li>
-												<div class="donate-piechart tran3s">
-									                <div class="piechart"  data-border-color="rgba(253,88,11,1)" data-value=".90">
-													  <span>.90</span>
-													</div>
-									            </div> <!-- /.donate-piechart -->
-											</li>
-											<li>$ 1600 to Go</li>
-										</ul>
-										<p>Child sponsorship is a unique relationship, that brings real hope and a life-affirming experience.</p>
-										<a href="#">Donation</a>
+										<h3 style="font-size:21px">Tamana’s Research, Innovation & Technology Lab</h3>
+										<p>TOBY PLAYPAD, IBM Research, NION Research, MoSJE Research, HOPE, ECHO India</p>
+										<a href="#">Details</a>
 									</div> <!-- /.Causes-Text -->
 								</div> <!-- /.Causes-Item -->
 							</div> <!-- /.item -->
@@ -183,20 +183,9 @@
 								<div class="Causes-Item">
 									<div class="Causes-Img"><img src="{{ asset('images/home/img-2.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text">
-										<h3>The National <br>Charity</h3>
-										<ul>
-											<li>Donated</li>
-											<li>
-												<div class="donate-piechart tran3s">
-									                <div class="piechart"  data-border-color="rgba(253,88,11,1)" data-value=".75">
-													  <span>.75</span>
-													</div>
-									            </div> <!-- /.donate-piechart -->
-											</li>
-											<li>$ 1700 to Go</li>
-										</ul>
-										<p>Child sponsorship is a unique relationship, that brings real hope and a life-affirming experience.</p>
-										<a href="#">Donation</a>
+										<h3 style="font-size:20px">The Diagnostic Center</h3>
+										<p style="font-size:12px;">Three separate centres - one at each branch of Tamana - are run by a multi - disciplinary team which consists of the social worker, psychiatrist, clinical Psychologists, counselor, special educator, speech therapist, occupational therapist and the physiotherapist.</p>
+										<a href="#">Details</a>
 									</div> <!-- /.Causes-Text -->
 								</div> <!-- /.Causes-Item -->
 							</div> <!-- /.item -->
@@ -204,25 +193,14 @@
 								<div class="Causes-Item">
 									<div class="Causes-Img"><img src="{{ asset('images/home/img-3.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text">
-										<h3>The American Red <br>Cross</h3>
-										<ul>
-											<li>Donated</li>
-											<li>
-												<div class="donate-piechart tran3s">
-									                <div class="piechart"  data-border-color="rgba(253,88,11,1)" data-value=".80">
-													  <span>.80</span>
-													</div>
-									            </div> <!-- /.donate-piechart -->
-											</li>
-											<li>$ 1500 to Go</li>
-										</ul>
-										<p>Child sponsorship is a unique relationship, that brings real hope and a life-affirming experience.</p>
-										<a href="#">Donation</a>
+										<h3>Boy's Hostel</h3>
+										<p>Situated on the premises of Tamana's Vocational Training Center - Nai Disha, is a hostel that provides a unique program for adults and adolescents with disabilities.</p>
+										<a href="#">Details</a>
 									</div> <!-- /.Causes-Text -->
 								</div> <!-- /.Causes-Item -->
 							</div> <!-- /.item -->
 						</div> <!-- /.row -->
-						<a href="causes.html" class="hvr-float-shadow">Load more Causes</a>
+						<a href="causes.html" class="hvr-float-shadow">Load more Services</a>
 					</div> <!-- /.Rcent-Causes-Item-Wrapper -->
 				</div> <!-- /.container -->
 			</section> <!-- /.Rcent-Causes-Section -->
