@@ -17,67 +17,56 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="dropdown-holder active current-page-item Active-manu"><a href="index.html">Home</a>
-              <ul class="sub-menu">
-                <li><a href="index.html" class="tran3s">Home Version one</a></li>
-                <li><a href="index-2.html" class="tran3s">Home Version two</a></li>
-              </ul>
+            <li class="active current-page-item Active-manu"><a href="/">Home</a>
             </li>
 
             <li class="dropdown-holder"><a href="#">Centres</a>
               <ul class="sub-menu">
-                <li><a href="events-v1.html" class="tran3s">Events Version one</a></li>
-                <li><a href="events-v2.html" class="tran3s">Events Version two</a></li>
-                <li><a href="events-details.html" class="tran3s">Events Details</a></li>
+                <li><a href="#" class="tran3s">Autism Center</a></li>
+                <li><a href="#" class="tran3s">Special Education Center</a></li>
+                <li><a href="#" class="tran3s">Skill Development Center</a></li>
+                <li><a href="#" class="tran3s">Tamana Kindergarten</a></li>
               </ul>
             </li>
-
-            <li class="dropdown-holder"><a href="#">Training Cell</a>
-              <ul class="sub-menu">
-                <li><a href="causes.html" class="tran3s">Causes</a></li>
-                <li><a href="causes-sidebar.html" class="tran3s">Causes Sidebar</a></li>
-                <li><a href="causes-details.html" class="tran3s">Causes Details</a></li>
-              </ul>
-            </li>
+            <li><a href="#">Training Cell</a></li>
 
             <li class="dropdown-holder"><a href="#">Services</a>
               <ul class="sub-menu">
-                <li><a href="about-us.html" class="tran3s">About Us</a></li>
-                <li><a href="gallery.html" class="tran3s">Gallery</a></li>
-                <li><a href="team.html" class="tran3s">Team</a></li>
-                <li><a href="join-volunteer.html" class="tran3s">Join Volunteer</a></li>
-                <li><a href="faq.html" class="tran3s">Faq</a></li>
+                <li><a href="#" class="tran3s">Apna Fun Club</a></li>
+                <li><a href="#" class="tran3s">Boys Hostel</a></li>
+                <li><a href="#" class="tran3s">Early Intervention Center</a></li>
+                <li><a href="#" class="tran3s">NIOS</a></li>
+                <li><a href="#" class="tran3s">Diagnostic Center</a></li>
               </ul>
             </li>
 
             <li class="dropdown-holder"><a href="#">Achievements</a>
               <ul class="sub-menu">
-                <li><a href="blog-v1.html" class="tran3s">Blog Version one</a></li>
-                <li><a href="blog-v2.html" class="tran3s">Blog Version Two</a></li>
-                <li><a href="blog-details.html" class="tran3s">Blog Details</a></li>
+                <li><a href="#" class="tran3s">Organization</a></li>
+                <li><a href="#" class="tran3s">Alumni</a></li>
+                <li><a href="#" class="tran3s">Students</a></li>
+                <li><a href="#" class="tran3s">Staff</a></li>
               </ul>
             </li>
 
             <li class="dropdown-holder"><a href="#">Events</a>
               <ul class="sub-menu">
-                <li><a href="shop.html" class="tran3s">Shop</a></li>
-                <li><a href="shop-details.html" class="tran3s">Shop Details</a></li>
+                <li><a href="#" class="tran3s">Media Coverage</a></li>
+                <li><a href="#" class="tran3s">Events</a></li>
+                <li><a href="#" class="tran3s">Recognition</a></li>
               </ul>
             </li>
 
             <li class="dropdown-holder"><a href="#">Support</a>
               <ul class="sub-menu">
-                <li><a href="shop.html" class="tran3s">Shop</a></li>
-                <li><a href="shop-details.html" class="tran3s">Shop Details</a></li>
+                <li><a href="#" class="tran3s">Sponsor a Child</a></li>
+                <li><a href="#" class="tran3s">Volunteer</a></li>
+                <li><a href="#" class="tran3s">Donate</a></li>
               </ul>
             </li>
+            
+            <li><a href="#">Vacancies</a></li>
 
-            <li class="dropdown-holder"><a href="#">Vacancies</a>
-              <ul class="sub-menu">
-                <li><a href="shop.html" class="tran3s">Shop</a></li>
-                <li><a href="shop-details.html" class="tran3s">Shop Details</a></li>
-              </ul>
-            </li>
 
             <li><a href="contact-us.html">About Us</a></li>
           </ul>
