@@ -22,8 +22,8 @@
 
             <li class="dropdown-holder"><a href="#">Centres</a>
               <ul class="sub-menu">
-                <li><a href="#" class="tran3s">Autism Center</a></li>
-                <li><a href="#" class="tran3s">Special Education Center</a></li>
+                <li><a href="/Autism-Center" class="tran3s">Autism Center</a></li>
+                <li><a href="/Special-Education-Center" class="tran3s">Special Education Center</a></li>
                 <li><a href="#" class="tran3s">Skill Development Center</a></li>
                 <li><a href="#" class="tran3s">Tamana Kindergarten</a></li>
               </ul>
@@ -64,11 +64,20 @@
                 <li><a href="#" class="tran3s">Donate</a></li>
               </ul>
             </li>
-            
+
             <li><a href="#">Vacancies</a></li>
 
 
-            <li><a href="contact-us.html">About Us</a></li>
+            <li class="dropdown-holder"><a href="#">About Us</a>
+              <ul class="sub-menu">
+                <li><a href="#" class="tran3s">Board Members</a></li>
+                <li><a href="#" class="tran3s">Objectives</a></li>
+                <li><a href="#" class="tran3s">Curriculum</a></li>
+                <li><a href="#" class="tran3s">Specialised Activities</a></li>
+                <li><a href="#" class="tran3s">Exchange Program</a></li>
+                <li><a href="#" class="tran3s">Tamana Research</a></li>
+              </ul>
+            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
