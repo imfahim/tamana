@@ -84,14 +84,14 @@
 
       <div class="float-right">
         <div class="search-button-content clear-fix">
-          <button class="cart tran3s" style="font-size:20px">Shop</button>
+          <a href="{{route('Shop.Index')}}" class="cart tran3s" style="font-size:20px">Shop</a>
 
           <button class="cart tran3s"><i class="flaticon-shopping-bag"></i> <span>0</span></button>
             <button class="search tran3s" id="search-button"><i class="flaticon-search"></i></button>
             <div class="search-box tran5s" id="searchWrapper">
               <button id="close-button" class="p-color"><i class="fa fa-times" aria-hidden="true"></i></button>
               <div class="container">
-                <img src="{{ asset('images/logo/theme-main-logo-1.png')}}" alt="Logo">
+                  <img src="{{ asset('images/logo/theme-main-logo-1.png')}}" alt="Logo">
                 <form action="#">
                   <input type="text" placeholder="Search....">
                   <button class="p-bg-color"><i class="fa fa-search" aria-hidden="true"></i></button>

@@ -60,7 +60,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-xs-12">
-          <div class="them-logo"><a href="#"><img src="{{ asset('images/logo/logo.png')}}" alt="logo"></a></div><!-- /.them-logo -->
+          <div class="them-logo"><a href="/"><img src="{{ asset('images/logo/logo.png')}}" alt="logo"></a></div><!-- /.them-logo -->
 			  </div> <!-- /.col -->
       </div> <!-- /.row -->
     </div> <!-- /.container -->
