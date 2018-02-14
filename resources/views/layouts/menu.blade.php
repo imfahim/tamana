@@ -28,11 +28,11 @@
                 <li><a href="{{route('Kindergarten.centre')}}" class="tran3s">Tamana Kindergarten</a></li>
               </ul>
             </li>
-            <li><a href="#">Training Cell</a></li>
+            <li><a href="{{route('training.index')}}">Training Cell</a></li>
 
             <li class="dropdown-holder"><a href="#">Services</a>
               <ul class="sub-menu">
-                <li><a href="#" class="tran3s">Apna Fun Club</a></li>
+                <li><a href="{{route('services.apna-fun-club')}}" class="tran3s">Apna Fun Club</a></li>
                 <li><a href="#" class="tran3s">Boys Hostel</a></li>
                 <li><a href="#" class="tran3s">Early Intervention Center</a></li>
                 <li><a href="#" class="tran3s">NIOS</a></li>

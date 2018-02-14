@@ -23,51 +23,58 @@
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-body">
-            <p>
-            The first branch of Tamana started in 1984 in tent. The school was shifted to present premises on 12th Feb. 1992 after inauguration by late lady Diana. Tamana special school caters to the individual needs of 115 children coming from all sections of the society,  age ranging from 4-17 years. At Tamana special school, the program focuses on over all development of child depending on needs as well as potential. Functional academics are imparted with parallel intervention with allied therapies depending on the needs of the child. The regular school curriculum is a vital reference points for students who have potential to be included in a regular classroom or join the open school program.<br><br>
-						 After detailed assessment by special educator, psychologist, occupational therapist and speech therapist students are divided into groups according to their chronological age, mental age and functional level. Each group consists of 6 students with one special educator, one assistant teacher or volunteers. The individualized program is made for each child with the help of multy-disciplinary team. Parents are equally involved in this process. While setting the goals the family needs are given priority. After every three month each child’s progress is assessed and on basis of performance short-term goals are delineated for the next quarter. In this process teachers and parents are equal partners- both meet and discuss the observations at school and home. On regular interval parents are called for class observation.<br><br>
-						  Apart from regular services that form the core of any effective program for the special needs population, what sets Tamana apart, is its emphasis on other alternative strategies and therapies such as :-<br><br>
-							 Computer Training: A comprehensive computer training programme aims at making the child proficient in basic applications like - MS word, power point, MS excel, Ms outlook express, internet etc. Most children with consistent access to a computer over the period are eventually able to power up the machine, start up a pre-loaded application either from the hard disk or a CD-ROM, quit an application, operate the printer, access the Internet from the desktop, and even send an email, download pictures or images etc. The academic curriculum has been shifted on computer for the students who have difficulty in writing. Adaptive facilities are provided to the students according to the individual needs. Computer training is provided to all students.<br><br>
-							  Community service: An interactive programme of children from regular schools and Tamana students runs with the aim of establishing meaningful friendships, self esteem, confidence and social skill development.<br><br>
-								 Speech therapy programme: In addition to the regular speech therapy programme, ABA Programme and behavioural principles are used to get the best results.<br><br>
-								  Yoga therapy: This helps the adolescents in enhanced co-ordination, increased attention span and reducing hyperactivity.<br><br>
-									 Creative multi-sensory activities: Are facilitated through rhythmic songs and dance in the junior classes. Students are also taking training in skating, swimming and horse riding.<br><br>
-									  Networking: With other schools from India and abroad. In this project student write mails to each other on regular basis; send reply to the queries of partner school; exchange projects to create awareness services and programs in their countries.<br><br>
-										 Integrated arts, which include drama, dance and music as a therapy and as means of skills acquisition.<br><br>
-										  Rajiv Gandhi Outreach Centre<br><br>
-											 Tamana not only caters to Delhi but also to the other parts of the country. Parents come from different parts of the country for assessment, counseling & for home program. The team of specialist plans the program. The family comes from their respective destinations and stay in Delhi for a week. They are trained how to carry on the home program. They can continue the program at home and come back for discussion about the progress and difficulties or they can contact the authorities via mail or telephone. Similarly an outreach program runs for the children who cannot be settled in regular school program. Intensive training session by a special educator and therapist is taken in which parent or the caretakers are also being trained. Once the child is ready for the school then he/she admitted in the school.<br><br>
-											  Vocational Training<br><br>
-												 Students with moderate to severe category of mental retardation are introduced to pre- vocational training once the students reach the age of 14. Having limited mental capacities these students cannot be expected to continue in a purely educational program till adulthood like their normal counterparts. After they have learnt functional academics they have to be trained in skills, which will lead to economic independence and rehabilitation. The pre- vocational unit gives vocational training to enhance their capabilities to make them useful member of the society. In this center our emphasis is training them in any vocational skill according to the ability of our students for developing them into self- sufficient and self-reliant young adults. These trained skills can be carried out from home under the supervision of any family member or attendant. Under this training area skills covered are-<br><br>
-            &emsp;&emsp;&#9673;&nbsp;Paper bag making. Students are taught to decorate the bags with block printing and sticking & pasting of designs on the bags.<br>
-            &emsp;&emsp;&#9673;&nbsp;Stain glass painted products.<br>
-            &emsp;&emsp;&#9673;&nbsp;Making collage, decorative stationery like gift tags, wrapping papers, hand made cards, small pads.<br>
-            &emsp;&emsp;&#9673;&nbsp;Spiral binding of diaries and pads.<br>
-            &emsp;&emsp;&#9673;&nbsp;Painting Diyas, Paper Mache products.<br>
-            &emsp;&emsp;&#9673;&nbsp;Gardening<br>
-            &emsp;&emsp;&#9673;&nbsp;Pen assembly<br>
-            &emsp;&emsp;&#9673;&nbsp;Jewelry making.<br>
-            &emsp;&emsp;&#9673;&nbsp;Beauty culture.<br><br>
-						&emsp;&emsp;&#9673;&nbsp;Embroidery.<br><br>
+						<h6 style="color:#7F1F21">Early Childhood care and Education Programme for Children from Economically Disadvantaged groups.</h6><br>
+            <p> Padma Bhushan, Dr Shayama Chona is the inspiration and driving force behind the preschool. As a committed educationist and a social activist her belief is that education alone could help these underprivileged children to build dreams and become useful citizens of new and resurgent India, where all will have a roof over their heads, an open mind to think and everyone will be equal in all terms.</P>
+							<br><h6 style="color:#7F1F21"> Project Concept</h6><br>
+						<p> The first 6 years of life are critical for development in humans as the rate of development is the most rapid in this period; consequently this is the time when environmental deprivation or enrichment makes the maximum impact. Since development is proceeding at a very fast rate, unfavourable experiences such as lack of adequate food, health care, nurturance or stimulation, unhealthy living conditions hinder development to a considerable extent. In the same way favourable conditions foster development. The effect is long lasting since the foundation for development is laid in early years. <br>
+							 The significance of early childhood years is being increasingly acknowledged. This recognition assumes greater importance with reference to underprivileged children. The limitations imposed by poverty and its socio cultural manifestations lead to multiple deprivations during critical early years of life preventing these children from realizing their full potential. Families from low socio economic background are unable to provide a healthy environment, adequate nutrition and stimulating opportunities for their children. As large no. of women from this strata have to spend most of their time earning livelihood, it becomes necessary in thee circumstances to have early childhood care and education programmes as an organized intervention to compensate the deprivation faced by children of weaker sections.<br>
+							  Tamana Kindergarten provides free early childhood care and education for children living in the slums. Recognising the holistic nature of child development, viz, nutrition, health and social, mental physical and moral, emotional development, this programme of early childhood care and education gives priority to these areas. The programme is be child oriented and will focus around play, i.e. non formal education. The local community is fully involved in this programme.<br>
+								 The programme is currently running in the premises of three schools of Tamana which remain unutilized for several hours in the afternoon. The project employs teachers trained in early child hood care. The working hours of existing administrative staff and class IV employees of Tamana have been extended to perform similar duties for afternoon school. This cost effective model will be easily replicable for the spread of   non formal preschool education, accessible to as many children as possible.<br></p>
+								 <br><h6 style="color:#7F1F21"> Reverse integration</h6><br>
+								 <p> Tamana Kindergarten which started as a platform for providing preschool education to the disadvantaged has now taken a new vision and new meaning- it is now being projected as a landmark model of Reverse Integration. Since it is difficult to integrate our special children in the normal school. We have started mainstreaming the preschoolers of our morning session with our special children of similar ages. Initially the children are brought together for co curricular activities. Students of Tamana Kindergarten have been performing with Tamana students in all Tamana Events. This Kindergarten school will eventually lay the foundation for setting up a full fledged integrated set up at Tamana, since mainstreaming is the new mantra. We will keep on increasing classes every year as the students’ progress to the next academic level. <br></p>
+								 <br><h6 style="color:#7F1F21"> Objectives: </h6><br>
+								<p>
+						&emsp;&emsp;&#9673;&nbsp;To provide an integrated early childhood care and education programme for the under privileged children.<br>
+            &emsp;&emsp;&#9673;&nbsp;To offer nutritional, health and educational services to these children. <br>
+            &emsp;&emsp;&#9673;&nbsp;To used play way methods, activity based approach interspersed with formal learning.<br>
+            &emsp;&emsp;&#9673;&nbsp;To identify the hidden talents of the underprivileged children and to foster their talents.<br>
+            &emsp;&emsp;&#9673;&nbsp;To give the under privileged children a better quality of thought and life.<br>
+            &emsp;&emsp;&#9673;&nbsp;To create awareness among the slum dwellers about education, hygiene, environment, health and self dependence<br>
+            &emsp;&emsp;&#9673;&nbsp;To convert people into useful human resource.<br>
+            &emsp;&emsp;&#9673;&nbsp;To empower the slum children and their m others and bring them into the main stream of the society.<br>
+            &emsp;&emsp;&#9673;&nbsp;To evolve a learning system for marginalized children with family as its basic units.<br>
+						&emsp;&emsp;&#9673;&nbsp;To integrate these preschooler with our special needs students<br><br>
           </p>
+					<br><h6 style="color:#7F1F21"> Target Population: </h6><br>
+					<p> Children (2.5- 6 years) with denied opportunities, children ready for schooling, working children, children who never attended school and street children with special emphasis is on girls. </p><br>
+					<p> <strong>Curriculum:</strong> Non formal, preschool education for class nursery and prep NCERT curriculum for class 1.
+						 <br><strong>Medium of Instructions:</strong> Hindi and bi-lingual
+						  <br><strong>Entry point:</strong> Nursery, Prep and I. On the basis of chronological readiness for School.</p><br>
+							<h6 style="color:#7F1F21"> Timings: </h6><br>
+							<p>&emsp;&emsp;&#9673;&nbsp;9.30 am - 12.30 pm (School of Hope)<br>
+							&emsp;&emsp;&#9673;&nbsp;2 pm - 5 pm (Tamana Special School) <br></p><br>
+							<h6 style="color:#7F1F21"> Programme: </h6><br>
+							<p>
+								&emsp;&emsp;&#9673;&nbsp;Time-table designed with due weight age to extra curricular activities and sports.<br>
+								&emsp;&emsp;&#9673;&nbsp; Regular Medical camps will be organized for health check ups of children and free immunization.<br>
+								&emsp;&emsp;&#9673;&nbsp; Music, Dance, Art & Craft, Aerobics, Games.<br>
+								&emsp;&emsp;&#9673;&nbsp; Nutritional Mid day meal will be provided every day.<br>
+								&emsp;&emsp;&#9673;&nbsp; Class Competitions will be held regularly such as Fancy dress, drawing competitions, story telling, recitations, puppet show, quiz etc.<br>
+								&emsp;&emsp;&#9673;&nbsp; Educational trips and picnics will be organized.9.30 am - 12.30 pm (School of Hope)<br>
+								&emsp;&emsp;&#9673;&nbsp; Annual function, national and social festivals will be celebrated.<br>
+								&emsp;&emsp;&#9673;&nbsp; Educational films will be screened.<br>
+								&emsp;&emsp;&#9673;&nbsp; Health and cleanliness awareness programs will be organized.<br>
+								&emsp;&emsp;&#9673;&nbsp; Counselling session for parents on health, hygiene, importance of education, nutrition.<br>
+
+
+
           </div>
         </div>
         <div class="panel panel-default">
-          <div class="panel-heading" style="background-color:#7F1F21;color:white">Address:</div>
+          <div class="panel-heading" style="background-color:#7F1F21;color:white">Contact:</div>
           <div class="panel-body">
-            <div class="row">
-              <div class="col-md-4">
-                <p>Tamana Special School<br>
-                 D-6 street Vasant Vihar, New Delhi 110057.<br>
-                Principal - Ms. Rashmi Wahi<br>
-                telephones - 011 26151572<br>
-                 Meeting time with the Principal -10am--12pm (Mon-Fri)<br>
-                Email - <a href="info@tamana.org">info@tamana.org</a><p>
-              </div>
-              <div class="col-md-8">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14017.903808041607!2d77.1608084!3d28.5554673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc30d8707d62e5675!2sTamanna+Special+School!5e0!3m2!1sen!2sin!4v1517811620829" width="750" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-							</div>
-
-            </div>
+						<p><strong>Head Mistress:</strong> Ms Meenakshi,<br>
+						<strong>Contact No:</strong> +919971673008</p>
           </div>
         </div>
 

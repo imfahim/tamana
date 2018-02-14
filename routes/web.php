@@ -21,6 +21,8 @@ Route::get('/Special-Education-Centre', 'CentreController@specialeducation')->na
 Route::get('/Shop', 'ShopController@index')->name('Shop.Index');
 Route::get('/Skill-Development-Centre', 'CentreController@skilldevelopment')->name('SkillDevelopment.centre');
 Route::get('/Kindergarten', 'CentreController@Kindergarten')->name("Kindergarten.centre");
+Route::get('/Training-Cell','TrainingController@index')->name('training.index');
+Route::get('/services/apna-fun-club','ServicesController@ApnaFunClub')->name('services.apna-fun-club');
 
 Route::get('/about-us/board-members', 'AboutController@page_board_members')->name('About.Board_Members');
 

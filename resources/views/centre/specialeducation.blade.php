@@ -46,7 +46,7 @@
             &emsp;&emsp;&#9673;&nbsp;Gardening<br>
             &emsp;&emsp;&#9673;&nbsp;Pen assembly<br>
             &emsp;&emsp;&#9673;&nbsp;Jewelry making.<br>
-            &emsp;&emsp;&#9673;&nbsp;Beauty culture.<br><br>
+            &emsp;&emsp;&#9673;&nbsp;Beauty culture.<br>
 						&emsp;&emsp;&#9673;&nbsp;Embroidery.<br><br>
           </p>
           </div>

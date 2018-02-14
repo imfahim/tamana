@@ -7,11 +7,14 @@
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
-								<h1>Skill Development Centre</h1>
+								<h1>Apna Fun Club</h1>
+                <blockquote class="blockquote">
+                  <p class="mb-0"><cite style="color:white">"I would love to play and make friends to share my feeling and dreams. Can I go to a club as papa and bhaiya go...?" </cite></p>
+                </blockquote>
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="{{route('SkillDevelopment.centre')}}">Skill Development Centre</a></li>
+									<li><a href="{{route('services.apna-fun-club')}}">Apna Fun Club</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Button</a>
 							</div> <!-- /.banner-content -->
