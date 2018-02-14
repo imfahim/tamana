@@ -7,11 +7,11 @@
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
-								<h1>Autism Center</h1>
+								<h1>Autism Centre</h1>
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="/AutismCenter">Autism Center</a></li>
+									<li><a href="{{route('Autism.centre')}}">Autism Centre</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Button</a>
 							</div> <!-- /.banner-content -->
@@ -24,7 +24,7 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <p>
-            Tamana was the first institution to recognize autism as a disability distinct from others and to start programs for autistic spectrum disorder in 1985. The Autism Center-School of Hope is India’s first rehabilitate and research center for autistic individual providing holistic services under one roof – a special school, sensory integration clinic, early intervention center, diagnostic center, research cell and an outreach cell.<br><br>
+            Tamana was the first institution to recognize autism as a disability distinct from others and to start programs for autistic spectrum disorder in 1985. The Autism Centre-School of Hope is India’s first rehabilitate and research center for autistic individual providing holistic services under one roof – a special school, sensory integration clinic, early intervention center, diagnostic center, research cell and an outreach cell.<br><br>
             His Excellency Dr. A.P.J. Abdul Kalam the president of India inaugurated Autism Centre-Tamana, a full-fledged school dedicated to autistic, on 19 August 2003. State of the art intervention is offered at the School Of Hope for children from ages 2 years onwards with severe needs including autistic spectrum disorders and multiple disabilities. This initiative provides productive education and therapy to hundreds who do not fit existing special education programmes. The highlights of the program offered in this school are :- <br><br>
             &emsp;&emsp;&#9673;&nbsp;A life centred approach to curriculum planning to meet the needs of child and family.<br>
             &emsp;&emsp;&#9673;&nbsp;An eclectic combination of different approaches to develop a holistic approach to meet individual needs. Some of the approaches on which intervention for the autistic is based are TEACCH, ABA (with small group of students), and the therapeutic use of drama, music, dance, horse riding, and yoga. The behavior management strategies are designed according to individual needs.  Positive reinforcement techniques are commonly used for teaching.<br>

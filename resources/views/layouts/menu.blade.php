@@ -22,10 +22,10 @@
 
             <li class="dropdown-holder"><a href="#">Centres</a>
               <ul class="sub-menu">
-                <li><a href="/Autism-Center" class="tran3s">Autism Center</a></li>
-                <li><a href="/Special-Education-Center" class="tran3s">Special Education Center</a></li>
-                <li><a href="#" class="tran3s">Skill Development Center</a></li>
-                <li><a href="#" class="tran3s">Tamana Kindergarten</a></li>
+                <li><a href="{{route('Autism.centre')}}" class="tran3s">Autism Center</a></li>
+                <li><a href="{{route('SpecialEducation.centre')}}" class="tran3s">Special Education Center</a></li>
+                <li><a href="{{route('SkillDevelopment.centre')}}" class="tran3s">Skill Development Center</a></li>
+                <li><a href="{{route('Kindergarten.centre')}}" class="tran3s">Tamana Kindergarten</a></li>
               </ul>
             </li>
             <li><a href="#">Training Cell</a></li>

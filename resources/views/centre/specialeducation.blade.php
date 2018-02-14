@@ -7,11 +7,11 @@
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
-								<h1>Special Education Center</h1>
+								<h1>Special Education Centre</h1>
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="/AutismCenter">Special Education Center</a></li>
+									<li><a href="{{route('SpecialEducation.centre')}}">Special Education Centre</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Button</a>
 							</div> <!-- /.banner-content -->
@@ -37,7 +37,7 @@
 										  Rajiv Gandhi Outreach Centre<br><br>
 											 Tamana not only caters to Delhi but also to the other parts of the country. Parents come from different parts of the country for assessment, counseling & for home program. The team of specialist plans the program. The family comes from their respective destinations and stay in Delhi for a week. They are trained how to carry on the home program. They can continue the program at home and come back for discussion about the progress and difficulties or they can contact the authorities via mail or telephone. Similarly an outreach program runs for the children who cannot be settled in regular school program. Intensive training session by a special educator and therapist is taken in which parent or the caretakers are also being trained. Once the child is ready for the school then he/she admitted in the school.<br><br>
 											  Vocational Training<br><br>
-												 Students with moderate to severe category of mental retardation are introduced to pre- vocational training once the students reach the age of 14. Having limited mental capacities these students cannot be expected to continue in a purely educational program till adulthood like their normal counterparts. After they have learnt functional academics they have to be trained in skills, which will lead to economic independence and rehabilitation. The pre- vocational unit gives vocational training to enhance their capabilities to make them useful member of the society. In this center our emphasis is training them in any vocational skill according to the ability of our students for developing them into self- sufficient and self-reliant young adults. These trained skills can be carried out from home under the supervision of any family member or attendant. Under this training area skills covered are-<br><br>
+												 Students with moderate to severe category of mental retardation are introduced to pre- vocational training once the students reach the age of 14. Having limited mental capacities these students cannot be expected to continue in a purely educational program till adulthood like their normal counterparts. After they have learnt functional academics they have to be trained in skills, which will lead to economic independence and rehabilitation. The pre- vocational unit gives vocational training to enhance their capabilities to make them useful member of the society. In this centre our emphasis is training them in any vocational skill according to the ability of our students for developing them into self- sufficient and self-reliant young adults. These trained skills can be carried out from home under the supervision of any family member or attendant. Under this training area skills covered are-<br><br>
             &emsp;&emsp;&#9673;&nbsp;Paper bag making. Students are taught to decorate the bags with block printing and sticking & pasting of designs on the bags.<br>
             &emsp;&emsp;&#9673;&nbsp;Stain glass painted products.<br>
             &emsp;&emsp;&#9673;&nbsp;Making collage, decorative stationery like gift tags, wrapping papers, hand made cards, small pads.<br>

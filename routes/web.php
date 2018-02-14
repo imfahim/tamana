@@ -16,9 +16,12 @@ Route::get('/', function () {
 });
 
 
-Route::get('/Autism-Center', 'CenterController@autism')->name('Autism.center');
-Route::get('/Special-Education-Center', 'CenterController@specialeducation')->name('SpecialEducation.center');
+Route::get('/Autism-Centre', 'CentreController@autism')->name('Autism.centre');
+Route::get('/Special-Education-Centre', 'CentreController@specialeducation')->name('SpecialEducation.centre');
 Route::get('/Shop', 'ShopController@index')->name('Shop.Index');
+Route::get('/Skill-Development-Centre', 'CentreController@skilldevelopment')->name('SkillDevelopment.centre');
+Route::get('/Kindergarten', 'CentreController@Kindergarten')->name("Kindergarten.centre");
+
 
 
 //Route::get('/admin', 'Admin\AdminController@index')->name('admin.index');
