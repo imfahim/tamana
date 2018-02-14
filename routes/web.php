@@ -28,6 +28,10 @@ Route::get('/about-us/board-members', 'AboutController@page_board_members')->nam
 
 //Route::get('/admin', 'Admin\AdminController@index')->name('admin.index');
 
+//Achievements
+Route::get('/achievements/organization', 'AchievementController@organization')->name('Organization.achievements');
+Route::get('/achievements/alumni', 'AchievementController@alumni')->name('Organization.alumni');
+Route::get('/achievements/students', 'AchievementController@students')->name('Organization.students');
 
 
 Auth::routes();

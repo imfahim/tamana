@@ -42,9 +42,9 @@
 
             <li class="dropdown-holder"><a href="#">Achievements</a>
               <ul class="sub-menu">
-                <li><a href="#" class="tran3s">Organization</a></li>
-                <li><a href="#" class="tran3s">Alumni</a></li>
-                <li><a href="#" class="tran3s">Students</a></li>
+                <li><a href="{{route('Organization.achievements')}}" class="tran3s">Organization</a></li>
+                <li><a href="{{route('Organization.alumni')}}" class="tran3s">Alumni</a></li>
+                <li><a href="{{route('Organization.students')}}" class="tran3s">Students</a></li>
                 <li><a href="#" class="tran3s">Staff</a></li>
               </ul>
             </li>
