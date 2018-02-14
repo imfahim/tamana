@@ -70,7 +70,7 @@
 
             <li class="dropdown-holder"><a href="#">About Us</a>
               <ul class="sub-menu">
-                <li><a href="#" class="tran3s">Board Members</a></li>
+                <li><a href="{{ route('About.Board_Members') }}" class="tran3s">Board Members</a></li>
                 <li><a href="#" class="tran3s">Objectives</a></li>
                 <li><a href="#" class="tran3s">Curriculum</a></li>
                 <li><a href="#" class="tran3s">Specialised Activities</a></li>

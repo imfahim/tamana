@@ -22,6 +22,8 @@ Route::get('/Shop', 'ShopController@index')->name('Shop.Index');
 Route::get('/Skill-Development-Centre', 'CentreController@skilldevelopment')->name('SkillDevelopment.centre');
 Route::get('/Kindergarten', 'CentreController@Kindergarten')->name("Kindergarten.centre");
 
+Route::get('/about-us/board-members', 'AboutController@page_board_members')->name('About.Board_Members');
+
 
 
 //Route::get('/admin', 'Admin\AdminController@index')->name('admin.index');
