@@ -84,7 +84,7 @@
                 </form>
               </div>
             </div> <!-- /.search-box -->
-            <a href="#" class="a-comon main-menu-button">Donate <i class="flaticon-hand"></i></a>
+            <a href="{{ route('donate.page') }}" class="a-comon main-menu-button">Donate <i class="flaticon-hand"></i></a>
           </div> <!-- /.right-content -->
       </div> <!-- /.float-right -->
     </div> <!-- / menu-skew-div -->

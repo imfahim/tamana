@@ -35,6 +35,7 @@ Route::get('/achievements/organization', 'AchievementController@organization')->
 Route::get('/achievements/students-alumni', 'AchievementController@alumni')->name('Organization.students-alumni');
 Route::get('/achievements/media-coverage', 'AchievementController@media_coverage')->name('Organization.media_coverage');
 
+Route::get('/donation', 'DonateController@page_donate')->name('donate.page');
 
 
 Auth::routes();
