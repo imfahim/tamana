@@ -30,7 +30,7 @@
 
             <li><a href="{{route('training.index')}}">Training</a></li>
 
-            <li class="dropdown-holder"><a href="#">Research</a></li>
+            <li class="dropdown-holder"><a href="{{route('research.index')}}">Research</a></li>
 
             <li class="dropdown-holder"><a href="#sec-services">Services</a>
               <ul class="sub-menu">

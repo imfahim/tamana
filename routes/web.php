@@ -23,7 +23,7 @@ Route::get('/Skill-Development-Centre', 'CentreController@skilldevelopment')->na
 Route::get('/Kindergarten', 'CentreController@Kindergarten')->name("Kindergarten.centre");
 Route::get('/training','TrainingController@index')->name('training.index');
 Route::get('/services/apna-fun-club','ServicesController@ApnaFunClub')->name('services.apna-fun-club');
-
+Route::get('/research','ResearchController@index')->name('research.index');
 Route::get('/about-us/board-members', 'AboutController@page_board_members')->name('About.Board_Members');
 
 
