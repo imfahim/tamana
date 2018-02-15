@@ -21,7 +21,7 @@ Route::get('/Special-Education-Centre', 'CentreController@specialeducation')->na
 Route::get('/Shop', 'ShopController@index')->name('Shop.Index');
 Route::get('/Skill-Development-Centre', 'CentreController@skilldevelopment')->name('SkillDevelopment.centre');
 Route::get('/Kindergarten', 'CentreController@Kindergarten')->name("Kindergarten.centre");
-Route::get('/Training-Cell','TrainingController@index')->name('training.index');
+Route::get('/training','TrainingController@index')->name('training.index');
 Route::get('/services/apna-fun-club','ServicesController@ApnaFunClub')->name('services.apna-fun-club');
 
 Route::get('/about-us/board-members', 'AboutController@page_board_members')->name('About.Board_Members');
@@ -32,8 +32,9 @@ Route::get('/about-us/board-members', 'AboutController@page_board_members')->nam
 
 //Achievements
 Route::get('/achievements/organization', 'AchievementController@organization')->name('Organization.achievements');
-Route::get('/achievements/alumni', 'AchievementController@alumni')->name('Organization.alumni');
-Route::get('/achievements/students', 'AchievementController@students')->name('Organization.students');
+Route::get('/achievements/students-alumni', 'AchievementController@alumni')->name('Organization.students-alumni');
+Route::get('/achievements/media-coverage', 'AchievementController@media_coverage')->name('Organization.media_coverage');
+
 
 
 Auth::routes();

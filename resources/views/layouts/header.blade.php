@@ -42,8 +42,9 @@
     <div class="container">
       <div class="clear-fix">
         <ul class="float-left top-header-left">
-          <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i> Program</a></li>
+          <li><a href="#"><i class="fa fa-hand-paper-o" aria-hidden="true"></i> Volunteer</a></li>
           <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a></li>
+					<li><a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i> Vacancy</a></li>
           <li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i> Contact</a></li>
         </ul> <!-- /.top-header-left -->
         <ul class="float-right top-header-right">

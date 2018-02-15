@@ -14,6 +14,16 @@
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
+					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
+						<div class="camera_caption">
+							<div class="container caption-v-two">
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Wish to  <span>Volunteer<span></span></span> <!--<br>a gift for the future --></h1>
+							    <!--<h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>-->
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Volunteer Now</a>
+								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>-->
+							</div> <!-- /.container -->
+						</div> <!-- /.camera_caption -->
+					</div>
 					<div data-src="{{ asset('images/home/banner-slider-1.jpg')}}">
 						<div class="camera_caption">
 							<div class="container text-center">
@@ -72,8 +82,8 @@
 					</div> <!-- /.container -->
 				</div> <!-- /.You-Can-Bring-Title -->
 
-
-				<div class="You-Can-Bring-Item-Wrapper Bring-Item-Wrapper-V-Two">
+				<div id="sec-centres">&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br><br><br><br><br></div>
+				<div  class="You-Can-Bring-Item-Wrapper Bring-Item-Wrapper-V-Two">
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
 							<div class="Bring-Item text-center">
@@ -101,37 +111,11 @@
 			</section> <!-- /.You-Can-Bring -->
 
 			<!-- You Can Bring ____________________________ -->
-			<section class="You-Can-Bring">
 
-				<div class="You-Can-Bring-Item-Wrapper Bring-Item-Wrapper-V-Two">
-					<div class="row">
-						<div class="col-md-4 col-sm-12">
-							<div class="Bring-Item bring-item-bg-two text-center">
-								<h3>Reverse Intervention Centre</h3>
-								<p>Be inspired! Take a look at the impact of our programmes which we've achievedthrough your support and donations programmes which we've </p>
-								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
-							</div> <!-- /.Bring-Item -->
-						</div> <!-- /.col -->
-						<div class="col-md-4 col-sm-12">
-							<div class="Bring-Item text-center">
-								<h3>Teachers Training Cell</h3>
-								<p>August 12, 1994 saw the inauguration of the TEACHERS TRAINING CELL with the introduction of a year-long certificate course in Special Education... </p>
-								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
-							</div> <!-- /.Bring-Item -->
-						</div> <!-- /.col -->
-						<div class="col-md-4 col-sm-12">
-							<div class="Bring-Item bring-item-bg-two text-center">
-								<h3 style="font-size: 16px;">National Institute of Open Schooling for Special Individuals</h3>
-								<p>Over the last decade, Tamana has encouraged many research scholars from various universities to conduct their Masters and Doctoral dissertation at Tamana...</p>
-								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
-							</div> <!-- /.Bring-Item -->
-						</div> <!-- /.col -->
-					</div> <!-- /.row -->
-				</div> <!-- /.You-Can-Bring-Item-Wrapper -->
-			</section> <!-- /.You-Can-Bring -->
 
 
 			<!-- Urgent Program ____________________________ -->
+			<div id="sec-eic">&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
 			<section class="Urgent-Program">
 				<div class="container">
 					<div class="row">
@@ -161,7 +145,7 @@
 			</section> <!-- /.Urgent-Program -->
 
 			<!-- Rcent Causes ____________________________ -->
-			<section class="Rcent-Causes-Section">
+			<section id="sec-services" class="Rcent-Causes-Section">
 				<div class="container">
 					<div class="Theme-title text-center">
 						<h2>Services</h2>
@@ -204,6 +188,44 @@
 					</div> <!-- /.Rcent-Causes-Item-Wrapper -->
 				</div> <!-- /.container -->
 			</section> <!-- /.Rcent-Causes-Section -->
+
+
+			<section id="sec-dc" class="Urgent-Program">
+				<br><br><br><br>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Img">
+								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
+							</div> <!-- /.Urgent-Program-Img -->
+						</div> <!-- /.col -->
+
+
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Item">
+								<center><h2>Diagnostic Centre</h2></center>
+								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
+								<ul class="Urgent-Location">
+									<li>Autism Centre</li>
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
+									<li>9:30AM-12:30PM</li>
+								</ul> <!-- /.Urgent-Location -->
+
+								<div class="Urgent-Massage text-center">
+									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
+									<a href="#" class="two">More Details</a>
+								</div> <!-- /.Urgent-Massage -->
+							</div> <!-- /.Urgent-Program-Item -->
+						</div> <!-- /.col -->
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section> <!-- /.Urgent-Program -->
+
+
+
+
+
 
 			<!-- Company History _________________________________ -->
 			<section class="company-history-section">
@@ -350,7 +372,8 @@
 			</section> --><!-- /.Our-SEO-Experts -->
 
 			<!-- Upcoming Events ____________________________ -->
-			<section class="Upcoming-Events">
+			<section id="sec-events" class="Upcoming-Events">
+				<br><br><br><br><br><br>
 				<div class="container">
 					<div class="Theme-title text-center">
 						<h2>Upcoming & Recent Events</h2>
@@ -409,7 +432,7 @@
 								    <div class="item active">
 								     	<iframe width="854" height="480" src="https://www.youtube.com/embed/kn9DfZUTcIg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 								    </div> <!-- /.item -->
-										
+
 								</div> <!-- /.carousel-inner -->
 							</div> <!-- Wrapper for bootstrap slides -->
 						</div> <!-- /.container -->

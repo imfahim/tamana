@@ -18,12 +18,12 @@ class AchievementController extends Controller
 
     public function alumni()
     {
-        return view('achievements.alumni');
+        return view('achievements.students-alumni');
     }
 
-    public function students()
+    public function media_coverage()
     {
-        return view('achievements.student');
+        return view('achievements.media-coverage');
     }
     /**
      * Show the form for creating a new resource.

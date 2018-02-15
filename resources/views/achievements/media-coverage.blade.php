@@ -6,11 +6,11 @@
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
-								<h1>Students Achievements</h1>
+								<h1>Media Coverage Achievements</h1>
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="#">Students Achievements</a></li>
+									<li><a href="#">Media Coverage Achievements</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Need Our Help</a>
 							</div> <!-- /.banner-content -->

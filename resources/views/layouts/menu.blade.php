@@ -17,10 +17,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active current-page-item Active-manu"><a href="/">Home</a>
-            </li>
+            <li class="active current-page-item Active-manu"><a href="/">Home</a></li>
 
-            <li class="dropdown-holder"><a href="#">Centres</a>
+            <li class="dropdown-holder"><a href="#sec-centres">Centres</a>
               <ul class="sub-menu">
                 <li><a href="{{route('Autism.centre')}}" class="tran3s">Autism Center</a></li>
                 <li><a href="{{route('SpecialEducation.centre')}}" class="tran3s">Special Education Center</a></li>
@@ -28,45 +27,34 @@
                 <li><a href="{{route('Kindergarten.centre')}}" class="tran3s">Tamana Kindergarten</a></li>
               </ul>
             </li>
-            <li><a href="{{route('training.index')}}">Training Cell</a></li>
 
-            <li class="dropdown-holder"><a href="#">Services</a>
+            <li><a href="{{route('training.index')}}">Training</a></li>
+
+            <li class="dropdown-holder"><a href="#">Research</a></li>
+
+            <li class="dropdown-holder"><a href="#sec-services">Services</a>
               <ul class="sub-menu">
-                <li><a href="{{route('services.apna-fun-club')}}" class="tran3s">Apna Fun Club</a></li>
-                <li><a href="#" class="tran3s">Boys Hostel</a></li>
-                <li><a href="#" class="tran3s">Early Intervention Center</a></li>
-                <li><a href="#" class="tran3s">NIOS</a></li>
-                <li><a href="#" class="tran3s">Diagnostic Center</a></li>
+                <li><a href="#sec-eic" class="tran3s">Early Intervention Centre</a></li>
+                <li><a href="#sec-dc" class="tran3s">Diagnostic Centre</a></li>
+                <li><a href="{{route('Kindergarten.centre')}}" class="tran3s">NIOS</a></li>
+                <li><a href="{{route('Kindergarten.centre')}}" class="tran3s">Boys' Hostel</a></li>
               </ul>
             </li>
 
             <li class="dropdown-holder"><a href="#">Achievements</a>
               <ul class="sub-menu">
                 <li><a href="{{route('Organization.achievements')}}" class="tran3s">Organization</a></li>
-                <li><a href="{{route('Organization.alumni')}}" class="tran3s">Alumni</a></li>
-                <li><a href="{{route('Organization.students')}}" class="tran3s">Students</a></li>
-                <li><a href="#" class="tran3s">Staff</a></li>
+                <li><a href="{{route('Organization.students-alumni')}}" class="tran3s">Students-Alumni</a></li>
+                <li><a href="{{route('Organization.media_coverage')}}" class="tran3s">Media Coverage</a></li>
               </ul>
             </li>
 
-            <li class="dropdown-holder"><a href="#">Events</a>
+            <li class="dropdown-holder"><a href="#sec-events">Events</a>
               <ul class="sub-menu">
-                <li><a href="#" class="tran3s">Media Coverage</a></li>
                 <li><a href="#" class="tran3s">Events</a></li>
                 <li><a href="#" class="tran3s">Recognition</a></li>
               </ul>
             </li>
-
-            <li class="dropdown-holder"><a href="#">Support</a>
-              <ul class="sub-menu">
-                <li><a href="#" class="tran3s">Sponsor a Child</a></li>
-                <li><a href="#" class="tran3s">Volunteer</a></li>
-                <li><a href="#" class="tran3s">Donate</a></li>
-              </ul>
-            </li>
-
-            <li><a href="#">Vacancies</a></li>
-
 
             <li class="dropdown-holder"><a href="#">About Us</a>
               <ul class="sub-menu">
@@ -74,8 +62,6 @@
                 <li><a href="#" class="tran3s">Objectives</a></li>
                 <li><a href="#" class="tran3s">Curriculum</a></li>
                 <li><a href="#" class="tran3s">Specialised Activities</a></li>
-                <li><a href="#" class="tran3s">Exchange Program</a></li>
-                <li><a href="#" class="tran3s">Tamana Research</a></li>
               </ul>
             </li>
           </ul>
