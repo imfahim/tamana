@@ -1,9 +1,55 @@
 @extends('layouts.main')
 
+@section('page-styles')
+<style>
+.container-fluid-x {
+    background: #000000;
+  color:#ffffff;
+    margin: 40px auto 10px;
+    padding: 20px 0px;
+    max-width: 960px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.embed-responsive-4by3 {
+    padding-bottom: 58%;
+}
+
+</style>
+@endsection
+
 @section('content')
 			<!-- Theme Main Banner ____________________________ -->
 			<section>
 				<div id="theme-main-banner">
+					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
+						<div class="camera_caption">
+							<div class="container caption-v-two">
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Welcome to  <span>TAMANA<span></span></span> <!--<br>a gift for the future --></h1>
+							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Tamana is a non-profit voluntary organisation registered in March 1984, created solely with the purpose of helping the cause of mentally challenged, multiply disabled and autistic. Tamana is recognized by Ministry of Social Justice and Empowerment, Govt. of India, Department of Social Welfare; Govt. of NCT Delhi and is registered with the National Trust...</h6>
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Button</a>
+								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" datsa-wow-delay="0.7s">Campaings</a>-->
+							</div> <!-- /.container -->
+						</div> <!-- /.camera_caption -->
+					</div>
+					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
+						<div class="camera_caption">
+							<div class="container caption-v-two">
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Founder and Presidents Desk <!--<br>a gift for the future --></h1>
+							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s"> <blockquote class="blockquote blockquote-reverse" cite="#"><p class="mb-0" style="color:white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>  <footer class="blockquote-footer" style="color:#7F1F21">Someone famous in <cite title="Source Title">Source Title</cite></footer></blockquote></h6>
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Button</a>
+								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" datsa-wow-delay="0.7s">Campaings</a>-->
+							</div> <!-- /.container -->
+						</div> <!-- /.camera_caption -->
+					</div>
+					<div data-src="{{ asset('images/home/banner-slider-1.jpg')}}">
+						<div class="camera_caption">
+							<div class="container text-center">
+								<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">In Special Consultative Status with <br><span> United Nation's Economic and Social Council</span></h1>
+							   <!-- <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">join today</h6>-->
+								<a href="#" class="tran3s banner-button wow fadeInUp animated hvr-bounce-to-right" data-wow-delay="0.7s">Volunteer</a>
+							</div> <!-- /.container -->
+						</div> <!-- /.camera_caption -->
+					</div>
 					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
@@ -24,65 +70,51 @@
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
-					<div data-src="{{ asset('images/home/banner-slider-1.jpg')}}">
-						<div class="camera_caption">
-							<div class="container text-center">
-								<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">In Special Consultative Status with <br><span> United Nation's Economic and Social Council</span></h1>
-							   <!-- <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">join today</h6>-->
-								<a href="#" class="tran3s banner-button wow fadeInUp animated hvr-bounce-to-right" data-wow-delay="0.7s">Volunteer</a>
-							</div> <!-- /.container -->
-						</div> <!-- /.camera_caption -->
-					</div>
-					<div data-src="{{ asset('images/home/banner-slider-2.jpg')}}">
-						<div class="camera_caption">
-							<div class="container caption-v-two">
-							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">From the Founder and President's Desk </h1>
-							   <!-- <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>-->
-								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Read More</a>
-								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>-->
-							</div> <!-- /.container -->
-						</div> <!-- /.camera_caption -->
-					</div>
+
 				</div> <!-- /#theme-main-banner -->
 			</section>
 
 			<!-- You Can Bring ____________________________ -->
+			<br>
+			<hr>
 			<section class="You-Can-Bring">
-				<div class="You-Can-Bring-Title">
-					<div class="container">
-						<div class="row">
-							<div class="F col-xs-12">
-								<center><h3>WELCOME TO TAMANA<br>
-									 <img src="{{asset('images/founder.jpg')}}" class="img-rounded" alt="founder">
-								</h3></center>
-							</div> <!-- /.col -->
-							<div class="col-lg-7 col-sm-6 col-xs-12"><br><br><br>
-								<p>Tamana is a non-profit voluntary organisation registered in March 1984, created solely with the purpose of helping the cause of mentally challenged, multiply disabled and autistic. Tamana is recognized by Ministry of Social Justice and Empowerment, Govt. of India, Department of Social Welfare; Govt. of NCT Delhi and is registered with the National Trust...
-									<a href="#" style="color:#7F1F21;font-size:15px">Details >></a>
-								</p>
-							</div> <!-- /.col -->
-						</div> <!-- /.row -->
-					</div> <!-- /.container -->
-				</div> <!-- /.You-Can-Bring-Title -->
 
 				<div class="You-Can-Bring-Title" style="padding:0px 0px 50px;">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-7 col-sm-6 col-xs-12"><br><br><br>
-								<p style="padding-right:3px;border-right: solid 1px #7F1F21;border-left:0px">Three decades ago after the birth of my daughter Tamana, I had a dream to create a world of inclusion. It has taken 25 years of struggle by us to open the minds of Indian society to accept the disabled. As my daughter Tamana has grown into a well settled and independent adult, so has the organization. This growth has been nurtured by our optimism in drawing out...
-									<a href="#" style="color:#7F1F21;font-size:15px">Details >></a>
-								</p>
-							</div> <!-- /.col -->
-							<div class="col-lg-5 col-sm-6 col-xs-12">
-								<center><h3 style="font-size:25px">FOUNDER AND PRESIDENT'S DESK<br>
-									 <img src="{{asset('images/president.jpg')}}" class="img-rounded" alt="founder" height="150px">
-								</h3></center>
-							</div> <!-- /.col -->
+							<div class="col-md-12"><center><br>
+							 <img src="{{asset('images/president.jpg')}}" class="img-circle" height="10%" width="10%" alt="Cinque Terre">
+							 <h6>Dr. (Mrs.) Shayama Chona </h6>
+								 <p style="border-left:0px">-Founder and President</p><br>
+								  <div class="well well-sm" style="border: solid 2px #7F1F21">
+										<q><cite>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+
+										</cite></q>
+									</div></center>
+						 </div>
+
+
+
+
+
+
+
 						</div> <!-- /.row -->
 					</div> <!-- /.container -->
 				</div> <!-- /.You-Can-Bring-Title -->
-
-				<div id="sec-centres">&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br><br><br><br><br></div>
+<hr>
+				<div id="sec-centres">
+				<h2><center>Centres</center></h2></div><br><br>
 				<div  class="You-Can-Bring-Item-Wrapper Bring-Item-Wrapper-V-Two">
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
@@ -96,7 +128,7 @@
 						</div> <!-- /.col -->
 						<div class="col-md-4 col-sm-12">
 							<div class="Bring-Item bring-item-bg-two text-center">
-								<h3 style="font-size: 30px;">SPECIAL EDUCATION CENTRE</h3>
+								<h3 style="font-size: 27px;">SPECIAL EDUCATION CENTRE</h3>
 								<center><img style="border-style: solid; border-width: medium; border-color: white" src="{{ asset('images/home/img-1.jpg')}}" alt="image"></center>
 								<br>
 								<p>The first branch of Tamana started in 1984 in tent. The school was shifted to present premises on 12th Feb. 1992 after inauguration by late lady Diana...</p>
@@ -108,7 +140,7 @@
 								<h3 style="font-size: 28px;">SKILL DEVELOPMENT CENTRE</h3>
 								<center><img style="border-style: solid; border-width: medium; border-color: white" src="{{ asset('images/home/img-1.jpg')}}" alt="image"></center>
 								<br>
-								<p>Nai Disha, as the same name signifies, is a new direction taken by Tamana. Nai Disha was conceived with the realization that the young adults at Tamana have to be equipped with skills...</p>
+								<p>Nai Disha, as the same name signifies, is a new direction taken by Tamana. Nai Disha was conceived with the realization...</p>
 								<a href="{{route('SkillDevelopment.centre')}}" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
 							</div> <!-- /.Bring-Item -->
 						</div> <!-- /.col -->
@@ -148,51 +180,6 @@
 					</div> <!-- /.row -->
 				</div> <!-- /.container -->
 			</section> <!-- /.Urgent-Program -->
-
-			<!-- Rcent Causes ____________________________ -->
-			<section id="sec-services" class="Rcent-Causes-Section">
-				<div class="container">
-					<div class="Theme-title text-center">
-						<h2>Services</h2>
-					</div> <!-- /.Theme-title -->
-
-					<div class="Rcent-Causes-Item-Wrapper">
-						<div id="Rcent-Causes-Slider" class="owl-carousel owl-theme">
-							<div class="item">
-								<div class="Causes-Item">
-									<div class="Causes-Img"><img src="{{ asset('images/home/img-1.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
-									<div class="Causes-Text" style="height:400px;">
-										<h3>Apna Fun Club</h3>
-										<p>TOBY PLAYPAD, IBM Research, NION Research, MoSJE Research, HOPE, ECHO India</p>
-										<a href="#">Details</a>
-									</div> <!-- /.Causes-Text -->
-								</div> <!-- /.Causes-Item -->
-							</div> <!-- /.item -->
-							<div class="item">
-								<div class="Causes-Item">
-									<div class="Causes-Img"><img src="{{ asset('images/home/img-2.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
-									<div class="Causes-Text" style="height:400px;">
-										<h3>Boy's Hostel</h3>
-										<p style="font-size:12px;">Three separate centres - one at each branch of Tamana - are run by a multi - disciplinary team which consists of the social worker, psychiatrist, clinical Psychologists, counselor, special educator, speech therapist, occupational therapist and the physiotherapist.</p>
-										<a href="#">Details</a>
-									</div> <!-- /.Causes-Text -->
-								</div> <!-- /.Causes-Item -->
-							</div> <!-- /.item -->
-							<div class="item">
-								<div class="Causes-Item">
-									<div class="Causes-Img"><img src="{{ asset('images/home/img-3.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
-									<div class="Causes-Text" style="height:400px;">
-										<h3>NIOS</h3>
-										<p>Situated on the premises of Tamana's Vocational Training Center - Nai Disha, is a hostel that provides a unique program for adults and adolescents with disabilities.</p>
-										<a href="#">Details</a>
-									</div> <!-- /.Causes-Text -->
-								</div> <!-- /.Causes-Item -->
-							</div> <!-- /.item -->
-						</div> <!-- /.row -->
-						<a href="causes.html" class="hvr-float-shadow">Load more Services</a>
-					</div> <!-- /.Rcent-Causes-Item-Wrapper -->
-				</div> <!-- /.container -->
-			</section> <!-- /.Rcent-Causes-Section -->
 
 
 			<section id="sec-dc" class="Urgent-Program">
@@ -374,6 +361,52 @@
 					</div> --><!-- /.our-SEO-experts-slider
 				</div> --><!-- /.container
 			</section> --><!-- /.Our-SEO-Experts -->
+			<!-- Rcent Causes ____________________________ -->
+			<section id="sec-services" class="Rcent-Causes-Section">
+				<div class="container">
+					<div class="Theme-title text-center">
+						<h2>Services</h2>
+					</div> <!-- /.Theme-title -->
+
+					<div class="Rcent-Causes-Item-Wrapper">
+						<div id="Rcent-Causes-Slider" class="owl-carousel owl-theme">
+							<div class="item">
+								<div class="Causes-Item">
+									<div class="Causes-Img"><img src="{{ asset('images/home/img-1.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
+									<div class="Causes-Text" style="height:100%;">
+										<h3>Apna Fun Club</h3>
+										<p>TOBY PLAYPAD, IBM Research, NION Research, MoSJE Research, HOPE,...</p>
+										<a href="{{route('services.apna-fun-club')}}">Details</a>
+									</div> <!-- /.Causes-Text -->
+								</div> <!-- /.Causes-Item -->
+							</div> <!-- /.item -->
+							<div class="item">
+								<div class="Causes-Item">
+									<div class="Causes-Img"><img src="{{ asset('images/home/img-2.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
+									<div class="Causes-Text" style="height:100%">
+										<h3>Boy's Hostel</h3>
+										<p>Three separate centres - one at each branch of Tamana - are run by a multi...</p>
+										<a href="{{route('Services.boys-hostel')}}">Details</a>
+									</div> <!-- /.Causes-Text -->
+								</div> <!-- /.Causes-Item -->
+							</div> <!-- /.item -->
+							<div class="item">
+								<div class="Causes-Item">
+									<div class="Causes-Img"><img src="{{ asset('images/home/img-3.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
+									<div class="Causes-Text" style="height:100%">
+										<h3>NIOS</h3>
+										<p>Situated on the premises of Tamana's Vocational Training Center - Nai Disha...</p>
+										<a href="{{route('Services.nios')}}">Details</a>
+									</div> <!-- /.Causes-Text -->
+								</div> <!-- /.Causes-Item -->
+							</div> <!-- /.item -->
+						</div> <!-- /.row -->
+						<a href="causes.html" class="hvr-float-shadow">Load more Services</a>
+					</div> <!-- /.Rcent-Causes-Item-Wrapper -->
+				</div> <!-- /.container -->
+			</section> <!-- /.Rcent-Causes-Section -->
+
+
 
 			<!-- Upcoming Events ____________________________ -->
 			<section id="sec-events" class="Upcoming-Events">
@@ -420,29 +453,63 @@
 				<div class="testimonial-shape-img"><img src="{{ asset('images/shape/shape-3.png')}}" alt="shape-img"></div><!-- /.shape-img -->
 				<div class="testimonial-opact testimonial-opact-v-two">
 					<div class="testimonial-containt">
-						<div class="container">
-							<div class="testimonial-shape-border"><h2 style="align: center;">VIDEO</h2></div>
 
-							<div id="" class="carousel slide" data-ride="carousel" data-interval="2500">
-								<!-- Indicators -->
-								<ol class="carousel-indicators">
-									<li data-target="#client-carousel" data-slide-to="0"></li>
-									<li data-target="#client-carousel" data-slide-to="1" class="active"></li>
-									<li data-target="#client-carousel" data-slide-to="2"></li>
-								</ol>
+						<div class="container-fluid-x">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						  </ol>
 
-								<!-- Wrapper for slides -->
-								<div class="carousel-inner" role="listbox">
-								    <div class="item active">
-								     	<iframe width="854" height="480" src="https://www.youtube.com/embed/kn9DfZUTcIg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-								    </div> <!-- /.item -->
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+						    <div class="item active" >
+									<div>
+									<div class="embed-responsive embed-responsive-4by3" >
+									<!-- Copy & Pasted from YouTube -->
+									<iframe    src="https://www.youtube.com/embed/kn9DfZUTcIg"  ></iframe>
+										</div>
+															</div>
+						    </div>
+						    <div class="item" >
+						      <div>
+						      <div class="embed-responsive embed-responsive-4by3" >
+						    <!-- Copy & Pasted from YouTube -->
+						    <iframe    src="https://www.youtube.com/embed/qq1sSl_Whi0"  ></iframe>
+						        </div>
+						                  </div>
+						    </div>
+								<div class="item" >
+						      <div>
+						      <div class="embed-responsive embed-responsive-4by3" >
+						    <!-- Copy & Pasted from YouTube -->
+						    <iframe    src="https://www.youtube.com/embed/bow2vAJLqtA"  ></iframe>
+						        </div>
+						                  </div>
+						    </div>
 
-								</div> <!-- /.carousel-inner -->
-							</div> <!-- Wrapper for bootstrap slides -->
-						</div> <!-- /.container -->
+						  </div>
+
+						  <!-- Controls -->
+						  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+						</div>
+
+
 					</div> <!-- /.testimonial-containt -->
 				</div> <!-- /.testimonial-opact -->
 			</section> <!-- /.testimonial-section -->
+
+
 
 			<!-- News Update _________________________________ -->
 			<!--<section class="news-update-section">
@@ -486,4 +553,18 @@
 					<!--</div>--> <!-- /.home-news-update-wrapper -->
 				<!--</div> --><!-- /.container -->
 			<!--</section>--> <!-- /.news-update-section -->
+@endsection
+
+@section('page-scripts')
+<script>
+// Carousel Auto-Cycle
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 2000
+    })
+
+
+
+  });
+</script>
 @endsection

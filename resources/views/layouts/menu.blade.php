@@ -32,14 +32,7 @@
 
             <li class="dropdown-holder"><a href="{{route('research.index')}}">Research</a></li>
 
-            <li class="dropdown-holder"><a href="#sec-services">Services</a>
-              <ul class="sub-menu">
-                <li><a href="#sec-eic" class="tran3s">Early Intervention Centre</a></li>
-                <li><a href="#sec-dc" class="tran3s">Diagnostic Centre</a></li>
-                <li><a href="{{route('services.apna-fun-club')}}" class="tran3s">Apna Fun Club</a></li>
-                <li><a href="{{route('Services.nios')}}" class="tran3s">NIOS</a></li>
-                <li><a href="{{route('Services.boys-hostel')}}" class="tran3s">Boys' Hostel</a></li>
-              </ul>
+            <li><a href="{{ route('index') }}/#sec-services">Services</a>
             </li>
 
             <li class="dropdown-holder"><a href="#">Achievements</a>

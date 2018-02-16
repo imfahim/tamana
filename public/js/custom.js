@@ -28,7 +28,7 @@ function stickyHeader () {
   if (sticky.length) {
     if (scroll >= 190) sticky.addClass('fixed');
     else sticky.removeClass('fixed');
-    
+
   };
 }
 
@@ -40,11 +40,11 @@ function mobileDropdown () {
     });
     $('.main-menu nav ul li.dropdown-holder .fa').on('click', function () {
       $(this).parent('li').children('ul').slideToggle();
-    }); 
+    });
   }
 }
 
-// Theme Search Box 
+// Theme Search Box
 function searchBox () {
   var search = $("#search-button"),
       mainSearch = $("#searchWrapper"),
@@ -71,7 +71,7 @@ function scrollToTop () {
         $('.scroll-top').fadeOut();
       }
     });
-    
+
     //Click event to scroll to top
     $('.scroll-top').on('click', function() {
       $('html, body').animate({scrollTop : 0},1500);
@@ -81,11 +81,11 @@ function scrollToTop () {
 }
 
 
-// Theme-banner slider 
+// Theme-banner slider
 function BannerSlider () {
   var banner = $("#theme-main-banner");
   if (banner.length) {
-      banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
+      banner.camera({ //here I declared some settings, the height and the presence of the thumbnails
         height: '750px',
         navigation: true,
         pagination: true,
@@ -135,7 +135,7 @@ function masanory () {
 }
 
 
-// GALLERY MiXiTup 
+// GALLERY MiXiTup
 function GALLERYMiXiTup () {
   if ($("#mixitup_list").length) {
     $("#mixitup_list").mixItUp()
@@ -194,10 +194,10 @@ function RcentCausesSlider () {
   if(Causes.length) {
       Causes.owlCarousel({
         margin:30,
-        loop:true,
+        loop:false,
         nav:false,
         dots:false,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:4000,
         autoplaySpeed:1000,
         smartSpeed:1000,
@@ -316,12 +316,12 @@ function productSlider () {
 // Course price ranger
 function priceRanger () {
   if ($('#price-ranger').length) {
-    $("#price-ranger").slider({});       
-  };  
+    $("#price-ranger").slider({});
+  };
 }
 
 
-// WOW animation 
+// WOW animation
 function wowAnimation () {
   if($('.wow').length) {
     var wow = new WOW(
@@ -343,7 +343,7 @@ function wowAnimation () {
 }
 
 
-// Fancybox 
+// Fancybox
 function FancypopUp () {
   if ($(".fancybox").length) {
     $(".fancybox").fancybox({
@@ -463,7 +463,7 @@ function roundCircleProgress () {
         });
 
       });
-      Self.appear(function () {         
+      Self.appear(function () {
         Self.circleProgress({
           value: value,
           size: 71,
@@ -540,4 +540,3 @@ jQuery(window).on('load', function(){
     roundCircleProgress ();
 	})(jQuery);
 });
-
