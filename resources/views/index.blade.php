@@ -395,7 +395,7 @@
 								<h4>Sharing seeds, sparking connection</h4>
 								<p><i>24 December 2017, 08:00 - 27 December 2017, 00:00</i> Brooklyn, NY 10036 New York, NY 10036 New York, United States</p>
 							</div> <!-- /.events-text -->
-							<a href="events-details.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+							<a href="{{route('events')}}"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</li> <!-- /.clear-fix -->
 					</ul> <!-- /.Events-Item-Wrapper -->
 					<div class="row">
