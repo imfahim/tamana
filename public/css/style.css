@@ -793,7 +793,7 @@ img,
 .company-history-containt-opact .history-item.item-two,
 .company-history-containt-opact .history-item.item-three {width: 208px; margin: 0 auto;}
 /*==================================== Upcoming Events ======================================*/
-.Upcoming-Events {margin: 85px 0;}
+.Upcoming-Events {margin-bottom: 25px 0;}
 .Upcoming-Events .Theme-title {margin-bottom: 60px;}
 .Events-Item-Wrapper>li {
 	background: #f7f7f7;

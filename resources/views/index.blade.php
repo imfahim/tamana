@@ -431,20 +431,7 @@
 							<a href="{{route('events')}}"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</li> <!-- /.clear-fix -->
 					</ul> <!-- /.Events-Item-Wrapper -->
-					<div class="row">
-						<div class="col-md-6 col-xs-12">
-							<div class="official-charity charity-one-bg-color">
-								<h4>Run it forward official charity</h4>
-								<p>Every day we bring real hope to millions of children in the world's hardest places as a sign of God's unconditional love</p>
-							</div> <!-- /.official-charity -->
-						</div> <!-- /.col -->
-						<div class="col-md-6 col-xs-12">
-							<div class="official-charity">
-								<h4>Run it forward official charity</h4>
-								<p>Every day we bring real hope to millions of children in the world's hardest places as a sign of God's unconditional love</p>
-							</div> <!-- /.official-charity -->
-						</div> <!-- /.col -->
-					</div> <!-- /.row -->
+					
 				</div> <!-- /.container -->
 			</section> <!-- /.Upcoming-Events -->
 

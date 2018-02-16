@@ -258,12 +258,12 @@ li.fancyTab.active a {
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
-								<h1>Donations</h1>
-                <p>Donate or Sponser by <br>TAMANA</p>
+								<h1>Events</h1>
+                <p>*************</p>
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="{{route('About.Board_Members')}}">Board Members</a></li>
+									<li><a href="{{route('events')}}">Events</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Button</a>
 							</div> <!-- /.banner-content -->
