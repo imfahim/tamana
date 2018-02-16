@@ -16,7 +16,7 @@ class AchievementController extends Controller
         return view('achievements.organization');
     }
 
-    public function alumni()
+    public function students_alumni()
     {
         return view('achievements.students-alumni');
     }

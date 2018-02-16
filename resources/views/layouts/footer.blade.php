@@ -33,7 +33,7 @@
 </section> <!-- /.Children-Care-list-margin -->
 
 <!-- them-main-footer-section _________________________________ -->
-<footer class="them-main-footer-section">
+<!-- <footer class="them-main-footer-section">
   <div class="main-footer-top-section">
     <div class="container">
       <div class="footer-top-item">
@@ -43,11 +43,11 @@
           <form action="#">
             <input type="text">
             <button class="tran3s hvr-bounce-to-right">Subscribe</button>
-          </form>
-        </div> <!-- /.Subscribe-footer-form -->
-      </div> <!-- /.footer-top-item -->
-    </div> <!-- /.container -->
-  </div> <!-- /.main-footer-top-section -->
+          </form> -->
+      <!--  </div> --><!-- /.Subscribe-footer-form -->
+    <!--  </div>--> <!-- /.footer-top-item -->
+    <!--</div>--> <!-- /.container -->
+  <!--</div>--> <!-- /.main-footer-top-section -->
 
   <div class="them-main-footer-containt-item">
     <div class="container">

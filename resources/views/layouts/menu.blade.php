@@ -37,8 +37,8 @@
                 <li><a href="#sec-eic" class="tran3s">Early Intervention Centre</a></li>
                 <li><a href="#sec-dc" class="tran3s">Diagnostic Centre</a></li>
                 <li><a href="{{route('services.apna-fun-club')}}" class="tran3s">Apna Fun Club</a></li>
-                <li><a href="{{route('Kindergarten.centre')}}" class="tran3s">NIOS</a></li>
-                <li><a href="{{route('Kindergarten.centre')}}" class="tran3s">Boys' Hostel</a></li>
+                <li><a href="{{route('Services.nios')}}" class="tran3s">NIOS</a></li>
+                <li><a href="{{route('Services.boys-hostel')}}" class="tran3s">Boys' Hostel</a></li>
               </ul>
             </li>
 

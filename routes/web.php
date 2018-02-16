@@ -35,8 +35,12 @@ Route::get('/contact','PagesController@contact')->name('pages.contact');
 
 //Achievements
 Route::get('/achievements/organization', 'AchievementController@organization')->name('Organization.achievements');
-Route::get('/achievements/students-alumni', 'AchievementController@alumni')->name('Organization.students-alumni');
+Route::get('/achievements/students-alumni', 'AchievementController@students_alumni')->name('Organization.students-alumni');
 Route::get('/achievements/media-coverage', 'AchievementController@media_coverage')->name('Organization.media_coverage');
+
+//Services
+Route::get('/services/nios', 'ServicesController@nios')->name('Services.nios');
+Route::get('/services/boys-hostel', 'ServicesController@boys_hostel')->name('Services.boys-hostel');
 
 Route::get('/donation', 'DonateController@page_donate')->name('donate.page');
 
