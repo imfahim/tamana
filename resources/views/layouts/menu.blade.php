@@ -47,15 +47,11 @@
                 <li><a href="{{route('Organization.achievements')}}" class="tran3s">Organization</a></li>
                 <li><a href="{{route('Organization.students-alumni')}}" class="tran3s">Students-Alumni</a></li>
                 <li><a href="{{route('Organization.media_coverage')}}" class="tran3s">Media Coverage</a></li>
-              </ul>
-            </li>
-
-            <li class="dropdown-holder"><a href="#sec-events">Events</a>
-              <ul class="sub-menu">
-                <li><a href="#" class="tran3s">Events</a></li>
                 <li><a href="#" class="tran3s">Recognition</a></li>
               </ul>
             </li>
+
+            <li class="dropdown-holder"><a href="#sec-events">Events</a></li>
 
             <li class="dropdown-holder"><a href="#">About Us</a>
               <ul class="sub-menu">
