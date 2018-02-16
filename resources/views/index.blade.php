@@ -86,8 +86,10 @@
 				<div  class="You-Can-Bring-Item-Wrapper Bring-Item-Wrapper-V-Two">
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
-							<div class="Bring-Item text-center">
+							<div class="Bring-Item text-center" >
 								<h3>AUTISM CENTRE</h3>
+								<center><img src="{{ asset('images/home/img-1.jpg')}}" alt="image"></center> <!-- /.Causes-Img -->
+
 								<p>Tamana was the first institution to recognize autism as a disability distinct from others and to start programs for autistic spectrum disorder in 1985...</p>
 								<a href="#" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
 							</div> <!-- /.Bring-Item -->
@@ -157,7 +159,7 @@
 								<div class="Causes-Item">
 									<div class="Causes-Img"><img src="{{ asset('images/home/img-1.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text">
-										<h3 style="font-size:21px">Tamana’s Research, Innovation & Technology Lab</h3>
+										<h3>Apna Fun Club</h3>
 										<p>TOBY PLAYPAD, IBM Research, NION Research, MoSJE Research, HOPE, ECHO India</p>
 										<a href="#">Details</a>
 									</div> <!-- /.Causes-Text -->
@@ -167,7 +169,7 @@
 								<div class="Causes-Item">
 									<div class="Causes-Img"><img src="{{ asset('images/home/img-2.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text">
-										<h3 style="font-size:20px">The Diagnostic Center</h3>
+										<h3>Boy's Hostel</h3>
 										<p style="font-size:12px;">Three separate centres - one at each branch of Tamana - are run by a multi - disciplinary team which consists of the social worker, psychiatrist, clinical Psychologists, counselor, special educator, speech therapist, occupational therapist and the physiotherapist.</p>
 										<a href="#">Details</a>
 									</div> <!-- /.Causes-Text -->
@@ -177,7 +179,7 @@
 								<div class="Causes-Item">
 									<div class="Causes-Img"><img src="{{ asset('images/home/img-3.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text">
-										<h3>Boy's Hostel</h3>
+										<h3>NIOS</h3>
 										<p>Situated on the premises of Tamana's Vocational Training Center - Nai Disha, is a hostel that provides a unique program for adults and adolescents with disabilities.</p>
 										<a href="#">Details</a>
 									</div> <!-- /.Causes-Text -->
