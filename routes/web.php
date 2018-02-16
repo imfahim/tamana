@@ -25,6 +25,9 @@ Route::get('/training','TrainingController@index')->name('training.index');
 Route::get('/services/apna-fun-club','ServicesController@ApnaFunClub')->name('services.apna-fun-club');
 Route::get('/research','ResearchController@index')->name('research.index');
 Route::get('/about-us/board-members', 'AboutController@page_board_members')->name('About.Board_Members');
+Route::get('/volunteer','PagesController@volunteer')->name('pages.volunteer');
+Route::get('/vacancy','PagesController@vacancy')->name('pages.vacancy');
+Route::get('/contact','PagesController@contact')->name('pages.contact');
 
 
 
