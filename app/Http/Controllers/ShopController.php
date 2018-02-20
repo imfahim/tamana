@@ -11,6 +11,9 @@ class ShopController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+     public function details(){
+       return view('shop.details');
+     }
     public function index()
     {
         return view('shop.index');

@@ -19,6 +19,8 @@ Route::get('/', function () {
 Route::get('/Autism-Centre', 'CentreController@autism')->name('Autism.centre');
 Route::get('/Special-Education-Centre', 'CentreController@specialeducation')->name('SpecialEducation.centre');
 Route::get('/Shop', 'ShopController@index')->name('Shop.Index');
+Route::get('/Shop/details', 'ShopController@details')->name('Shop.details');
+
 Route::get('/Skill-Development-Centre', 'CentreController@skilldevelopment')->name('SkillDevelopment.centre');
 Route::get('/Kindergarten', 'CentreController@Kindergarten')->name("Kindergarten.centre");
 Route::get('/training','TrainingController@index')->name('training.index');
