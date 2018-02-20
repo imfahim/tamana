@@ -6,11 +6,11 @@
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
-								<h1>Students-Alumni ACHIEVEMENTS</h1>
+								<h1>Media Coverage</h1>
 								<ul>
-									<li><a href="/">Home</a></li>
+									<li><a href="{{ route('index') }}">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="#">Students-Alumni Achievements</a></li>
+									<li><a href="{{ route('media_coverage.achievements') }}">Media Coverage</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Need Our Help</a>
 							</div> <!-- /.banner-content -->
