@@ -25,6 +25,11 @@ class AchievementController extends Controller
     {
         return view('achievements.media-coverage');
     }
+
+    public function recognition()
+    {
+        return view('achievements.recognition');
+    }
     /**
      * Show the form for creating a new resource.
      *

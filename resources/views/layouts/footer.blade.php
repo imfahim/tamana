@@ -1,5 +1,5 @@
 <!-- Children Care List  _________________________________ -->
-<section class="Children-Care-list-margin margin-top-0">
+<section class="Children-Care-list-margin margin-top-0" style="padding-top: 20px, padding-bottom: 20px">
   <div class="container">
     <div class="Children-Care-list">
       <div id="Children-Care-List-Slider" class="owl-carousel owl-theme">

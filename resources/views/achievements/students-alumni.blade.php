@@ -18,6 +18,7 @@
 					</div> <!-- /.banner-opacity -->
 				</div> <!-- /.Theme-Inner-Banner -->
 			</section>
+			<br>
 
 			<!-- Blog Details ____________________________ -->
 			<section class="">
@@ -27,6 +28,9 @@
               <div class="panel panel-default" style="padding: 15px;">
 
 							<div class="Blog-Details-Wrapper">
+								<div class="panel-heading" style="background-color:#7F1F21;color:white"><center><strong>Students</strong></center></div>
+								<br>
+
 								<h4 style="color: #7F1F21;">August 2015</h4>
 		              <p><strong><u>Tamana Students placed at Lemon Tree Hotels </u></strong><br>
 				                Tamana is proud to inform that three students are placed at Lemon Tree Hotels. One student has got appointment letter for job and rest 2 will continue as intern for some time.</p>
@@ -57,7 +61,9 @@
                 </ol></p>
                 <h4 style="color: #7F1F21;">10<sup>th</sup> February 2011 </h4>
                 <p>5 students of Tamana Special School - Farha Khan, Poornima Doomra, Tanya Soni, Meenal Pathania, Tushar Bhatia - participated in the Yoga competition at SAHAN School (New Delhi) and won bronze medals. </p>
-                <h4 style="color: #7F1F21;">Students who have been successfully Integrated</h4>
+								<div class="panel-heading" style="background-color:#7F1F21;color:white"><center><strong>ALumni</strong></center></div>
+								<br>
+							  <h4 style="color: #7F1F21;">Students who have been successfully Integrated</h4>
                 <p style="padding-top: 15px;"><strong>Deepak Tolany </strong> was placed as a sales assistant in a shop named- Namkeen Bhandar, Shop No. 9, D-2 Market, Vasant Kunj, New Delhi. <br><br>
                 <strong>Nitin Suri </strong> started paper-bag making business and supplies to Khadi Gramodyog. <br><br>
                 <strong>Ekta Jain </strong> placed as assistant in a Beauty parlour "Face and Figure "in Uttam Nagar, New Delhi.<br><br>

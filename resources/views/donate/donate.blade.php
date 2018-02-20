@@ -6,11 +6,6 @@
   margin-top:30px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro';
-  font-weight:700;
-}
-
 .fancyTab {
 	text-align: center;
   padding:15px 0;
@@ -40,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fancyTab a {
-	font-family: 'Source Sans Pro';
 	font-size:1.65em;
 	font-weight:300;
   transition:.2s;
@@ -259,7 +253,7 @@ li.fancyTab.active a {
 						<div class="container">
 							<div class="banner-content">
 								<h1>Donations</h1>
-                <p>Donate or Sponser by <br>TAMANA</p>
+                <p>Donate or Sponsor by <br>TAMANA</p>
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><span>-</span></li>
@@ -290,7 +284,7 @@ li.fancyTab.active a {
 
 								                    <li class="tab fancyTab">
 								                    <div class="arrow-down"><div class="arrow-down-inner"></div></div>
-								                        <a id="tab1" href="#tabBody1" role="tab" aria-controls="tabBody1" aria-selected="true" data-toggle="tab" tabindex="0"><i class="flaticon-handshake"></i><br><span class="hidden-xs">Sponser A Child</span></a>
+								                        <a id="tab1" href="#tabBody1" role="tab" aria-controls="tabBody1" aria-selected="true" data-toggle="tab" tabindex="0"><i class="flaticon-handshake"></i><br><span class="hidden-xs">Sponsor A Child</span></a>
 								                        <div class="whiteBlock"></div>
 								                    </li>
 
@@ -382,7 +376,7 @@ li.fancyTab.active a {
 								                        <div class="row">
 
 								                                <div class="col-md-12">
-								                        						<h2>Sponser A Child with <span style="color: #7F1F21;">Tamana</span></h2>
+								                        						<h2>Sponsor A Child with <span style="color: #7F1F21;">Tamana</span></h2>
 								                                    <p>
 																											Could you have ever imagined that the aspirations of special individual would be so simple and so unique? We never expect our normal children to have aspirations like being able to tie a shoe lace on their own, being able to feed them selves or dress them selves. These things, which we take for granted in our normal children, a special child has to practice laboriously to achieve under professional supervision.
 
@@ -396,7 +390,7 @@ li.fancyTab.active a {
 																										<section class="Join-Volunteer-Pages">
 																												<div class="Theme-title text-center">
 																													<h2>Please Fill Up The Form</h2>
-																													<h6>Sponser A Child Form</h6>
+																													<h6>Sponsor A Child Form</h6>
 																												</div>
 																												<form action="#">
 																													<div class="row">
@@ -433,7 +427,7 @@ li.fancyTab.active a {
 																														</div> <!-- /.col -->
 																														<div class="col-md-4 col-sm-6 col-xs-12">
 																															<div class="single-input">
-																																<input type="text" placeholder="Sponsership Amount *">
+																																<input type="text" placeholder="Sponsorship Amount *">
 																															</div> <!-- /.single-input -->
 																														</div> <!-- /.col -->
 																														<div class="col-md-4 col-sm-6 col-xs-12">

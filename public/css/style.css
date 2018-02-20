@@ -235,12 +235,11 @@ img,
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
-.margin-top {margin-top: 50px !important;}
-.margin-bottom {margin-bottom: 120px !important;}
+
 .margin-top-0 {margin-top: 0 !important;}
 .margin-bottom-0 {margin-bottom: 0 !important;}
-.padding-top-0 {padding-top: 0 !important;}
-.padding-bottom-0 {padding-bottom: 0 !important;}
+.padding-top-0 {padding-top: 20 !important;}
+.padding-bottom-0 {padding-bottom: 20 !important;}
 /**============= Theme title ===============**/
 .Theme-title h2 {font-weight: 700;}
 .Theme-title h6 {font-weight: 700; color: #7F1F21; line-height: 55px;}

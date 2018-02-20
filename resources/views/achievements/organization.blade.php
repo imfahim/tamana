@@ -2,7 +2,7 @@
 
 @section('content')
 			<section>
-				<div class="Theme-Inner-Banner inner-banner-bg-img-one">
+				<div class="Theme-Inner-Banner inner-banner-bg-img-one" >
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
@@ -18,7 +18,7 @@
 					</div> <!-- /.banner-opacity -->
 				</div> <!-- /.Theme-Inner-Banner -->
 			</section>
-
+			<br>
 			<!-- Blog Details ____________________________ -->
 			<section class="">
 				<div class="container">

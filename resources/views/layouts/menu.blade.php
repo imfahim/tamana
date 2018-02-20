@@ -19,7 +19,7 @@
           <ul class="nav navbar-nav">
             <li class="active current-page-item Active-manu"><a href="/">Home</a></li>
 
-            <li class="dropdown-holder"><a href="#sec-centres">Centres</a>
+            <li class="dropdown-holder"><a href="{{route('index')}}#sec-centres">Centres</a>
               <ul class="sub-menu">
                 <li><a href="{{route('Autism.centre')}}" class="tran3s">Autism Center</a></li>
                 <li><a href="{{route('SpecialEducation.centre')}}" class="tran3s">Special Education Center</a></li>
@@ -38,13 +38,13 @@
             <li class="dropdown-holder"><a href="#">Achievements</a>
               <ul class="sub-menu">
                 <li><a href="{{route('Organization.achievements')}}" class="tran3s">Organization</a></li>
-                <li><a href="{{route('Organization.students-alumni')}}" class="tran3s">Students-Alumni</a></li>
-                <li><a href="{{route('Organization.media_coverage')}}" class="tran3s">Media Coverage</a></li>
-                <li><a href="#" class="tran3s">Recognition</a></li>
+                <li><a href="{{route('students-alumni.achievements')}}" class="tran3s">Students-Alumni</a></li>
+                <li><a href="{{route('media_coverage.achievements')}}" class="tran3s">Media Coverage</a></li>
+                <li><a href="{{route('recognition.achievements')}}" class="tran3s">Recognition</a></li>
               </ul>
             </li>
 
-            <li class="dropdown-holder"><a href="#sec-events">Events</a></li>
+            <li class="dropdown-holder"><a href="{{route('index')}}/#sec-events">Events</a></li>
 
             <li class="dropdown-holder"><a href="#">About Us</a>
               <ul class="sub-menu">
