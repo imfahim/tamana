@@ -55,7 +55,7 @@
         <div class="col-md-5 col-xs-12">
           <div class="footer-containt-item-text-and-logo">
             <div class="footer-logo"><a href="#"><img src="{{ asset('images/logo/theme-main-logo-2.png')}}" alt="logo"></a></div>
-            <p>We offer a suite of services and support to help minimise the impact of multiple sclerosis on your life and ensure your journey is not undertaken alone, while the search for a cure continues</p>
+            <p>Tamana is a non-profit voluntary organization registered in March 1984, created solely with the purpose of helping the cause of mentally challenged, multiply disabled and autistic.</p>
           </div> <!-- /.footer-containt-item-text-and-logo -->
         </div> <!-- /.col -->
         <div class="col-md-7 col-xs-12">
@@ -104,11 +104,9 @@
           <li><span><a href="{{ route('index') }}">Tamana</a> All Rights Reserved</span></li>
         </ul> <!-- /.footer-bottom-left-said -->
         <ul class="footer-bottom-right-said">
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/tamana.ngo"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/tamanango"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCZY4IlUaKXwTZ7BHIWwNQQA"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
         </ul> <!-- /.footer-bottom-right-said -->
       </div> <!-- /.clear-fix -->
     </div> <!-- /.container -->

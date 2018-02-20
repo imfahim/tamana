@@ -43,15 +43,14 @@
       <div class="clear-fix">
         <ul class="float-left top-header-left">
           <li><a href="{{route('pages.volunteer')}}"><i class="fa fa-hand-paper-o" aria-hidden="true"></i> Volunteer</a></li>
-					<li><a href="{{route('pages.vacancy')}}"><i class="fa fa-briefcase" aria-hidden="true"></i> Vacancy</a></li>
+					<li><a href="{{route('pages.vacancy')}}"><i class="fa fa-briefcase" aria-hidden="true"></i> Vacancies</a></li>
           <li><a href="{{route('pages.contact')}}"><i class="fa fa-mobile" aria-hidden="true"></i> Contact</a></li>
         </ul> <!-- /.top-header-left -->
         <ul class="float-right top-header-right">
           <li class="Our-Help"><a href="#">Support Autism</a></li>
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/tamana.ngo"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/tamanango"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCZY4IlUaKXwTZ7BHIWwNQQA"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
         </ul> <!-- /.top-header-right -->
       </div> <!-- /.clear-fix -->
     </div> <!-- /.container -->
