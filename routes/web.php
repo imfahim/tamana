@@ -54,3 +54,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/events', 'EventsController@index')->name('events');
+
+
+
+// Panels
+Route::resource('/products', 'Panel\ProductController');
