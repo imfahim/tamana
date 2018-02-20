@@ -148,75 +148,6 @@
 				</div> <!-- /.You-Can-Bring-Item-Wrapper -->
 			</section> <!-- /.You-Can-Bring -->
 
-			<!-- You Can Bring ____________________________ -->
-
-
-
-			<!-- Urgent Program ____________________________ -->
-			<div id="sec-eic">&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
-			<section class="Urgent-Program">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-xs-12">
-							<div class="Urgent-Program-Item">
-								<center><h2>Early Intervention</h2></center>
-								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
-								<ul class="Urgent-Location">
-									<li>Autism Centre</li>
-									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
-									<li>9:30AM-12:30PM</li>
-								</ul> <!-- /.Urgent-Location -->
-
-								<div class="Urgent-Massage text-center">
-									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
-								</div> <!-- /.Urgent-Massage -->
-							</div> <!-- /.Urgent-Program-Item -->
-						</div> <!-- /.col -->
-						<div class="col-md-6 col-xs-12">
-							<div class="Urgent-Program-Img">
-								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
-							</div> <!-- /.Urgent-Program-Img -->
-						</div> <!-- /.col -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</section> <!-- /.Urgent-Program -->
-
-
-			<section id="sec-dc" class="Urgent-Program">
-				<br><br><br><br>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-xs-12">
-							<div class="Urgent-Program-Img">
-								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
-							</div> <!-- /.Urgent-Program-Img -->
-						</div> <!-- /.col -->
-
-
-						<div class="col-md-6 col-xs-12">
-							<div class="Urgent-Program-Item">
-								<center><h2>Diagnostic Centre</h2></center>
-								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
-								<ul class="Urgent-Location">
-									<li>Autism Centre</li>
-									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
-									<li>9:30AM-12:30PM</li>
-								</ul> <!-- /.Urgent-Location -->
-
-								<div class="Urgent-Massage text-center">
-									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
-								</div> <!-- /.Urgent-Massage -->
-							</div> <!-- /.Urgent-Program-Item -->
-						</div> <!-- /.col -->
-
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</section> <!-- /.Urgent-Program -->
-
-
-
-
-
 
 			<!-- Company History _________________________________ -->
 			<!-- <section class="company-history-section">
@@ -401,10 +332,71 @@
 								</div> <!-- /.Causes-Item -->
 							</div> <!-- /.item -->
 						</div> <!-- /.row -->
-						<a href="causes.html" class="hvr-float-shadow">Load more Services</a>
+						<a href="#sec-eic" class="hvr-float-shadow">Load more Services</a>
 					</div> <!-- /.Rcent-Causes-Item-Wrapper -->
 				</div> <!-- /.container -->
 			</section> <!-- /.Rcent-Causes-Section -->
+
+      <!-- Urgent Program ____________________________ -->
+			<div id="sec-eic">&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
+			<section class="Urgent-Program">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Item">
+								<center><h2>Early Intervention</h2></center>
+								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
+								<ul class="Urgent-Location">
+									<li>Autism Centre</li>
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
+									<li>9:30AM-12:30PM</li>
+								</ul> <!-- /.Urgent-Location -->
+
+								<div class="Urgent-Massage text-center">
+									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
+								</div> <!-- /.Urgent-Massage -->
+							</div> <!-- /.Urgent-Program-Item -->
+						</div> <!-- /.col -->
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Img">
+								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
+							</div> <!-- /.Urgent-Program-Img -->
+						</div> <!-- /.col -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section> <!-- /.Urgent-Program -->
+
+
+			<section id="sec-dc" class="Urgent-Program">
+				<br><br><br><br>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Img">
+								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
+							</div> <!-- /.Urgent-Program-Img -->
+						</div> <!-- /.col -->
+
+
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Item">
+								<center><h2>Diagnostic Centre</h2></center>
+								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
+								<ul class="Urgent-Location">
+									<li>Autism Centre</li>
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
+									<li>9:30AM-12:30PM</li>
+								</ul> <!-- /.Urgent-Location -->
+
+								<div class="Urgent-Massage text-center">
+									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
+								</div> <!-- /.Urgent-Massage -->
+							</div> <!-- /.Urgent-Program-Item -->
+						</div> <!-- /.col -->
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section> <!-- /.Urgent-Program -->
 
 
 
