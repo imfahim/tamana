@@ -15,7 +15,7 @@
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-          <a class="nav-link" href="charts.html">
+          <a class="nav-link" href="{{route('panel.category.index')}}">
             <i class="fa fa-fw fa-th"></i>
             <span class="nav-link-text">Categories</span>
           </a>
