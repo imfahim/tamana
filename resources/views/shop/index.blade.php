@@ -21,9 +21,13 @@
 				</div> <!-- /.Theme-Inner-Banner -->
 			</section>
 
+
 			<!-- Shop ____________________________ -->
 			<section class="Shop-Pages">
 				<div class="container">
+						<div class="panel panel-default">
+							<div class="panel-heading" style="background-color:#7F1F21;color:white;background-image: url('{{asset('images/shop-panel.JPG')}}');"><center>Tamana's Shop</center></div>
+							<div class="panel-body">
 					<div class="row">
 						<div class="col-lg-9 col-md-8 col-xs-12 float-right">
 							<div class="Shop-Item-Wrapper">
@@ -190,7 +194,10 @@
 							</div> <!-- /.Shop-Side-Bar -->
 						</div> <!-- /.col -->
 					</div> <!-- /.row -->
+				</div>
+			</div>
 				</div> <!-- /.container -->
+
 			</section> <!-- /.Shop-Pages -->
 
 @endsection
