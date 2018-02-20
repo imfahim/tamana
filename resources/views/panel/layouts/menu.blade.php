@@ -21,7 +21,7 @@
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="{{ route('products.index') }}">
             <i class="fa fa-fw fa-cube"></i>
             <span class="nav-link-text">Products</span>
           </a>
