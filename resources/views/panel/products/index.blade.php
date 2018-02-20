@@ -14,7 +14,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="pull-right">
-          <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Add Product</a>
+          <a href="{{ route('products.create') }}" class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Add Product</a>
         </div>
       </div>
     </div>
