@@ -20,7 +20,7 @@ class CreateProductsTable extends Migration
             $table->unsignedInteger('quantity');
             $table->double('price', 8, 2);
             $table->text('tags');
-            $table->json('options');
+            $table->text('options');
             $table->boolean('status')->default(true);
             $table->timestamps();
         });

@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
-
+Route::get('/webpanel','Panel\PanelController@index')->name('panel.index');
 Route::get('/Autism-Centre', 'CentreController@autism')->name('Autism.centre');
 Route::get('/Special-Education-Centre', 'CentreController@specialeducation')->name('SpecialEducation.centre');
 Route::get('/Shop', 'ShopController@index')->name('Shop.Index');
