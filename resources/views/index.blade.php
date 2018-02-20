@@ -148,6 +148,76 @@
 				</div> <!-- /.You-Can-Bring-Item-Wrapper -->
 			</section> <!-- /.You-Can-Bring -->
 
+			<!-- You Can Bring ____________________________ -->
+
+
+
+			<!-- Urgent Program ____________________________ -->
+			<div id="sec-eic">&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
+			<section class="Urgent-Program">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Item">
+								<center><h2>Early Intervention</h2></center>
+								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
+								<ul class="Urgent-Location">
+									<li>Autism Centre</li>
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
+									<li>9:30AM-12:30PM</li>
+								</ul> <!-- /.Urgent-Location -->
+
+								<div class="Urgent-Massage text-center">
+									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
+								</div> <!-- /.Urgent-Massage -->
+							</div> <!-- /.Urgent-Program-Item -->
+						</div> <!-- /.col -->
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Img">
+								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
+							</div> <!-- /.Urgent-Program-Img -->
+						</div> <!-- /.col -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section> <!-- /.Urgent-Program -->
+
+
+			<section id="sec-dc" class="Urgent-Program">
+				<br><br><br><br>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Img">
+								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
+							</div> <!-- /.Urgent-Program-Img -->
+						</div> <!-- /.col -->
+
+
+						<div class="col-md-6 col-xs-12">
+							<div class="Urgent-Program-Item">
+								<center><h2>Diagnostic Centre</h2></center>
+								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
+								<ul class="Urgent-Location">
+									<li>Autism Centre</li>
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
+									<li>9:30AM-12:30PM</li>
+								</ul> <!-- /.Urgent-Location -->
+
+								<div class="Urgent-Massage text-center">
+									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
+								</div> <!-- /.Urgent-Massage -->
+							</div> <!-- /.Urgent-Program-Item -->
+						</div> <!-- /.col -->
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section> <!-- /.Urgent-Program -->
+
+
+
+
+
+
 			<!-- Company History _________________________________ -->
 			<!-- <section class="company-history-section">
 				<div class="company-history-shape-img-top"><img src="{{ asset('images/shape/shape-1.png')}}" alt="shape-img"></div>--><!-- /.company-history-shape-img-top -->
@@ -331,71 +401,10 @@
 								</div> <!-- /.Causes-Item -->
 							</div> <!-- /.item -->
 						</div> <!-- /.row -->
-						<a href="#sec-eic" class="hvr-float-shadow">Load more Services</a>
+						<a href="causes.html" class="hvr-float-shadow">Load more Services</a>
 					</div> <!-- /.Rcent-Causes-Item-Wrapper -->
 				</div> <!-- /.container -->
 			</section> <!-- /.Rcent-Causes-Section -->
-
-      <!-- Urgent Program ____________________________ -->
-			<div id="sec-eic">&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
-			<section class="Urgent-Program">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-xs-12">
-							<div class="Urgent-Program-Item">
-								<center><h2>Early Intervention</h2></center>
-								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
-								<ul class="Urgent-Location">
-									<li>Autism Centre</li>
-									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
-									<li>9:30AM-12:30PM</li>
-								</ul> <!-- /.Urgent-Location -->
-
-								<div class="Urgent-Massage text-center">
-									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
-								</div> <!-- /.Urgent-Massage -->
-							</div> <!-- /.Urgent-Program-Item -->
-						</div> <!-- /.col -->
-						<div class="col-md-6 col-xs-12">
-							<div class="Urgent-Program-Img">
-								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
-							</div> <!-- /.Urgent-Program-Img -->
-						</div> <!-- /.col -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</section> <!-- /.Urgent-Program -->
-
-
-			<section id="sec-dc" class="Urgent-Program">
-				<br><br><br><br>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-xs-12">
-							<div class="Urgent-Program-Img">
-								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
-							</div> <!-- /.Urgent-Program-Img -->
-						</div> <!-- /.col -->
-
-
-						<div class="col-md-6 col-xs-12">
-							<div class="Urgent-Program-Item">
-								<center><h2>Diagnostic Centre</h2></center>
-								<p>Early intervention means doing things as early as possible to work on your child’s developmental, health and support needs.Early intervention services give specialised support to children and families in the early years (from birth to school entry). This support might include special education, therapy, counselling, service planning and help getting universal services like kindergarten and child care.</p>
-								<ul class="Urgent-Location">
-									<li>Autism Centre</li>
-									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Vasant Vihar,New Delhi.</li>
-									<li>9:30AM-12:30PM</li>
-								</ul> <!-- /.Urgent-Location -->
-
-								<div class="Urgent-Massage text-center">
-									<p>You can use early intervention services as well as services available to all children, such as child and family health services, kindergartens, community health centres, regional parenting services, child care services, play groups and occasional care.</p>
-								</div> <!-- /.Urgent-Massage -->
-							</div> <!-- /.Urgent-Program-Item -->
-						</div> <!-- /.col -->
-
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</section> <!-- /.Urgent-Program -->
 
 
 
@@ -487,50 +496,6 @@
 				</div> <!-- /.testimonial-opact -->
 			</section> <!-- /.testimonial-section -->
 
-      <br>
-
-			<!-- News Update _________________________________ -->
-			<!--<section class="news-update-section">
-				<div class="container">
-					<div class="Theme-title text-center">
-						<h2>News Update</h2>
-						<h6>Latest News</h6>
-					</div> --><!-- /.Theme-title -->
-
-					<!--<div class="row home-news-update-wrapper">
-						<div class="col-md-4 col-sm-6 col-xs-12">
-							<div class="home-news-update-item">
-								<div class="news-update-img"><img src="{{ asset('images/home/img-5.jpg')}}" alt="image"></div>--><!-- /.news-update-img -->
-								<!--<div class="news-update-text">
-									<span> <i class="fa fa-clock-o" aria-hidden="true"></i> March 4, 2017 1:10 pm</span>
-									<p>Monsoon floods: World Vision warns of spike in child</p>
-									<a href="blog-v1.html"><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn more</a>
-								</div>--> <!-- /.news-update-text -->
-							<!--</div>--> <!-- /.home-news-update-item -->
-						<!--</div>--> <!-- /.col -->
-						<!--<div class="col-md-4 col-sm-6 col-xs-12">
-							<div class="home-news-update-item">
-								<div class="news-update-img"><img src="{{ asset('images/home/img-6.jpg')}}" alt="image"></div>--><!-- /.news-update-img -->
-								<!--<div class="news-update-text">
-									<span> <i class="fa fa-clock-o" aria-hidden="true"></i> April 4, 2017 1:10 pm</span>
-									<p>Increase in heat-related illness for Iraqi children</p>
-									<a href="blog-v1.html"><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn more</a>
-								</div>--> <!-- /.news-update-text -->
-							<!--</div>--> <!-- /.home-news-update-item -->
-						<!--</div>--> <!-- /.col -->
-					<!--	<div class="col-md-4 col-xs-12">
-							<div class="home-news-update-item">
-								<div class="news-update-img"><img src="{{ asset('images/home/img-7.jpg')}}" alt="image"></div>--><!-- /.news-update-img -->
-								<!--<div class="news-update-text">
-									<span> <i class="fa fa-clock-o" aria-hidden="true"></i> May 4, 2017 1:10 pm</span>
-									<p>Charity fears that South Suda-nese refugee children</p>
-									<a href="blog-v1.html"><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn more</a>
-								</div> --><!-- /.news-update-text -->
-							<!--</div> --><!-- /.home-news-update-item -->
-						<!--</div>--> <!-- /.col -->
-					<!--</div>--> <!-- /.home-news-update-wrapper -->
-				<!--</div> --><!-- /.container -->
-			<!--</section>--> <!-- /.news-update-section -->
 @endsection
 
 @section('page-scripts')
@@ -544,5 +509,29 @@
 
 
   });
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
 </script>
 @endsection
