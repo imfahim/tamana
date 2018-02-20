@@ -8,9 +8,9 @@
 							<div class="banner-content">
 								<h1>ORGANISATIONAL ACHIEVEMENTS</h1>
 								<ul>
-									<li><a href="/">Home</a></li>
+									<li><a href="{{ route('index') }}">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="#">organisation Achievements</a></li>
+									<li><a href="{{ route('Organization.achievements') }}">organisation Achievements</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Need Our Help</a>
 							</div> <!-- /.banner-content -->

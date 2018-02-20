@@ -8,9 +8,9 @@
 							<div class="banner-content">
 								<h1>Students-Alumni ACHIEVEMENTS</h1>
 								<ul>
-									<li><a href="/">Home</a></li>
+									<li><a href="{{ route('index') }}">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="#">Students-Alumni Achievements</a></li>
+									<li><a href="{{ route('students-alumni.achievements') }}">Students-Alumni Achievements</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Need Our Help</a>
 							</div> <!-- /.banner-content -->

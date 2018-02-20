@@ -8,7 +8,7 @@
 							<div class="banner-content">
 								<h1>Recognition</h1>
 								<ul>
-									<li><a href="/">Home</a></li>
+									<li><a href="{{ route('index') }}">Home</a></li>
 									<li><span>-</span></li>
 									<li><a href="{{route('recognition.achievements')}}">Recognition</a></li>
 								</ul>

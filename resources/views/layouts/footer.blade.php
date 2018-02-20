@@ -87,9 +87,6 @@
               <div class="footer-containt-item">
                 <ul>
                   <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">404 Page</a></li>
-                  <li><a href="#">Coming Soon</a></li>
-                  <li><a href="#">About us</a></li>
                 </ul>
               </div> <!-- /.footer-containt-item -->
             </div> <!-- /.col -->
@@ -103,8 +100,8 @@
     <div class="container">
       <div class="clear-fix">
         <ul class="footer-bottom-left-said">
-          <li><span>Love <a href="#">Template_mr</a> ©2017,</span></li>
-          <li><span><a href="#">Chcharity</a> All Rights Reserved</span></li>
+          <li><span>Made By Love <a href="#">Tamana IT</a> &copy;<script>document.write(new Date().getFullYear())</script>,</span></li>
+          <li><span><a href="{{ route('index') }}">Tamana</a> All Rights Reserved</span></li>
         </ul> <!-- /.footer-bottom-left-said -->
         <ul class="footer-bottom-right-said">
           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
