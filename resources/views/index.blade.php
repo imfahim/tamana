@@ -26,7 +26,7 @@
 							<div class="container caption-v-two">
 							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Welcome to  <span>TAMANA<span></span></span> <!--<br>a gift for the future --></h1>
 							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Tamana is a non-profit voluntary organisation registered in March 1984, created solely with the purpose of helping the cause of mentally challenged, multiply disabled and autistic. Tamana is recognized by Ministry of Social Justice and Empowerment, Govt. of India, Department of Social Welfare; Govt. of NCT Delhi and is registered with the National Trust...</h6>
-								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Button</a>
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Learn More</a>
 								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" datsa-wow-delay="0.7s">Campaings</a>-->
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
@@ -36,7 +36,7 @@
 							<div class="container caption-v-two">
 							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Founder and Presidents Desk <!--<br>a gift for the future --></h1>
 							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s"> <blockquote class="blockquote blockquote-reverse" cite="#"><p class="mb-0" style="color:white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>  <footer class="blockquote-footer" style="color:#7F1F21">Someone famous in <cite title="Source Title">Source Title</cite></footer></blockquote></h6>
-								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Button</a>
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Learn More</a>
 								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" datsa-wow-delay="0.7s">Campaings</a>-->
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
@@ -46,16 +46,16 @@
 							<div class="container text-center">
 								<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">In Special Consultative Status with <br><span> United Nation's Economic and Social Council</span></h1>
 							   <!-- <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">join today</h6>-->
-								<a href="#" class="tran3s banner-button wow fadeInUp animated hvr-bounce-to-right" data-wow-delay="0.7s">Volunteer</a>
+								<a href="{{route('pages.volunteer')}}" class="tran3s banner-button wow fadeInUp animated hvr-bounce-to-right" data-wow-delay="0.7s">Volunteer</a>
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
 					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
-							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Donate to  <span>TAMANA<span></span></span> today <!--<br>a gift for the future --></h1>
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Donate to <span>TAMANA<span></span></span> today <!--<br>a gift for the future --></h1>
 							    <!--<h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>-->
-								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Donate Now</a>
+								<a href="{{route('donate.page')}}" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Donate Now</a>
 								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>-->
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
@@ -63,9 +63,9 @@
 					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
-							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Wish to  <span>Volunteer<span></span></span> <!--<br>a gift for the future --></h1>
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Wish to  <span>Volunteer?<span></span></span> <!--<br>a gift for the future --></h1>
 							    <!--<h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>-->
-								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Volunteer Now</a>
+								<a href="{{route('pages.volunteer')}}" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Volunteer Now</a>
 								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>-->
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
@@ -487,7 +487,7 @@
 				</div> <!-- /.testimonial-opact -->
 			</section> <!-- /.testimonial-section -->
 
-
+      <br>
 
 			<!-- News Update _________________________________ -->
 			<!--<section class="news-update-section">
