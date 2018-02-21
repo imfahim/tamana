@@ -21,7 +21,7 @@
 			<!-- Theme Main Banner ____________________________ -->
 			<section>
 				<div id="theme-main-banner">
-					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
+          <div data-src="{{ asset('images/main-banners/banner-8.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
 							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Welcome to  <span>TAMANA<span></span></span> <!--<br>a gift for the future --></h1>
@@ -31,7 +31,7 @@
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
-					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
+          <div data-src="{{ asset('images/main-banners/banner-slider-6.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
 							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Founder and Presidents Desk <!--<br>a gift for the future --></h1>
@@ -41,7 +41,7 @@
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
-					<div data-src="{{ asset('images/home/banner-slider-1.jpg')}}">
+          <div data-src="{{ asset('images/main-banners/banner-slider-5.jpg')}}">
 						<div class="camera_caption">
 							<div class="container text-center">
 								<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">In Special Consultative Status with <br><span> United Nation's Economic and Social Council</span></h1>
@@ -50,7 +50,7 @@
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
-					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
+          <div data-src="{{ asset('images/main-banners/banner-slider-7.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
 							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Donate to <span>TAMANA<span></span></span> today <!--<br>a gift for the future --></h1>
@@ -60,13 +60,43 @@
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
-					<div data-src="{{ asset('images/home/banner-slider-3.jpg')}}">
+          <div data-src="{{ asset('images/main-banners/banner-slider-6.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
 							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Wish to  <span>Volunteer?<span></span></span> <!--<br>a gift for the future --></h1>
 							    <!--<h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Making today feel better</h6>-->
 								<a href="{{route('pages.volunteer')}}" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Volunteer Now</a>
 								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" data-wow-delay="0.7s">Campaings</a>-->
+							</div> <!-- /.container -->
+						</div> <!-- /.camera_caption -->
+					</div>
+          <div data-src="{{ asset('images/main-banners/banner-slider-7.jpg')}}">
+						<div class="camera_caption">
+							<div class="container caption-v-two">
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Welcome to  <span>TAMANA<span></span></span> <!--<br>a gift for the future --></h1>
+							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Tamana is a non-profit voluntary organisation registered in March 1984, created solely with the purpose of helping the cause of mentally challenged, multiply disabled and autistic. Tamana is recognized by Ministry of Social Justice and Empowerment, Govt. of India, Department of Social Welfare; Govt. of NCT Delhi and is registered with the National Trust...</h6>
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Learn More</a>
+								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" datsa-wow-delay="0.7s">Campaings</a>-->
+							</div> <!-- /.container -->
+						</div> <!-- /.camera_caption -->
+					</div>
+          <div data-src="{{ asset('images/main-banners/banner-slider-5.jpg')}}">
+						<div class="camera_caption">
+							<div class="container caption-v-two">
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Welcome to  <span>TAMANA<span></span></span> <!--<br>a gift for the future --></h1>
+							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Tamana is a non-profit voluntary organisation registered in March 1984, created solely with the purpose of helping the cause of mentally challenged, multiply disabled and autistic. Tamana is recognized by Ministry of Social Justice and Empowerment, Govt. of India, Department of Social Welfare; Govt. of NCT Delhi and is registered with the National Trust...</h6>
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Learn More</a>
+								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" datsa-wow-delay="0.7s">Campaings</a>-->
+							</div> <!-- /.container -->
+						</div> <!-- /.camera_caption -->
+					</div>
+          <div data-src="{{ asset('images/main-banners/banner-slider-6.jpg')}}">
+						<div class="camera_caption">
+							<div class="container caption-v-two">
+							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Welcome to  <span>TAMANA<span></span></span> <!--<br>a gift for the future --></h1>
+							    <h6 class="wow fadeInUp animated" data-wow-delay="0.4s">Tamana is a non-profit voluntary organisation registered in March 1984, created solely with the purpose of helping the cause of mentally challenged, multiply disabled and autistic. Tamana is recognized by Ministry of Social Justice and Empowerment, Govt. of India, Department of Social Welfare; Govt. of NCT Delhi and is registered with the National Trust...</h6>
+								<a href="#" class="tran3s banner-button wow fadeInUp animated" data-wow-delay="0.7s">Learn More</a>
+								<!--<a href="#" class="tran3s banner-button-two wow fadeInUp animated" datsa-wow-delay="0.7s">Campaings</a>-->
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
@@ -82,26 +112,20 @@
 				<div class="You-Can-Bring-Title" style="padding:0px 0px 50px;">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-12"><center><br>
-							 <img src="{{asset('images/president.jpg')}}" class="img-circle" height="10%" width="10%" alt="Cinque Terre">
+							<div class="col-md-4"><center><br>
+							         <img src="{{asset('images/home/founder.jpg')}}" class="img-circle" style="border: 5px solid #7F1F21;" height="50%" width="50%" alt="Cinque Terre">
 							 <h6>Dr. (Mrs.) Shayama Chona </h6>
 								 <p style="border-left:0px">-Founder and President</p><br>
-								  <div class="well well-sm" style="border: solid 2px #7F1F21">
+               </div>
+               <div class="col-md-8">
+								  <div class="well well-sm" style="border: solid 2px #7F1F21; font-size: 20px">
 										<q><cite>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                      Three decades ago after the birth of my daughter Tamana, I had a dream to create a world of inclusion. It has taken 25 years of struggle by us to open the minds of Indian society to accept the disabled. As my daughter Tamana has grown into a well settled and independent adult, so has the organization. This growth has been nurtured by our optimism in drawing out the excellence and potential of each special child. We have observed that nothing is beyond them. They can walk the ramp, dance on stage and win medals at international sports events. They can also earn by creating art pieces and handicrafts, as well as work in offices, schools and shops.
 
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-
+                      Their smile tells us "I can do it, give me a chance but I need you" That is the truth. They need you, give them a hand. You give them an inch, they will run a mile.
 										</cite></q>
-									</div></center>
-						 </div>
+									</div>
+                </div>
 
 
 
@@ -120,7 +144,7 @@
 						<div class="col-md-4 col-sm-12">
 							<div class="Bring-Item text-center" >
 								<h3>AUTISM CENTRE</h3>
-								<center><img style="border-style: solid; border-width: medium; border-color: white" src="{{ asset('images/home/img-1.jpg')}}" alt="image"></center>
+                <center><div class="col-md-12"><img style="width:60%" src="{{ asset('images/centres/1.jpg')}}" alt="image"></div></center>
 								<br>
 								<p>Tamana was the first institution to recognize autism as a disability distinct from others and to start programs for autistic spectrum disorder in 1985...</p>
 								<a href="{{route('Autism.centre')}}" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
@@ -129,7 +153,7 @@
 						<div class="col-md-4 col-sm-12">
 							<div class="Bring-Item bring-item-bg-two text-center">
 								<h3 style="font-size: 27px;">SPECIAL EDUCATION CENTRE</h3>
-								<center><img style="border-style: solid; border-width: medium; border-color: white" src="{{ asset('images/home/img-1.jpg')}}" alt="image"></center>
+                <center><div class="col-md-12"><img style="width:60%" src="{{ asset('images/centres/2.jpg')}}" alt="image"></div></center>
 								<br>
 								<p>The first branch of Tamana started in 1984 in tent. The school was shifted to present premises on 12th Feb. 1992 after inauguration by late lady Diana...</p>
 								<a href="{{route('SpecialEducation.centre')}}" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
@@ -138,9 +162,9 @@
 						<div class="col-md-4 col-sm-12">
 							<div class="Bring-Item text-center">
 								<h3 style="font-size: 28px;">SKILL DEVELOPMENT CENTRE</h3>
-								<center><img style="border-style: solid; border-width: medium; border-color: white" src="{{ asset('images/home/img-1.jpg')}}" alt="image"></center>
+								<center><div class="col-md-12"><img style="width:60%" src="{{ asset('images/centres/skl/banner.jpg')}}" alt="image"></div></center>
 								<br>
-								<p>Nai Disha, as the same name signifies, is a new direction taken by Tamana. Nai Disha was conceived with the realization...</p>
+								<p>Nai Disha, as the same name signifies, is a new direction taken by Tamana. Nai Disha was conceived with the realization that the young adults at Tamana have to be equipped...</p>
 								<a href="{{route('SkillDevelopment.centre')}}" class="a-comon hvr-bounce-to-right" style="margin-Top: 50px;">See More</a>
 							</div> <!-- /.Bring-Item -->
 						</div> <!-- /.col -->
@@ -303,7 +327,7 @@
 						<div id="Rcent-Causes-Slider" class="owl-carousel owl-theme">
 							<div class="item">
 								<div class="Causes-Item">
-									<div class="Causes-Img"><img src="{{ asset('images/home/img-1.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
+                  <div class="Causes-Img"><img src="{{ asset('images/nios.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text" style="height:100%;">
 										<h3>Apna Fun Club</h3>
 										<p>TOBY PLAYPAD, IBM Research, NION Research, MoSJE Research, HOPE,...</p>
@@ -313,7 +337,7 @@
 							</div> <!-- /.item -->
 							<div class="item">
 								<div class="Causes-Item">
-									<div class="Causes-Img"><img src="{{ asset('images/home/img-2.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
+                  <div class="Causes-Img"><img src="{{ asset('images/nios.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text" style="height:100%">
 										<h3>Boy's Hostel</h3>
 										<p>Three separate centres - one at each branch of Tamana - are run by a multi...</p>
@@ -323,7 +347,7 @@
 							</div> <!-- /.item -->
 							<div class="item">
 								<div class="Causes-Item">
-									<div class="Causes-Img"><img src="{{ asset('images/home/img-3.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
+									<div class="Causes-Img"><img src="{{ asset('images/nios.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text" style="height:100%">
 										<h3>NIOS</h3>
 										<p>Situated on the premises of Tamana's Vocational Training Center - Nai Disha...</p>
@@ -359,7 +383,7 @@
 						</div> <!-- /.col -->
 						<div class="col-md-6 col-xs-12">
 							<div class="Urgent-Program-Img">
-								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
+								<img src="{{ asset('images/early_int.jpg')}}" alt="image">
 							</div> <!-- /.Urgent-Program-Img -->
 						</div> <!-- /.col -->
 					</div> <!-- /.row -->
@@ -373,7 +397,7 @@
 					<div class="row">
 						<div class="col-md-6 col-xs-12">
 							<div class="Urgent-Program-Img">
-								<img src="{{ asset('images/home/img-8.jpg')}}" alt="image">
+								<img src="{{ asset('images/diag_cen.jpg')}}" alt="image">
 							</div> <!-- /.Urgent-Program-Img -->
 						</div> <!-- /.col -->
 
@@ -411,14 +435,14 @@
 
 					<ul class="Events-Item-Wrapper">
 						<li class="clear-fix">
-							<div class="events-img"><img src="{{ asset('images/home/img-4.jpg')}}" alt="image"></div><!-- /.events-img -->
+							<div class="events-img"><img src="{{ asset('images/home/fashion.jpg')}}" alt="image"></div><!-- /.events-img -->
 							<div class="day">
-								<h2>23</h2>
-								<h6>NOVEMBER <br> Monday</h6>
+								<h2>27</h2>
+								<h6>August <br> Sunday</h6>
 							</div> <!-- /.day -->
 							<div class="events-text">
-								<h4>Sharing seeds, sparking connection</h4>
-								<p><i>24 December 2017, 08:00 - 27 December 2017, 00:00</i> Brooklyn, NY 10036 New York, NY 10036 New York, United States</p>
+								<h4>Tamana Fashion Show</h4>
+								<p><i>27 August 2017, 19:00 - 22:00</i> <br>Hyatt Regancy Ballroom, New Delhi, Delhi, India</p>
 							</div> <!-- /.events-text -->
 							<a href="{{route('events')}}"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</li> <!-- /.clear-fix -->

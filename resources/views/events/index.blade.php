@@ -337,19 +337,19 @@ li.fancyTab.active a {
                                         <div class="row">
 
                                               <div class="col-md-12">
-                                                  <ul class="Events-Item-Wrapper">
-                                                    <li class="clear-fix">
-                                                      <div class="events-img"><img src="{{ asset('images/home/img-4.jpg')}}" alt="image"></div><!-- /.events-img -->
-                                                      <div class="day">
-                                                        <h2>23</h2>
-                                                        <h6>NOVEMBER <br> Monday</h6>
-                                                      </div> <!-- /.day -->
-                                                      <div class="events-text">
-                                                        <h4>Sharing seeds, sparking connection</h4>
-                                                        <p><i>24 December 2017, 08:00 - 27 December 2017, 00:00</i> Brooklyn, NY 10036 New York, NY 10036 New York, United States</p>
-                                                      </div> <!-- /.events-text -->
-                                                    </li> <!-- /.clear-fix -->
-                                                  </ul>
+                                                <ul class="Events-Item-Wrapper">
+                                                  <li class="clear-fix">
+                                                    <div class="events-img"><img src="{{ asset('images/home/img-4.jpg')}}" alt="image"></div><!-- /.events-img -->
+                                                    <div class="day">
+                                                      <h2>27</h2>
+                                                      <h6>August <br> Sunday</h6>
+                                                    </div> <!-- /.day -->
+                                                    <div class="events-text">
+                                                      <h4>Tamana Fashion Show</h4>
+                                                      <p><i>27 August 2017, 19:00 - 22:00</i> <br>Hyatt Regancy Ballroom, New Delhi, Delhi, India</p>
+                                                    </div> <!-- /.events-text -->
+                                                  </li> <!-- /.clear-fix -->
+                                                </ul> <!-- /.Events-Item-Wrapper -->
 
                                                   <ul class="Events-Item-Wrapper">
                                                     <li class="clear-fix">

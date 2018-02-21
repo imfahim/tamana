@@ -23,6 +23,10 @@ class ShopController extends Controller
       $categories=DB::table('categories')->get();
         return view('shop.index')->withCategories($categories);;
     }
+    public function cart()
+    {
+      return view('shop.cart');
+    }
 
     /**
      * Show the form for creating a new resource.

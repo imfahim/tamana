@@ -5,26 +5,26 @@
       <div id="Children-Care-List-Slider" class="owl-carousel owl-theme">
         <div class="item">
           <div class="text-center list-item">
-            <i class="flaticon-handshake"></i>
-            <h6><a href="#">Children’s Care</a></h6>
+            <i class="fa fa-shopping-cart"></i>
+            <h6><a href="{{route('Shop.Index')}}">Shop</a></h6>
           </div> <!-- /.list-item -->
         </div> <!-- /.item -->
         <div class="item">
           <div class="text-center list-item">
             <i class="flaticon-donation-1"></i>
-            <h6><a href="#">Donate</a></h6>
+            <h6><a href="{{route('donate.page')}}">Donate</a></h6>
           </div> <!-- /.list-item -->
         </div> <!-- /.item -->
         <div class="item">
           <div class="text-center list-item">
-            <i class="flaticon-donation"></i>
-            <h6><a href="#">Volunteer</a></h6>
+            <i class="fa fa-hand-paper-o"></i>
+            <h6><a href="{{route('pages.volunteer')}}">Volunteer</a></h6>
           </div> <!-- /.list-item -->
         </div> <!-- /.item -->
         <div class="item">
           <div class="text-center list-item">
-            <i class="flaticon-donation-2"></i>
-            <h6><a href="#">Protect Planet</a></h6>
+            <i class="fa fa-envelope-o"></i>
+            <h6><a href="#">Mail</a></h6>
           </div> <!-- /.list-item -->
         </div> <!-- /.item -->
       </div> <!-- / #Children-Care-List-Slider -->
@@ -63,30 +63,36 @@
             <div class="col-xs-4 footer-containt-width">
               <div class="footer-containt-item">
                 <ul>
-                  <li><a href="#">Donate</a></li>
+                  <li><a href="#">Centre</a></li>
+                  <li><a href="#">Training</a></li>
+                  <li><a href="#">Research</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Achievements</a></li>
                   <li><a href="#">Events</a></li>
-                  <li><a href="#">Interpreter Service</a></li>
-                  <li><a href="#">Archives</a></li>
-                  <li><a href="#">Apply to volunteer</a></li>
-                  <li><a href="#">Privacy</a></li>
                 </ul>
               </div> <!-- /.footer-containt-item -->
             </div> <!-- /.col -->
             <div class="col-xs-4 footer-containt-width">
               <div class="footer-containt-item">
                 <ul>
-                  <li><a href="#">Who we are</a></li>
+                  <li><a href="#">About Us</a></li>
                   <li><a href="#">Shop</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Certifications</a></li>
+                  <li><a href="#">Vacancies</a></li>
                   <li><a href="#">News</a></li>
+                  <li><a href="{{asset('http://mail.tamana.org/bizmail/login')}}">Mail Box</a></li>
                 </ul>
               </div> <!-- /.footer-containt-item -->
             </div> <!-- /.col -->
             <div class="col-xs-4 footer-containt-width">
               <div class="footer-containt-item">
                 <ul>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="{{route('pages.contact')}}">Contact Us</a></li>
+                  <li><p style="color: white; font-size: 12px">Head office <br>
+                    C-10/8, Vasant Vihar
+                    New Delhi - 57<br>
+                    Phone: +91-11-26148269/<br>26151587<br>
+                    Telefax: +91-11-26148269<br>
+                    Email:info@tamana.org</p></li>
                 </ul>
               </div> <!-- /.footer-containt-item -->
             </div> <!-- /.col -->

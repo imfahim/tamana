@@ -3,7 +3,7 @@
 @section('content')
 <!-- Theme Inner Banner ____________________________ -->
 			<section>
-				<div class="Theme-Inner-Banner inner-banner-bg-img-one" style="background: url({{asset('images/img/AutismCenter.gif')}}) no-repeat center center;background-size: cover;background-attachment: fixed;">
+				<div class="Theme-Inner-Banner inner-banner-bg-img-one" style="background: url({{asset('images/centres/1.JPG')}}) no-repeat center center;background-size: cover;background-attachment: fixed;">
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">

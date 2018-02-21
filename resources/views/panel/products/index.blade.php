@@ -32,7 +32,7 @@
               <tr>
                 <th>Name</th>
                 <th>Quantity</th>
-                <th>Price (₹)</th>
+                <th>Price (&#8377;)</th>
                 <th>Status</th>
                 <th>Options</th>
               </tr>
@@ -41,7 +41,7 @@
               <tr>
                 <th>Name</th>
                 <th>Quantity</th>
-                <th>Price (₹)</th>
+                <th>Price (&#8377;)</th>
                 <th>Status</th>
                 <th>Options</th>
               </tr>
@@ -51,7 +51,7 @@
                 <tr>
                   <td>{{ $product->name }}</td>
                   <td>{{ $product->quantity }}</td>
-                  <td>₹ {{ $product->price }}</td>
+                  <td>&#8377; {{ $product->price }}</td>
                   <td>{{ $product->status }}</td>
                   <td>
                     <div class="row">

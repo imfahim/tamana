@@ -3,7 +3,7 @@
 @section('content')
 <!-- Theme Inner Banner ____________________________ -->
 			<section>
-				<div class="Theme-Inner-Banner inner-banner-bg-img-one">
+				<div class="Theme-Inner-Banner inner-banner-bg-img-one" style="background: url({{asset('images/centres/2.JPG')}}) no-repeat center center;background-size: cover;background-attachment: fixed;">
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">

@@ -3,7 +3,7 @@
 @section('content')
 <!-- Theme Inner Banner ____________________________ -->
 			<section>
-				<div class="Theme-Inner-Banner inner-banner-bg-img-one">
+				<div class="Theme-Inner-Banner inner-banner-bg-img-one" style="background: url({{asset('images/research/banner.JPG')}}) no-repeat center center;background-size: cover;background-attachment: fixed;">
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
@@ -42,8 +42,16 @@
         <div class="panel panel-default">
           <div class="panel-heading" style="background-color:#7F1F21;color:white"><center><strong>Technology Projects</strong></center></div>
           <div class="panel-body">
-            <h6 style="color:#7F1F21"> HOPE (Kinect based application for children with special needs)</h6><br>
-            <p> Based on the success of the research with IBM, Tamana developed a prototype application on the Kinect aimed at enhancing motor coordination, joint attention and cognitive skills of children with autism. The prototype was awarded by NASSCOM at its Social Innovation Forum 2015 for its ICT based social innovation. The goal of the application is also to invite developers in India to work on the Kinect for enhancing cognition and assisting in improving the Fine/Gross motor skills of Individuals with special needs. </p><br><br>
+            <div class="col-md-6">
+						<h6 style="color:#7F1F21"> HOPE (Kinect based application for children with special needs)</h6><br>
+            <p> Based on the success of the research with IBM, Tamana developed a prototype application on the Kinect aimed at enhancing motor coordination, joint attention and cognitive skills of children with autism. The prototype was awarded by NASSCOM at its Social Innovation Forum 2015 for its ICT based social innovation. The goal of the application is also to invite developers in India to work on the Kinect for enhancing cognition and assisting in improving the Fine/Gross motor skills of Individuals with special needs. </p>
+						</div>
+						<div class="col-md-6">
+							<center><img src="{{asset('images/research/HOPE.JPG')}}" style="width: 50%"></center>
+						</div>
+						<br><br>
+
+
             <h6 style="color:#7F1F21">  Google for Education</h6><br>
             <p> Tamana recently became the first special school to be enrolled in Google for Education in India. Google Apps for Education is a suite of software programs designed for structuring the school structure, academics and curriculum. </p><br><br>
             <h6 style="color:#7F1F21"> IT Skills Training Programme</h6><br>

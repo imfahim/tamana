@@ -3,7 +3,7 @@
 @section('content')
 <!-- Theme Inner Banner ____________________________ -->
 			<section>
-				<div class="Theme-Inner-Banner inner-banner-bg-img-one">
+				<div class="Theme-Inner-Banner inner-banner-bg-img-one" style="background: url({{asset('images/centres/skl/banner.JPG')}}) no-repeat center center;background-size: cover;background-attachment: fixed;">
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
@@ -34,6 +34,16 @@
 						 <h5 style="color:#7F1F21">SPECIFIC OPTIONS INCLUDE THE FOLLOWING:</h5><br>
 						 <h6>Textiles Printing</h6><br>
 						  <p>Over the years this unit has grown into a sheltered workshop catering to orders round the year. Young adults here are trained on every aspect of screen printing, block printing tie and dye -starting from selecting the kind of materiel used for mixing of colors, printing, dying and curing of all the items made. A wide range of products are designed in this unit- silk / chiffon block printed scarves, kurtas, skirts and coasters; screen printed hand towels, T- shirts, table cloths, tea cozies; block printed and tie and dye dupattas.<br><br>
+								<div class="container">
+								<div class="col-md-6">
+									<center><img src="{{asset('images/centres/skl/tp1.JPG')}}" style="width: 100%"></center>
+								</div>
+								<div class="col-md-6">
+									<center><img src="{{asset('images/centres/skl/tp2.JPG')}}" style="width: 100%"></center>
+								</div>
+							</div>
+							<br>
+
 							</p><h6> Office skill management </h6><br>
 							 <p>Wherein depending on the competencies, a student is trained in office skills like typing, filing, photocopying, simple banking operations, stock-taking and answering phone calls.<br>
 							  Apart from this a computer centre at the school functions to equip the young adult with secretarial and accounting training for possible job placement besides enhancing their thinking skills and reasoning ability. This centre models the path for awareness, exploration, preparation, placement and follow up.<br><br>
@@ -44,9 +54,13 @@
 										 <p>The world is going ecofriendly and we wanted to the cause, thus started the concept of recycling unit. Here students are involved in tearing the newspaper and other rough paper are used at school. The student’s there by learns to make hand made papers. which are used for selling, making files, folders and other products.<br><br>
 									 </p><h6>Clay Modeling</h6><br>
 											 <p>Pottery has become a very popular in the present day world as a hobby and as a subject because of its therapeutic nature and educative value. Here the students learn to kneed the clay, mould it and give the unique designs. Gradually they are picking up the dynamics of the product and its usefulness at home and in the market.<br><br>
-										 </p><h6>Baking</h6><br>
-											  <p>Baking (bread, cakes biscuits) is a simple cooking activity and after the process is broken into simple steps (task analysis) like identifying ingredients, weighing the ingredients, mixing, transferring to moulds, baking, decorating, packing and making the bills. Technological advancements have made the process simpler as now state of the art baking equipment are available which are easily operable by a single button and simplest of instructions.  Additionally baked products have a good market in Indian urban areas and are fast moving products. The sales of products help us in raising funds for our organization and providing stipend to students who train in it.  Thus, leading to greater self-sufficiency at student and institutional level. At present there are 12 students working in our bakery unit. A special educator and a baker train these students.<br><br>
-											</p><h6>File Making </h6><br>
+										 </p>
+										 <div class="col-md-6 col-xs-12">
+										 <h6>Baking</h6><br>
+											  <p>Baking (bread, cakes biscuits) is a simple cooking activity and after the process is broken into simple steps (task analysis) like identifying ingredients, weighing the ingredients, mixing, transferring to moulds, baking, decorating, packing and making the bills. Technological advancements have made the process simpler as now state of the art baking equipment are available which are easily operable by a single button and simplest of instructions.  Additionally baked products have a good market in Indian urban areas and are fast moving products. The sales of products help us in raising funds for our organization and providing stipend to students who train in it.  Thus, leading to greater self-sufficiency at student and institutional level. At present there are 12 students working in our bakery unit. A special educator and a baker train these students.<br><br></p></div>
+													<div class="col-md-6 col-xs-12"><center><img src="{{asset('images/centres/skl/bake.JPG')}}" style="width: 75%"></center></div><br>
+
+											<div class="col-md-12"><h6>File Making </h6><br>
 												  <p>A new vocation has been introduced at Nai Disha Vocational Center -manufacturing Cobra office files. This unit was set up keeping in mind our philosophy of introducing vocations which can easily be learned by our students and the end product has a demand in the market. The fact that the machines are manually operated makes the learning accident free. The file making process has been broken into simple sequences. A core group of 9 students have been selected to make the files. The process of file making involves cutting, creasing, putting rivets, moulding the edges and printing. We hope to cater to the offices, nearby markets and schools. As this unit is simple in its functionality, we hope our young adults may open up a sheltered unit later in life.<br><br>
 													 Other skills that are taught are - <br>
 
@@ -56,7 +70,7 @@
             &emsp;&emsp;&#9673;&nbsp;Gardening<br>
 						&emsp;&emsp;&#9673;&nbsp;Beauty culture<br>
 						&emsp;&emsp;&#9673;&nbsp;Tailoring<br>
-          </p>
+          </p></div>
           </div>
         </div>
         <div class="panel panel-default">
