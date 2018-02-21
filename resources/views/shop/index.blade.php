@@ -159,14 +159,9 @@
 								</form> <!-- /form -->
 								<h4>Shop Categories :</h4>
 								<ul class="Light-Shop">
-									<li><a href="#">Light Shop</a></li>
-									<li><a href="#">Cloth</a></li>
-									<li><a href="#">LED</a></li>
-									<li><a href="#">Technology</a></li>
-									<li><a href="#">Electronic</a></li>
-									<li><a href="#">Design</a></li>
-									<li><a href="#">User Experience</a></li>
-									<li><a href="#">Charity</a></li>
+									@foreach($categories as $category)
+									<li><a href="#">{{$category->name}}</a></li>
+									@endforeach
 								</ul> <!-- /.Light-Shop -->
 								<h4>Popular Product</h4>
 								<ul class="Popular-Product">
