@@ -27,7 +27,7 @@
       <div class="card-body">
         @if($products)
         <div class="table-responsive">
-          <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+          <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" data-form="deleteForm">
             <thead>
               <tr>
                 <th>Name</th>
@@ -54,8 +54,26 @@
                   <td>₹ {{ $product->price }}</td>
                   <td>{{ $product->status }}</td>
                   <td>
-                    <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Edit</a>
-                    <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-close"></i> Delete</a>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Edit</a>
+                      </div>
+                      <div class="col-md-2">
+                        <form class="form-delete" method="POST" action="{{ route('products.destroy', [$product->id]) }}">
+    											{{ csrf_field() }}
+    											<input type="hidden" name="_method" value="delete" />
+    											<input type="hidden" name="id" value="{{ $product->id }}" />
+                          <button type="submit" class="btn btn-danger btn-sm">
+                              <i class="fa fa-close"></i> Delete
+                          </button>
+    										</form>
+                      </div>
+                    </div>
+
+
+
+
+                    <!--<a href="#" class="btn btn-sm btn-danger"><i class="fa fa-close"></i> Delete</a>-->
                   </td>
                 </tr>
               @endforeach
@@ -72,4 +90,21 @@
   </div>
   <!-- /.container-fluid-->
   <!-- /.content-wrapper-->
+
+  <!-- Confirmation Modal Box -->
+  @include('panel.layouts.modal')
+@endsection
+
+@section('page-scripts')
+  <script>
+  // For Deletion Confirmation Modal
+  $('table[data-form="deleteForm"]').on('click', '.form-delete', function(e){
+      e.preventDefault();
+      var $form=$(this);
+      $('#confirm').modal({ backdrop: 'static', keyboard: false })
+          .on('click', '#delete-btn', function(){
+              $form.submit();
+          });
+  });
+  </script>
 @endsection

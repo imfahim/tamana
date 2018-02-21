@@ -1,16 +1,23 @@
-@if (Session::has('success'))\
-    <strong>Success !</strong> {{ Session::get('success') }}
-@endif
-@if (Session::has('fail'))
-    <strong>Failed !</strong> {{ Session::get('fail') }}
+@if (Session::has('success'))
+  <div class="alert alert-success alert-dismissable fade in">
+    <button type="button" aria-hidden="true" data-dismiss="alert" class="close btn btn-xs">×</button>
+    <span><b><i class="material-icons">done</i>  Success - </b> {{ Session::get('success') }}</span>
+  </div>
 @endif
 
-@if (Session::has('info'))
-    <strong>Note !</strong> {{ Session::get('info') }}
+@if (Session::has('fail'))
+  <div class="alert alert-danger alert-dismissable fade in">
+    <button type="button" aria-hidden="true" data-dismiss="alert" class="close btn btn-xs">×</button>
+    <span>
+        <b><i class="material-icons">error</i>  Failed - </b> {{ Session::get('fail') }}</span>
+  </div>
 @endif
 
 @if (count($errors) > 0)
-    <strong>Failed !</strong> For the following reasons -
+  <div class="alert alert-danger alert-dismissable fade in">
+    <button type="button" aria-hidden="true" data-dismiss="alert" class="close btn btn-xs">×</button>
+    <span>
+        <b><i class="material-icons">error</i>  Failed - </b> </span>
     <ul>
       @foreach ($errors->all() as $error)
         <li>
@@ -18,4 +25,5 @@
         </li>
       @endforeach
     </ul>
+  </div>
 @endif

@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 use App\Product;
+use App\Category;
+use App\RelCatProd;
+
+use Session;
 
 class ProductController extends Controller
 {
@@ -16,7 +20,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::all(['name', 'quantity', 'price', 'status']);
+        $products = Product::all(['id', 'name', 'quantity', 'price', 'status']);
         return view('panel.products.index')->with('products', $products);
     }
 
@@ -27,7 +31,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('panel.products.create');
+        $categories = Category::all('id', 'name');
+        return view('panel.products.create')->with('categories', $categories);
     }
 
     /**
@@ -38,7 +43,27 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+          'name' => 'required',
+          'category_id' => 'required',
+          'quantity' => 'required',
+          'price' => 'required'
+        ]);
+
+        // Product Table Filling Up
+        $product = new Product;
+
+        $product->category_id = $request->category_id;
+        $product->name = $request->name;
+        $product->description = $request->description;
+        $product->quantity = $request->quantity;
+        $product->price = $request->price;
+        $product->tags = $request->tags;
+
+        $product->save();
+
+        Session::flash('success', 'Product has been added successfully !');
+        return redirect()->route('products.index');
     }
 
     /**
@@ -81,8 +106,13 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Request $request, $id)
     {
-        //
+      $product = Product::find($request->id);
+
+      $product->delete();
+
+      Session::flash('success', 'Product has been deleted successfully !');
+      return redirect()->route('products.index');
     }
 }
