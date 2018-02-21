@@ -55,7 +55,11 @@
                   @endif </td>
                   <td>{{ $category->created_at }}</td>
                   <td>
-                    <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-close"></i> Delete</a>
+                    <form method="POST" action="{{route('panel.category.delete')}}">
+                      {{csrf_field()}}
+                      <input type="hidden" name="id" value="{{$category->id}}">
+                    <button class="btn btn-sm btn-danger" type="submit"><i class="fa fa-close"></i> Delete</button>
+                    </form>
                   </td>
                 </tr>
               @endforeach

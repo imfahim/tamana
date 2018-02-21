@@ -18,6 +18,9 @@ Route::get('/', function () {
 Route::get('/webpanel','Panel\PanelController@index')->name('panel.index');
 Route::get('/webpanel/categories','Panel\CategoryController@index')->name('panel.category.index');
 Route::get('/webpanel/categories/create','Panel\CategoryController@create')->name('panel.category.create');
+Route::post('/webpanel/categories/create','Panel\CategoryController@store')->name('panel.category.store');
+Route::post('/webpanel/categories/delete','Panel\CategoryController@delete')->name('panel.category.delete');
+
 
 
 
