@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Panel;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\File;
 
 use App\Product;
 use App\Category;
@@ -47,7 +48,10 @@ class ProductController extends Controller
           'name' => 'required',
           'category_id' => 'required',
           'quantity' => 'required',
-          'price' => 'required'
+          'price' => 'required',
+          'file1' =>'required|image|mimes:jpeg,png,jpg,gif,svg|max:3000',
+          'file2' =>'image|mimes:jpeg,png,jpg,gif,svg|max:3000',
+          'file3' =>'image|mimes:jpeg,png,jpg,gif,svg|max:3000',
         ]);
 
         // Product Table Filling Up
@@ -61,8 +65,13 @@ class ProductController extends Controller
         $product->tags = $request->tags;
 
         $product->save();
-
+        $id=Product::orderBy('id','desc')->first();
         Session::flash('success', 'Product has been added successfully !');
+          File::makeDirectory(public_path()."\/images\/products\/".$id."\/",0777, true, true);
+
+      //  $imageName1=time().'.'.$request->file1->getClientOriginalExtension();
+      //  $request->file1->move(public_path("images/products".$id."/"),$imageName1);
+
         return redirect()->route('products.index');
     }
 

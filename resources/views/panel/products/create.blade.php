@@ -17,7 +17,7 @@
       <div class="card-header">
         <i class="fa fa-cube"></i> Add a Product</div>
       <div class="card-body">
-          <form method="POST" action="{{ route('products.store') }}">
+          <form method="POST" action="{{ route('products.store') }}" enctype="multipart/form-data">
             {{ csrf_field() }}
             <div class="row">
             <div class="col-md-6">
@@ -61,7 +61,20 @@
               </div>
             </div>
           </div>
+<<<<<<< Updated upstream
           <a href="{{ route('products.index') }}" class="btn btn-primary btn-sm"><i class="fa fa-arrow-left"></i> Back</a>
+=======
+          <div class="com-md-12">
+            <label for="tags">images:</label><br>
+            <input type="file" name="file1" id="file1">
+          </div>
+          <div class="com-md-12">
+            <input type="file" name="file2" id="file2">
+          </div>
+          <div class="com-md-12">
+            <input type="file" name="file3" id="file3">
+          </div>
+>>>>>>> Stashed changes
           <div class="pull-right">
             <button class="btn btn-success btn-sm" type="submit"><i class="fa fa-check"></i> Add</button>
           </div>
