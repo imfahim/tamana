@@ -56,7 +56,7 @@
                   <td>
                     <div class="row">
                       <div class="col-md-3">
-                        <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Edit</a>
+                        <a href="{{ route('products.edit', [$product->id]) }}" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Edit</a>
                       </div>
                       <div class="col-md-2">
                         <form class="form-delete" method="POST" action="{{ route('products.destroy', [$product->id]) }}">

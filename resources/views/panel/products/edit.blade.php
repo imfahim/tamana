@@ -9,21 +9,22 @@
         <a href="{{ route('panel.index') }}">Dashboard</a>
       </li>
       <li class="breadcrumb-item">Product List</li>
-      <li class="breadcrumb-item active">Add Product</li>
+      <li class="breadcrumb-item active">Edit Product</li>
     </ol>
 
     <!-- Example DataTables Card-->
     <div class="card mb-3">
       <div class="card-header">
-        <i class="fa fa-cube"></i> Add a Product</div>
+        <i class="fa fa-cube"></i> Edit Product</div>
       <div class="card-body">
-          <form method="POST" action="{{ route('products.store') }}">
+          <form method="POST" action="{{ route('products.update', [$product->id]) }}">
             {{ csrf_field() }}
+            <input type="hidden" name="_method" value="put" />
             <div class="row">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="name">Name:</label>
-                <input class="form-control" name="name" type="text" placeholder="Enter Name" required>
+                <input class="form-control" name="name" type="text" placeholder="Enter Name" value="{{ $product->name }}" required>
               </div>
             </div>
             <div class="col-md-6">
@@ -31,7 +32,7 @@
                 <label for="category">Select Category:</label>
                 <select class="form-control" name="category_id" required="">
                   @foreach($categories as $category)
-                      <option value="{{$category->id}}">{{$category->name}}</option>
+                      <option value="{{ $category->id }}" {{ ($category->id === $product->category->id) ? ' selected="selected"' : '' }}>{{ $category->name }}</option>
                   @endforeach
                 </select>
               </div>
@@ -39,31 +40,31 @@
             <div class="col-md-12">
               <div class="form-group">
                 <label for="description">Description:</label>
-                <textarea class="form-control" name="description" type="text" placeholder="Enter Desctiption (HTML Allowed)" rows="10"></textarea>
+                <textarea class="form-control" name="description" type="text" placeholder="Enter Desctiption (HTML Allowed)" rows="10">{{ $product->description }}</textarea>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="quantity">Quantity:</label>
-                <input class="form-control" name="quantity" type="text" placeholder="Enter Quantity">
+                <input class="form-control" name="quantity" type="text" placeholder="Enter Quantity" value="{{ $product->quantity }}">
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="price">Price:</label>
-                <input class="form-control" name="price" type="text" placeholder="Enter Price">
+                <input class="form-control" name="price" type="text" placeholder="Enter Price" value="{{ $product->price }}">
               </div>
             </div>
             <div class="col-md-12">
               <div class="form-group">
                 <label for="tags">Tags:</label>
-                <input class="form-control" name="tags" type="text" placeholder="Enter tag words (seprate with commas ',')">
+                <input class="form-control" name="tags" type="text" placeholder="Enter tag words (seprate with commas ',')" value="{{ $product->tags }}">
               </div>
             </div>
           </div>
           <a href="{{ route('products.index') }}" class="btn btn-primary btn-sm"><i class="fa fa-arrow-left"></i> Back</a>
           <div class="pull-right">
-            <button class="btn btn-success btn-sm" type="submit"><i class="fa fa-check"></i> Add</button>
+            <button class="btn btn-success btn-sm" type="submit"><i class="fa fa-check"></i> Save</button>
           </div>
           </form>
       </div>

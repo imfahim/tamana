@@ -31,7 +31,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        $categories = Category::all('id', 'name');
+        $categories = Category::all(['id', 'name']);
         return view('panel.products.create')->with('categories', $categories);
     }
 
@@ -85,7 +85,9 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        //
+        $product = Product::with('category')->find($id);
+        $categories = Category::all(['id', 'name']);
+        return view('panel.products.edit')->with('categories', $categories)->with('product', $product);
     }
 
     /**
@@ -97,7 +99,27 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request,[
+          'name' => 'required',
+          'category_id' => 'required',
+          'quantity' => 'required',
+          'price' => 'required'
+        ]);
+
+        // Product Table Filling Up
+        $product = Product::find($id);
+
+        $product->category_id = $request->category_id;
+        $product->name = $request->name;
+        $product->description = $request->description;
+        $product->quantity = $request->quantity;
+        $product->price = $request->price;
+        $product->tags = $request->tags;
+
+        $product->save();
+
+        Session::flash('success', 'Product has been edited successfully !');
+        return redirect()->route('products.index');
     }
 
     /**
