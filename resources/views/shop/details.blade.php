@@ -38,8 +38,8 @@
 											<h6>{{ $product->name }}</h6>
 											<ul class="price">
 												<li>&#8377; {{ $product->price }}</li>
-												<li><del>$89</del></li>
-												<li>In stock</li>
+												<!--<li><del>$89</del></li>-->
+												<li>{{ ($product->quantity > 0) ? "In Stock" : "Out of Stock" }}</li>
 											</ul>
 											<div class="rating-and-tag">
 												<ul class="tag">

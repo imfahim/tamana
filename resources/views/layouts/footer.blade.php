@@ -63,12 +63,12 @@
             <div class="col-xs-4 footer-containt-width">
               <div class="footer-containt-item">
                 <ul>
-                  <li><a href="#">Centre</a></li>
-                  <li><a href="#">Training</a></li>
-                  <li><a href="#">Research</a></li>
-                  <li><a href="#">Services</a></li>
+                  <li class="dropdown-holder"><a href="{{route('index')}}/#sec-centres">Centre</a></li>
+                  <li><a href="{{route('training.index')}}">Training</a></li>
+                  <li><a href="{{route('research.index')}}">Research</a></li>
+                  <li class="dropdown-holder"><a href="{{ route('index') }}/#sec-services">Services</a></li>
                   <li><a href="#">Achievements</a></li>
-                  <li><a href="#">Events</a></li>
+                  <li class="dropdown-holder"><a href="{{route('index')}}/#sec-events">Events</a></li>
                 </ul>
               </div> <!-- /.footer-containt-item -->
             </div> <!-- /.col -->

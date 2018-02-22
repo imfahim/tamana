@@ -33,7 +33,7 @@ Route::get('/contact','PagesController@contact')->name('pages.contact');
 // Shop
 // Cart Routes
 
-Route::group(['prefix' => 'shop',  'middleware' => 'auth'], function()
+Route::group(['prefix' => 'shop'], function()
 {
   Route::get('details/{id}', 'ShopController@show')->name('shop.details');
 
