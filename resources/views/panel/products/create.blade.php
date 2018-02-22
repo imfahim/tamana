@@ -60,17 +60,25 @@
                 <input class="form-control" name="tags" type="text" placeholder="Enter tag words (seprate with commas ',')">
               </div>
             </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="tags">Images:</label>
+                <input required type="file" class="form-control" name="images[]" placeholder="address" multiple>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="tags">Images:</label>
+                <input required type="file" class="form-control" name="images[]" placeholder="address" multiple>
+              </div>
+            </div>
           </div>
           <a href="{{ route('products.index') }}" class="btn btn-primary btn-sm"><i class="fa fa-arrow-left"></i> Back</a>
-          <div class="com-md-12">
-            <label for="tags">images:</label>
-
-            <input required type="file" class="form-control" name="images[]" placeholder="address" multiple>
           <div class="pull-right">
             <button class="btn btn-success btn-sm" type="submit"><i class="fa fa-check"></i> Add</button>
           </div>
           </form>
-      </div>
+
       <div class="card-footer small text-muted"></div>
     </div>
   </div>

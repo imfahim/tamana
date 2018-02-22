@@ -51,7 +51,7 @@ class CartController extends Controller
 
         $this->status();
         Session::flash('success', 'Successfully Generated The Cart');
-        return redirect()->route('shop.cart');
+        return redirect()->route('Shop.cart');
     }
 
     /**
