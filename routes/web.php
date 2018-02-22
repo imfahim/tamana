@@ -15,11 +15,7 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
-Route::get('/webpanel','Panel\PanelController@index')->name('panel.index');
-Route::get('/webpanel/categories','Panel\CategoryController@index')->name('panel.category.index');
-Route::get('/webpanel/categories/create','Panel\CategoryController@create')->name('panel.category.create');
-Route::post('/webpanel/categories/create','Panel\CategoryController@store')->name('panel.category.store');
-Route::post('/webpanel/categories/delete','Panel\CategoryController@delete')->name('panel.category.delete');
+
 
 
 
@@ -68,4 +64,12 @@ Route::get('/events', 'EventsController@index')->name('events');
 
 
 // Panels
-Route::resource('/products', 'Panel\ProductController');
+Route::group(['prefix' => 'webpanel',  'middleware' => 'auth'], function()
+{
+    Route::get('/','Panel\PanelController@index')->name('panel.index');
+    Route::get('categories','Panel\CategoryController@index')->name('panel.category.index');
+    Route::get('categories/create','Panel\CategoryController@create')->name('panel.category.create');
+    Route::post('categories/create','Panel\CategoryController@store')->name('panel.category.store');
+    Route::post('categories/delete','Panel\CategoryController@delete')->name('panel.category.delete');
+    Route::resource('products', 'Panel\ProductController');
+});
