@@ -7,23 +7,17 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Session;
 
+use App\Product;
 
 class ShopController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-     public function details(){
-       return view('shop.details');
-     }
     public function index()
     {
       $categories=DB::table('categories')->get();
       $products = DB::table('products')->get();
-        return view('shop.index')->withCategories($categories)->withProducts($products);
+      return view('shop.index')->withCategories($categories)->withProducts($products);
     }
+
     public function cart()
     {
       return view('shop.cart');
@@ -58,7 +52,9 @@ class ShopController extends Controller
      */
     public function show($id)
     {
-        //
+        $product = Product::find($id);
+
+        return view('shop.details')->with('product', $product);
     }
 
     /**

@@ -35,9 +35,9 @@
 									</div> <!-- /.col -->
 									<div class="col-lg-5 col-xs-12">
 										<div class="product-order-details">
-											<h6>Wood Smart Table</h6>
+											<h6>{{ $product->name }}</h6>
 											<ul class="price">
-												<li>$69</li>
+												<li>&#8377; {{ $product->price }}</li>
 												<li><del>$89</del></li>
 												<li>In stock</li>
 											</ul>

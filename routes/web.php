@@ -15,17 +15,10 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
-
-
-
-
-
-
-
 Route::get('/Autism-Centre', 'CentreController@autism')->name('Autism.centre');
 Route::get('/Special-Education-Centre', 'CentreController@specialeducation')->name('SpecialEducation.centre');
 Route::get('/Shop', 'ShopController@index')->name('Shop.Index');
-Route::get('/Shop/details', 'ShopController@details')->name('Shop.details');
+
 
 Route::get('/Skill-Development-Centre', 'CentreController@skilldevelopment')->name('SkillDevelopment.centre');
 Route::get('/Kindergarten', 'CentreController@Kindergarten')->name("Kindergarten.centre");
@@ -37,10 +30,18 @@ Route::get('/volunteer','PagesController@volunteer')->name('pages.volunteer');
 Route::get('/vacancy','PagesController@vacancy')->name('pages.vacancy');
 Route::get('/contact','PagesController@contact')->name('pages.contact');
 
+// Shop
 // Cart Routes
-Route::get('/Shop/cart', 'CartController@index')->name('Shop.cart');
-Route::post('/Shop/cart', 'CartController@store')->name('cart.store');
-Route::delete('/Shop/cart/{id}', 'CartController@destroy')->name('cart.destroy');
+
+Route::group(['prefix' => 'shop',  'middleware' => 'auth'], function()
+{
+  Route::get('details/{id}', 'ShopController@show')->name('shop.details');
+
+  Route::get('cart', 'CartController@index')->name('Shop.cart');
+  Route::post('cart', 'CartController@store')->name('cart.store');
+  Route::delete('cart/{id}', 'CartController@destroy')->name('cart.destroy');
+});
+
 
 
 //Route::get('/admin', 'Admin\AdminController@index')->name('admin.index');

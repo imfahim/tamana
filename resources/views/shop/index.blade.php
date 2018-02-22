@@ -42,7 +42,7 @@
 												<img src="{{asset('images/products/'.$product->id .'_0.jpg')}}" alt="image">
 											</div> <!-- /.Shop-Img -->
 											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">{{$product->name}}</a></h6>
+												<h6><a href="{{route('shop.details', [$product->id])}}">{{$product->name}}</a></h6>
 												<span>₹{{$product->price}}</span>
 												<form method="POST" action="{{ route('cart.store') }}" class="row">
 									        {{ csrf_field() }}
