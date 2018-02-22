@@ -8,7 +8,9 @@
       <li class="breadcrumb-item">
         <a href="{{ route('panel.index') }}">Dashboard</a>
       </li>
-      <li class="breadcrumb-item">Product List</li>
+      <li class="breadcrumb-item">
+        <a href="{{ route('products.index') }}">Product List</a>
+      </li>
       <li class="breadcrumb-item active">Add Product</li>
     </ol>
 
@@ -62,14 +64,14 @@
             </div>
             <div class="col-md-12">
               <div class="form-group">
-                <label for="tags">Images:</label>
+                <label for="images">Images:</label>
                 <input required type="file" class="form-control" name="images[]" placeholder="address" multiple>
               </div>
             </div>
             <div class="col-md-12">
               <div class="form-group">
-                <label for="tags">Images:</label>
-                <input required type="file" class="form-control" name="images[]" placeholder="address" multiple>
+                <label for="options">Options:</label>
+                <input class="form-control" name="options" type="text" placeholder="Enter Options (seperated with commans ',')">
               </div>
             </div>
           </div>

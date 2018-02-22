@@ -61,6 +61,7 @@ class ProductController extends Controller
         $product->quantity = $request->quantity;
         $product->price = $request->price;
         $product->tags = $request->tags;
+        $product->options = $request->options;
 
         $product->save();
         $id=Product::orderBy('id','desc')->first();
@@ -129,6 +130,7 @@ class ProductController extends Controller
         $product->quantity = $request->quantity;
         $product->price = $request->price;
         $product->tags = $request->tags;
+        $product->options = $request->options;
 
         $product->save();
 

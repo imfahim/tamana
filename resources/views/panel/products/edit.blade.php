@@ -8,7 +8,9 @@
       <li class="breadcrumb-item">
         <a href="{{ route('panel.index') }}">Dashboard</a>
       </li>
-      <li class="breadcrumb-item">Product List</li>
+      <li class="breadcrumb-item">
+        <a href="{{ route('products.index') }}">Product List</a>
+      </li>
       <li class="breadcrumb-item active">Edit Product</li>
     </ol>
 
@@ -59,6 +61,12 @@
               <div class="form-group">
                 <label for="tags">Tags:</label>
                 <input class="form-control" name="tags" type="text" placeholder="Enter tag words (seprate with commas ',')" value="{{ $product->tags }}">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="options">Options:</label>
+                <input class="form-control" name="options" type="text" placeholder="Enter Options (seperated with commans ',')" value="{{ ($product->options) ? $product->options : '' }}">
               </div>
             </div>
           </div>
