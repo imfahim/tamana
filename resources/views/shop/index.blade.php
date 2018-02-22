@@ -44,7 +44,12 @@
 											<div class="Shop-Cart">
 												<h6><a href="{{route('Shop.details')}}">{{$product->name}}</a></h6>
 												<span>₹{{$product->price}}</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
+												<form method="POST" action="{{ route('cart.store') }}" class="row">
+									        {{ csrf_field() }}
+									        <input type="hidden" name="product_id" value="{{ $product->id }}" />
+
+													<button type="submit" class="hvr-float-shadow">Add To Cart</button>
+												</form>
 											</div> <!-- /.Shop-Cart -->
 										</div> <!-- /.Shop-Item -->
 									</div> <!-- /.col -->

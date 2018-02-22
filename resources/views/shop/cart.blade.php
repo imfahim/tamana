@@ -92,151 +92,71 @@ color: white;
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading" style="background-color:#7F1F21;color:white; font-size: 40px;"><center><strong>Shopping Cart</strong></center></div>
-          <table>
-            <tr>
-              <th width="65%">Product</th>
-              <th width="10%">Price (&#8377;)</th>
-              <th width="10%">Quantity</th>
-              <th width="10%">Total (&#8377;)</th>
-              <th width="5%"></th>
+          @if (!$cartItems->isEmpty())
+            <table>
+              <tr>
+                <th width="65%">Product</th>
+                <th width="10%">Price (&#8377;)</th>
+                <th width="10%">Quantity</th>
+                <th width="10%">Total (&#8377;)</th>
+                <th width="5%"></th>
 
-            </tr>
-            <tr>
-              <td>
-                  <div class="col-md-4">
-                    <img src="{{asset('images/shop/img-7.jpg')}}" style="width: 75%;" alt="image">
-                  </div>
-                  <div class="col-md-8">
-                  <h5>Product Name</h5>
-                </div>
-              </td>
-              <td>100</td>
-              <td>
-                <div class="quantity">
-                  <div class="center">
-                    <div class="input-group">
-                      <span class="input-group-btn">
-                        <button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                          <span class="glyphicon glyphicon-minus"></span>
-                        </button>
-                       </span>
-                       <input type="text" name="quant[1]" class="form-control input-number" value="0" min="1" max="10">
-                       <span class="input-group-btn">
-                         <button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[1]">
-                           <span class="glyphicon glyphicon-plus"></span>
-                         </button>
-                       </span>
+              </tr>
+              @foreach ($cartItems as $product)
+                <tr>
+                  <td>
+                      <div class="col-md-4">
+                        <img src="{{asset('images/shop/img-7.jpg')}}" style="width: 75%;" alt="image">
+                      </div>
+                      <div class="col-md-8">
+                      <h5>{{ $product->name }}</h5>
+                    </div>
+                  </td>
+                  <td>{{ $product->price }}</td>
+                  <td>
+                    <div class="quantity">
+                      <div class="center">
+                        <div class="input-group">
+                          <span class="input-group-btn">
+                            <button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                              <span class="glyphicon glyphicon-minus"></span>
+                            </button>
+                           </span>
+                           <input type="text" name="quant[1]" class="form-control input-number" value="{{ $product->qty }}" min="1" max="10">
+                           <span class="input-group-btn">
+                             <button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[1]">
+                               <span class="glyphicon glyphicon-plus"></span>
+                             </button>
+                           </span>
+                         </div>
+                       </div>
                      </div>
-                   </div>
-                 </div>
-              </td>
-              <td>200</td>
-              <td><a href="#"><i style="font-size:24px; color: #7F1F21" class="fa">&#xf00d;</i></a></td>
+                  </td>
+                  <td>{{ $product->subtotal() }}</td>
+                  <td>
+                    <a href="{{ route('cart.destroy', [$product->id]) }}" onclick="event.preventDefault();
+                                             document.getElementById('cart-delete-form').submit();"><i style="font-size:24px; color: #7F1F21" class="fa">&#xf00d;</i></a>
+                                             
+                    <form id="cart-delete-form" method="POST" action="{{ route('cart.destroy', [$product->id]) }}" style="display:none;">
+                      {{ csrf_field() }}
+											<input type="hidden" name="_method" value="delete" />
+                    </form>
+                  </td>
 
-            </tr>
-          </tr>
-          <tr>
-            <td>
-                <div class="col-md-4">
-                  <img src="{{asset('images/shop/img-7.jpg')}}" style="width: 75%;" alt="image">
-                </div>
-                <div class="col-md-8">
-                <h5>Product Name</h5>
+                </tr>
+                @endforeach
+            </table>
+
+          @else
+            <br /><br />
+            <div class="col-md-12">
+              <div class="well">
+                <center>
+                  There is no items in your cart !
+                </center>
               </div>
-            </td>
-            <td>100</td>
-            <td>
-              <div class="quantity">
-                <div class="center">
-                  <div class="input-group">
-                    <span class="input-group-btn">
-                      <button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                        <span class="glyphicon glyphicon-minus"></span>
-                      </button>
-                     </span>
-                     <input type="text" name="quant[1]" class="form-control input-number" value="0" min="1" max="10">
-                     <span class="input-group-btn">
-                       <button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[1]">
-                         <span class="glyphicon glyphicon-plus"></span>
-                       </button>
-                     </span>
-                   </div>
-                 </div>
-               </div>
-            </td>
-            <td>200</td>
-            <td><a href="#"><i style="font-size:24px; color: #7F1F21" class="fa">&#xf00d;</i></a></td>
-
-          </tr>
-        </tr>
-        <tr>
-          <td>
-              <div class="col-md-4">
-                <img src="{{asset('images/shop/img-7.jpg')}}" style="width: 75%;" alt="image">
-              </div>
-              <div class="col-md-8">
-              <h5>Product Name</h5>
             </div>
-          </td>
-          <td>100</td>
-          <td>
-            <div class="quantity">
-              <div class="center">
-                <div class="input-group">
-                  <span class="input-group-btn">
-                    <button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                      <span class="glyphicon glyphicon-minus"></span>
-                    </button>
-                   </span>
-                   <input type="text" name="quant[1]" class="form-control input-number" value="0" min="1" max="10">
-                   <span class="input-group-btn">
-                     <button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[1]">
-                       <span class="glyphicon glyphicon-plus"></span>
-                     </button>
-                   </span>
-                 </div>
-               </div>
-             </div>
-          </td>
-          <td>200</td>
-          <td><a href="#"><i style="font-size:24px; color: #7F1F21" class="fa">&#xf00d;</i></a></td>
-
-        </tr>
-      </tr>
-      <tr>
-        <td>
-            <div class="col-md-4">
-              <img src="{{asset('images/shop/img-7.jpg')}}" style="width: 75%;" alt="image">
-            </div>
-            <div class="col-md-8">
-            <h5>Product Name</h5>
-          </div>
-        </td>
-        <td>100</td>
-        <td>
-          <div class="quantity">
-            <div class="center">
-              <div class="input-group">
-                <span class="input-group-btn">
-                  <button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                    <span class="glyphicon glyphicon-minus"></span>
-                  </button>
-                 </span>
-                 <input type="text" name="quant[1]" class="form-control input-number" value="0" min="1" max="10">
-                 <span class="input-group-btn">
-                   <button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[1]">
-                     <span class="glyphicon glyphicon-plus"></span>
-                   </button>
-                 </span>
-               </div>
-             </div>
-           </div>
-        </td>
-        <td>200</td>
-        <td><a href="#"><i style="font-size:24px; color: #7F1F21" class="fa">&#xf00d;</i></a></td>
-
-      </tr>
-          </table>
+          @endif
       </div>
     </div>
 

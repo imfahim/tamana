@@ -36,7 +36,11 @@ Route::get('/about-us/board-members', 'AboutController@page_board_members')->nam
 Route::get('/volunteer','PagesController@volunteer')->name('pages.volunteer');
 Route::get('/vacancy','PagesController@vacancy')->name('pages.vacancy');
 Route::get('/contact','PagesController@contact')->name('pages.contact');
-Route::get('/Shop/cart', 'ShopController@cart')->name('Shop.cart');
+
+// Cart Routes
+Route::get('/Shop/cart', 'CartController@index')->name('Shop.cart');
+Route::post('/Shop/cart', 'CartController@store')->name('cart.store');
+Route::delete('/Shop/cart/{id}', 'CartController@destroy')->name('cart.destroy');
 
 
 //Route::get('/admin', 'Admin\AdminController@index')->name('admin.index');
