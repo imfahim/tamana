@@ -5,7 +5,8 @@ namespace App\Http\Controllers\Panel;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\File;
-
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Input;
 use App\Product;
 use App\Category;
 use App\RelCatProd;
@@ -49,9 +50,6 @@ class ProductController extends Controller
           'category_id' => 'required',
           'quantity' => 'required',
           'price' => 'required',
-          'file1' =>'required|image|mimes:jpeg,png,jpg,gif,svg|max:3000',
-          'file2' =>'image|mimes:jpeg,png,jpg,gif,svg|max:3000',
-          'file3' =>'image|mimes:jpeg,png,jpg,gif,svg|max:3000',
         ]);
 
         // Product Table Filling Up
@@ -67,10 +65,17 @@ class ProductController extends Controller
         $product->save();
         $id=Product::orderBy('id','desc')->first();
         Session::flash('success', 'Product has been added successfully !');
-          File::makeDirectory(public_path()."\/images\/products\/".$id."\/",0777, true, true);
 
-      //  $imageName1=time().'.'.$request->file1->getClientOriginalExtension();
-      //  $request->file1->move(public_path("images/products".$id."/"),$imageName1);
+        $input=$request->all();
+        $images=array();
+    if($files=$request->file('images')){
+        for($k=0;$k<count($files);$k++){
+            $name=$id->id.'_'.$k.'.'.$files[$k]->getClientOriginalExtension();
+            $files[$k]->move(public_path('images\products'),$name);
+            $images[]=$name;
+            DB::table('images')->insert(['product_id'=>$id->id,'image'=>$name]);
+        }
+    }
 
         return redirect()->route('products.index');
     }

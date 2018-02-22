@@ -21,7 +21,8 @@ class ShopController extends Controller
     public function index()
     {
       $categories=DB::table('categories')->get();
-        return view('shop.index')->withCategories($categories);;
+      $products = DB::table('products')->get();
+        return view('shop.index')->withCategories($categories)->withProducts($products);
     }
     public function cart()
     {

@@ -32,114 +32,27 @@
 						<div class="col-lg-9 col-md-8 col-xs-12 float-right">
 							<div class="Shop-Item-Wrapper">
 								<div class="row">
-									<div class="col-lg-4 col-xs-6 Shop-Item-Width">
+
+									@foreach($products as $product)
+
+
+									<div class="col-md-3">
 										<div class="Shop-Item">
 											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-1.jpg')}}" alt="image">
+												<img src="{{asset('images/products/'.$product->id .'_0.jpg')}}" alt="image">
 											</div> <!-- /.Shop-Img -->
 											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">Ten steps to making</a></h6>
-												<span>$89</span>
+												<h6><a href="{{route('Shop.details')}}">{{$product->name}}</a></h6>
+												<span>₹{{$product->price}}</span>
 												<a href="#" class="hvr-float-shadow">Add To Cart</a>
 											</div> <!-- /.Shop-Cart -->
 										</div> <!-- /.Shop-Item -->
 									</div> <!-- /.col -->
-									<div class="col-lg-4 col-xs-6 Shop-Item-Width">
-										<div class="Shop-Item">
-											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-2.jpg')}}" alt="image">
-											</div> <!-- /.Shop-Img -->
-											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">Long-Tail SEO Strategy</a></h6>
-												<span>$19</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
-											</div> <!-- /.Shop-Cart -->
-										</div> <!-- /.Shop-Item -->
-									</div> <!-- /.col -->
-									<div class="col-lg-4 col-xs-6 Shop-Item-Width">
-										<div class="Shop-Item">
-											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-3.jpg')}}" alt="image">
-											</div> <!-- /.Shop-Img -->
-											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}"> Create optimized content</a></h6>
-												<span>$79</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
-											</div> <!-- /.Shop-Cart -->
-										</div> <!-- /.Shop-Item -->
-									</div> <!-- /.col -->
-									<div class="col-lg-4 col-xs-6 Shop-Item-Width">
-										<div class="Shop-Item">
-											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-4.jpg')}}" alt="image">
-											</div> <!-- /.Shop-Img -->
-											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">wall Light</a></h6>
-												<span>$9</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
-											</div> <!-- /.Shop-Cart -->
-										</div> <!-- /.Shop-Item -->
-									</div> <!-- /.col -->
-									<div class="col-lg-4 col-xs-6 Shop-Item-Width">
-										<div class="Shop-Item">
-											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-5.jpg')}}" alt="image">
-											</div> <!-- /.Shop-Img -->
-											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">Smart Light LMP</a></h6>
-												<span>$47</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
-											</div> <!-- /.Shop-Cart -->
-										</div> <!-- /.Shop-Item -->
-									</div> <!-- /.col -->
-									<div class="col-lg-4 col-xs-6 Shop-Item-Width">
-										<div class="Shop-Item">
-											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-6.jpg')}}" alt="image">
-											</div> <!-- /.Shop-Img -->
-											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">Clean Look Chair</a></h6>
-												<span>$36</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
-											</div> <!-- /.Shop-Cart -->
-										</div> <!-- /.Shop-Item -->
-									</div> <!-- /.col -->
-									<div class="col-lg-4 col-xs-6 Shop-Item-Width">
-										<div class="Shop-Item">
-											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-7.jpg')}}" alt="image">
-											</div> <!-- /.Shop-Img -->
-											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">Table decor</a></h6>
-												<span>$19</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
-											</div> <!-- /.Shop-Cart -->
-										</div> <!-- /.Shop-Item -->
-									</div> <!-- /.col -->
-									<div class="col-lg-4 col-xs-6 Shop-Item-Width">
-										<div class="Shop-Item">
-											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-8.jpg')}}" alt="image">
-											</div> <!-- /.Shop-Img -->
-											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">Chinese light</a></h6>
-												<span>$90</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
-											</div> <!-- /.Shop-Cart -->
-										</div> <!-- /.Shop-Item -->
-									</div> <!-- /.col -->
-									<div class="col-lg-4 col-xs-12 Shop-Item-Width">
-										<div class="Shop-Item">
-											<div class="Shop-Img">
-												<img src="{{asset('images/shop/img-9.jpg')}}" alt="image">
-											</div> <!-- /.Shop-Img -->
-											<div class="Shop-Cart">
-												<h6><a href="{{route('Shop.details')}}">PPC Agency</a></h6>
-												<span>$78</span>
-												<a href="#" class="hvr-float-shadow">Add To Cart</a>
-											</div> <!-- /.Shop-Cart -->
-										</div> <!-- /.Shop-Item -->
-									</div> <!-- /.col -->
+
+									@endforeach
+
+
+
 								</div> <!-- /.row -->
 								<ul class="shop-next-and-pivias text-center">
 									<li><a href="#">1</a></li>
