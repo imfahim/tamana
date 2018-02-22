@@ -24,7 +24,7 @@
         <div class="item">
           <div class="text-center list-item">
             <i class="fa fa-envelope-o"></i>
-            <h6><a href="#">Mail</a></h6>
+            <h6><a href="{{asset('http://mail.tamana.org/bizmail/login')}}">Mail</a></h6>
           </div> <!-- /.list-item -->
         </div> <!-- /.item -->
       </div> <!-- / #Children-Care-List-Slider -->

@@ -41,7 +41,7 @@
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
-          <div data-src="{{ asset('images/main-banners/banner-slider-5.jpg')}}">
+          <div data-src="{{ asset('images/main-banners/banner-slider-9.jpg')}}">
 						<div class="camera_caption">
 							<div class="container text-center">
 								<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">In Special Consultative Status with <br><span> United Nation's Economic and Social Council</span></h1>
@@ -70,7 +70,7 @@
 							</div> <!-- /.container -->
 						</div> <!-- /.camera_caption -->
 					</div>
-          <div data-src="{{ asset('images/main-banners/banner-slider-7.jpg')}}">
+          <div data-src="{{ asset('images/main-banners/banner-slider-10.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
 							    <h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Welcome to  <span>TAMANA<span></span></span> <!--<br>a gift for the future --></h1>
@@ -121,7 +121,7 @@
 								  <div class="well well-sm" style="border: solid 2px #7F1F21; font-size: 20px">
 										<q><cite>
                       Three decades ago after the birth of my daughter Tamana, I had a dream to create a world of inclusion. It has taken 25 years of struggle by us to open the minds of Indian society to accept the disabled. As my daughter Tamana has grown into a well settled and independent adult, so has the organization. This growth has been nurtured by our optimism in drawing out the excellence and potential of each special child. We have observed that nothing is beyond them. They can walk the ramp, dance on stage and win medals at international sports events. They can also earn by creating art pieces and handicrafts, as well as work in offices, schools and shops.
-
+                      <br>
                       Their smile tells us "I can do it, give me a chance but I need you" That is the truth. They need you, give them a hand. You give them an inch, they will run a mile.
 										</cite></q>
 									</div>
@@ -327,7 +327,7 @@
 						<div id="Rcent-Causes-Slider" class="owl-carousel owl-theme">
 							<div class="item">
 								<div class="Causes-Item">
-                  <div class="Causes-Img"><img src="{{ asset('images/nios.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
+                  <div class="Causes-Img"><img src="{{ asset('images/afc.jpg')}}" alt="image"></div> <!-- /.Causes-Img -->
 									<div class="Causes-Text" style="height:100%;">
 										<h3>Apna Fun Club</h3>
 										<p>TOBY PLAYPAD, IBM Research, NION Research, MoSJE Research, HOPE,...</p>
@@ -383,7 +383,7 @@
 						</div> <!-- /.col -->
 						<div class="col-md-6 col-xs-12">
 							<div class="Urgent-Program-Img">
-								<img src="{{ asset('images/early_int.jpg')}}" alt="image">
+								<img src="{{ asset('images/early_int.jpg')}}" style="height: 100%;" alt="image">
 							</div> <!-- /.Urgent-Program-Img -->
 						</div> <!-- /.col -->
 					</div> <!-- /.row -->
@@ -397,7 +397,7 @@
 					<div class="row">
 						<div class="col-md-6 col-xs-12">
 							<div class="Urgent-Program-Img">
-								<img src="{{ asset('images/diag_cen.jpg')}}" alt="image">
+								<img src="{{ asset('images/diag_cen.jpg')}}" style="height: 100%;" alt="image">
 							</div> <!-- /.Urgent-Program-Img -->
 						</div> <!-- /.col -->
 

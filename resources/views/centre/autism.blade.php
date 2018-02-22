@@ -23,9 +23,18 @@
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-body">
-            <p>
-            Tamana was the first institution to recognize autism as a disability distinct from others and to start programs for autistic spectrum disorder in 1985. The Autism Centre-School of Hope is India’s first rehabilitate and research center for autistic individual providing holistic services under one roof – a special school, sensory integration clinic, early intervention center, diagnostic center, research cell and an outreach cell.<br><br>
-            His Excellency Dr. A.P.J. Abdul Kalam the president of India inaugurated Autism Centre-Tamana, a full-fledged school dedicated to autistic, on 19 August 2003. State of the art intervention is offered at the School Of Hope for children from ages 2 years onwards with severe needs including autistic spectrum disorders and multiple disabilities. This initiative provides productive education and therapy to hundreds who do not fit existing special education programmes. The highlights of the program offered in this school are :- <br><br>
+            <div class="col-md-6">
+							<p>Tamana was the first institution to recognize autism as a disability distinct from others and to start programs for autistic spectrum disorder in 1985. The Autism Centre-School of Hope is India’s first rehabilitate and research center for autistic individual providing holistic services under one roof – a special school, sensory integration clinic, early intervention center, diagnostic center, research cell and an outreach cell.<br><br>
+							His Excellency Dr. A.P.J. Abdul Kalam the president of India inaugurated Autism Centre-Tamana, a full-fledged school dedicated to autistic, on 19 August 2003. State of the art intervention is offered at the School Of Hope for children from ages 2 years onwards with severe needs including autistic spectrum disorders and multiple disabilities. This initiative provides productive education and therapy to hundreds who do not fit existing special education programmes. </p>
+						</div>
+						<div class="col-md-6">
+
+							<center><img src="{{asset('images/centres/aut/hope 1.JPG')}}" style="width: 100%"></center>
+						</div>
+						<div class="col-md-12">
+						<p>
+							<br>
+						The highlights of the program offered in this school are :- <br><br>
             &emsp;&emsp;&#9673;&nbsp;A life centred approach to curriculum planning to meet the needs of child and family.<br>
             &emsp;&emsp;&#9673;&nbsp;An eclectic combination of different approaches to develop a holistic approach to meet individual needs. Some of the approaches on which intervention for the autistic is based are TEACCH, ABA (with small group of students), and the therapeutic use of drama, music, dance, horse riding, and yoga. The behavior management strategies are designed according to individual needs.  Positive reinforcement techniques are commonly used for teaching.<br>
             &emsp;&emsp;&#9673;&nbsp;Sensory Integration therapy is an important part of intervention programme.<br>
@@ -37,6 +46,10 @@
             &emsp;&emsp;&#9673;&nbsp;Vocational Training for youth above 16 yrs of age-Vocational skills taught are  jewelry design, greeting cards making, gardening, <br><br>
           </p>
           </div>
+					<div class="col-md-12">
+						<center><img src="{{asset('images/centres/aut/hope 2.JPG')}}" style="width: 50%"></center>
+					</div>
+				</div>
         </div>
         <div class="panel panel-default">
           <div class="panel-heading" style="background-color:#7F1F21;color:white">Address:</div>
