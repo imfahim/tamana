@@ -20,7 +20,7 @@
 @section('content')
 			<!-- Theme Main Banner ____________________________ -->
 			<section>
-				<div id="theme-main-banner">
+				<div id="theme-main-banner" style="padding-left: 15px; padding-right: 15px;">
           <div data-src="{{ asset('images/main-banners/banner-8.jpg')}}">
 						<div class="camera_caption">
 							<div class="container caption-v-two">
@@ -109,12 +109,13 @@
 			<hr>
 			<section class="You-Can-Bring">
 
-				<div class="You-Can-Bring-Title" style="padding:0px 0px 50px;">
-					<div class="container">
+
+				<div class="You-Can-Bring-Title" style="padding:10px 0px 5px; background-color: #F2F2F2;">
+					<div class="container" >
 						<div class="row">
 							<div class="col-md-4"><center><br>
-							         <img src="{{asset('images/home/founder.jpg')}}" class="img-circle" style="border: 5px solid #7F1F21;" height="50%" width="50%" alt="Cinque Terre">
-							 <h6>Dr. (Mrs.) Shayama Chona </h6>
+							         <img src="{{asset('images/home/founder.jpg')}}" class="img-circle" height="50%" width="50%" alt="Cinque Terre">
+							 <h5>Dr. (Mrs.) Shayama Chona </h5>
 								 <p style="border-left:0px">-Founder and President</p><br>
                </div>
                <div class="col-md-8">

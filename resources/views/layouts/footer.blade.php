@@ -63,7 +63,7 @@
             <div class="col-xs-4 footer-containt-width">
               <div class="footer-containt-item">
                 <ul>
-                  <li class="dropdown-holder"><a href="{{route('index')}}/#sec-centres">Centre</a></li>
+                  <li class="dropdown-holder"><a href="{{route('index')}}/#sec-centres">Centres</a></li>
                   <li><a href="{{route('training.index')}}">Training</a></li>
                   <li><a href="{{route('research.index')}}">Research</a></li>
                   <li class="dropdown-holder"><a href="{{ route('index') }}/#sec-services">Services</a></li>
