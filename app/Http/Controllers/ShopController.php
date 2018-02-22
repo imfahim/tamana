@@ -13,9 +13,15 @@ class ShopController extends Controller
 {
     public function index()
     {
-      $categories=DB::table('categories')->get();
-      $products = DB::table('products')->get();
-      return view('shop.index')->withCategories($categories)->withProducts($products);
+      $categories=DB::table('categories')->orderBy('name','ASC')->get();
+      $products = DB::table('products')->orderBy('id','DESC')->get();
+        return view('shop.index')->withCategories($categories)->withProducts($products);
+    }
+
+    public function filter($id){
+      $categories=DB::table('categories')->orderBy('name','ASC')->get();
+      $products = DB::table('products')->orderBy('id','DESC')->where('category_id',$id)->get();
+        return view('shop.index')->withCategories($categories)->withProducts($products);
     }
 
     public function cart()

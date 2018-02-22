@@ -55,7 +55,7 @@
                   @endif </td>
                   <td>{{ $category->created_at }}</td>
                   <td>
-                    <form method="POST" action="{{route('panel.category.delete')}}">
+                    <form method="POST" action="{{route('panel.category.delete')}}" onsubmit ='return ConfirmDelete()'>
                       {{csrf_field()}}
                       <input type="hidden" name="id" value="{{$category->id}}">
                     <button class="btn btn-sm btn-danger" type="submit"><i class="fa fa-close"></i> Delete</button>
@@ -76,5 +76,18 @@
   </div>
   <!-- /.container-fluid-->
   <!-- /.content-wrapper-->
+@endsection
+@section('page-scripts')
+  <script>
+  // For Deletion Confirmation Modal
+  function ConfirmDelete()
+    {
+    var x = confirm("Are you sure you want to delete?");
+    if (x)
+      return true;
+    else
+      return false;
+    }
 
+  </script>
 @endsection

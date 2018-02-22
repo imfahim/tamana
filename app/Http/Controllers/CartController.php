@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 use Session;
 use Cart;
@@ -27,6 +28,10 @@ class CartController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+     public function checkout(){
+    //   dd(Cart::content());
+       return view ('Shop.checkout')->withCartitems(Cart::content());
+     }
     public function create()
     {
         //
@@ -106,10 +111,44 @@ class CartController extends Controller
         Session::flash('success', 'Successfully Deleted The Item');
         return redirect()->route('Shop.cart');
     }
+    public function confirm(Request $request){
+      $buyerid=DB::table('buyers')->insertGetId([
+        'fullname'=> $request->fname." ".$request->lname,
+        'company'=> $request->company,
+        'email'=>$request->email,
+        'phone'=>$request->phone,
+        'address'=>$request->address.",".$request->city.",".$request->state.",".$request->postcode,
+        'country'=>$request->country
+      ]);
+
+      $orderid=DB::table('orders')->insertGetId([
+        'code'=>rand(1000,10000000),
+        'buyer_id'=>$buyerid,
+        'total'=>Session::get('order.total')
+      ]);
+      foreach(Cart::content() as $product){
+        DB::table('order_details')->insert([
+            'order_id'=>$orderid,
+            'product_id'=>$product->id,
+            'quantity'=>$product->qty,
+            'paid_by_option'=>"Cash On Delivery",
+            'total'=>$product->subtotal()
+        ]);
+      }
+
+      Cart::destroy();
+
+      Session::forget('order');
+      $this->status();
+      Session::flash('success', 'Order Placed Successfully !');
+
+      return redirect()->route('Shop.Index');
+
+    }
 
     private function status()
     {
-      $total = Cart::total();
+      $total = Cart::total()-Cart::tax();
       $subtotal = Cart::subtotal();
       $count = Cart::count();
       Session::put('order.total', $total);

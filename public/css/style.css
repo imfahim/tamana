@@ -2171,6 +2171,8 @@ img,
 	line-height: 30px;
 }
 .Shop-Item-Wrapper .Shop-Item .Shop-Cart>h6>a {color: #242222;}
+.Shop-Item-Wrapper .Shop-Item .Shop-Cart>h6>button {color: #242222;}
+
 .Shop-Item-Wrapper .Shop-Item .Shop-Cart>span {
 	display: block;
 	line-height: 30px;
@@ -2180,6 +2182,15 @@ img,
 	margin: 7px 0 16px;
 }
 .Shop-Item-Wrapper .Shop-Item .Shop-Cart>a {
+	width: 130px;
+	line-height: 40px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	background: #7f3d3f;
+	text-transform: uppercase;
+}
+.Shop-Item-Wrapper .Shop-Item .Shop-Cart>button {
 	width: 130px;
 	line-height: 40px;
 	font-size: 15px;

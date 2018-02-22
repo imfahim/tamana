@@ -158,6 +158,8 @@
 <script type="text/javascript" src="{{ asset('vendor/WOW-master/dist/wow.min.js')}}"></script>
 <!-- Circle Progress -->
 <script type="text/javascript" src="{{ asset('vendor/circle-progress.js')}}"></script>
+<script type="text/javascript" src="{{ asset('js/parsley.min.js')}}"></script>
+
 <!-- Style js -->
 <script src="{{ asset('js/custom.js')}}"></script>
 

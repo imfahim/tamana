@@ -17,7 +17,6 @@ Route::get('/', function () {
 
 Route::get('/Autism-Centre', 'CentreController@autism')->name('Autism.centre');
 Route::get('/Special-Education-Centre', 'CentreController@specialeducation')->name('SpecialEducation.centre');
-Route::get('/Shop', 'ShopController@index')->name('Shop.Index');
 
 
 Route::get('/Skill-Development-Centre', 'CentreController@skilldevelopment')->name('SkillDevelopment.centre');
@@ -35,6 +34,11 @@ Route::get('/contact','PagesController@contact')->name('pages.contact');
 
 Route::group(['prefix' => 'shop'], function()
 {
+  Route::get('/', 'ShopController@index')->name('Shop.Index');
+  Route::get('filter/{id}','ShopController@filter')->name('shop.filter');
+  Route::get('checkout','CartController@checkout')->name('shop.checkout');
+  Route::post('checkout','CartController@confirm')->name('shop.confirm');
+
   Route::get('details/{id}', 'ShopController@show')->name('shop.details');
 
   Route::get('cart', 'CartController@index')->name('Shop.cart');
@@ -77,4 +81,5 @@ Route::group(['prefix' => 'webpanel',  'middleware' => 'auth'], function()
     Route::post('categories/create','Panel\CategoryController@store')->name('panel.category.store');
     Route::post('categories/delete','Panel\CategoryController@delete')->name('panel.category.delete');
     Route::resource('products', 'Panel\ProductController');
+    Route::resource('orders','Panel\OrderController');
 });

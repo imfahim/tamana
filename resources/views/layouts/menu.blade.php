@@ -62,7 +62,7 @@
         <div class="search-button-content clear-fix">
           <a href="{{route('Shop.Index')}}" class="cart tran3s" style="font-size:20px">Shop</a>
 
-          <button class="cart tran3s"><i class="flaticon-shopping-bag"></i> <span>0</span></button>
+          <button onclick="location.href='{{route('Shop.cart')}}'" class="cart tran3s"><i class="flaticon-shopping-bag"></i> <span>@if(Session::has('order.count')){{Session::get('order.count')}}@else 0 @endif</span></button>
             <button class="search tran3s" id="search-button"><i class="flaticon-search"></i></button>
             <div class="search-box tran5s" id="searchWrapper">
               <button id="close-button" class="p-color"><i class="fa fa-times" aria-hidden="true"></i></button>

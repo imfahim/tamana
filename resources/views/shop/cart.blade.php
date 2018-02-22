@@ -106,7 +106,7 @@ color: white;
                 <tr>
                   <td>
                       <div class="col-md-4">
-                        <img src="{{asset('images/shop/img-7.jpg')}}" style="width: 75%;" alt="image">
+                        <img src="{{asset('images/products/'.$product->id.'_0.jpg')}}" style="width: 75%;" alt="image">
                       </div>
                       <div class="col-md-8">
                       <h5>{{ $product->name }}</h5>
@@ -136,7 +136,7 @@ color: white;
                   <td>
                     <a href="{{ route('cart.destroy', [$product->id]) }}" onclick="event.preventDefault();
                                              document.getElementById('cart-delete-form').submit();"><i style="font-size:24px; color: #7F1F21" class="fa">&#xf00d;</i></a>
-                                             
+
                     <form id="cart-delete-form" method="POST" action="{{ route('cart.destroy', [$product->id]) }}" style="display:none;">
                       {{ csrf_field() }}
 											<input type="hidden" name="_method" value="delete" />
@@ -146,6 +146,7 @@ color: white;
                 </tr>
                 @endforeach
             </table>
+            <a href="{{route('shop.checkout')}}" class="btn btn-primary pull-right">Checkout</a>
 
           @else
             <br /><br />

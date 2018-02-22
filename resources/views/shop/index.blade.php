@@ -39,16 +39,16 @@
 									<div class="col-md-3">
 										<div class="Shop-Item">
 											<div class="Shop-Img">
-												<img src="{{asset('images/products/'.$product->id .'_0.jpg')}}" alt="image">
+												<img src="{{asset('images/products/'.$product->id .'_0.jpg')}}" alt="image" height="150px">
 											</div> <!-- /.Shop-Img -->
 											<div class="Shop-Cart">
 												<h6><a href="{{route('shop.details', [$product->id])}}">{{$product->name}}</a></h6>
 												<span>₹{{$product->price}}</span>
-												<form method="POST" action="{{ route('cart.store') }}" class="row">
+												<form method="POST" action="{{ route('cart.store') }}" class="row" style="background-color:#7F1F21;border-radius: 3px">
 									        {{ csrf_field() }}
 									        <input type="hidden" name="product_id" value="{{ $product->id }}" />
 
-													<button type="submit" class="hvr-float-shadow">Add To Cart</button>
+													<center><button type="submit" style="background:#7F1F21;color:white">Add To Cart</button></center>
 												</form>
 											</div> <!-- /.Shop-Cart -->
 										</div> <!-- /.Shop-Item -->
@@ -77,8 +77,9 @@
 								</form> <!-- /form -->
 								<h4>Shop Categories :</h4>
 								<ul class="Light-Shop">
+									<li><a href="{{route('Shop.Index')}}">All</a></li>
 									@foreach($categories as $category)
-									<li><a href="#">{{$category->name}}</a></li>
+									<li><a href="{{route('shop.filter',[$category->id])}}">{{$category->name}}</a></li>
 									@endforeach
 								</ul> <!-- /.Light-Shop -->
 								<h4>Popular Product</h4>
