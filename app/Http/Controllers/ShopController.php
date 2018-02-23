@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 use Session;
 
 use App\Product;
+use Illuminate\Http\File;
 
 class ShopController extends Controller
 {
@@ -60,7 +61,11 @@ class ShopController extends Controller
     {
         $product = Product::find($id);
 
-        return view('shop.details')->with('product', $product);
+        $image=DB::table('images')->where('product_id',$id)->get();
+        $cat=DB::table('categories')->where('id',$product->category_id)->first();
+        $categories=DB::table('categories')->orderBy('name','ASC')->get();
+
+        return view('shop.details')->with('product', $product)->withCount(count($image))->withCat($cat)->withCategories($categories);
     }
 
     /**

@@ -14,6 +14,7 @@ class OrderController extends Controller
       $orders=DB::table('orders')
                   ->join('buyers','orders.buyer_id','=','buyers.id')
                   ->select('orders.*','buyers.*','orders.id as order_id')
+                  ->orderBy('orders.id','DESC')
                   ->get();
       return view('panel.orders.index')->withOrders($orders);
     }
