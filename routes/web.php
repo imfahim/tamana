@@ -84,5 +84,7 @@ Route::group(['prefix' => 'webpanel',  'middleware' => 'auth'], function()
     Route::resource('orders','Panel\OrderController');
     Route::get('catagories/edit/{id}', 'Panel\CategoryController@edit')->name('panel.catagory.edit');
     Route::post('categories/edit/{id}', 'Panel\CategoryController@update')->name('panel.category.update');
+    Route::post('order/delivery','Panel\OrderController@delivery')->name('order.delivery');
+    Route::post('order/cancel','Panel\OrderController@cancel')->name('order.cancel');
 
 });

@@ -55,10 +55,13 @@
                   <td>
                     @if($order->status === 0)
                       <span class="text-warning">Pending</span>
-                    @else
+                    @elseif($order->status === 1)
                       <span class="text-success">Completed</span>
+                    @else
+                      <span class="text-danger">Canceled</span>
+
                     @endif
-                    <a href="#" class="btn btn-sm btn-primary">Details</a>
+                    <a href="{{route('orders.show',[$order->order_id])}}" class="btn btn-sm btn-primary">Details</a>
                   </td>
                 </tr>
               @endforeach

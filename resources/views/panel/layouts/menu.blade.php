@@ -39,12 +39,12 @@
             <span class="nav-link-text">Admins</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
+      <!--  <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
           <a class="nav-link" href="#">
             <i class="fa fa-fw fa-handshake-o"></i>
             <span class="nav-link-text">Buyers</span>
           </a>
-        </li>
+        </li>-->
         <hr>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
           <a class="nav-link" href="#">
