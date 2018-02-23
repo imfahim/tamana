@@ -55,11 +55,18 @@
                   @endif </td>
                   <td>{{ $category->created_at }}</td>
                   <td>
-                    <form method="POST" action="{{route('panel.category.delete')}}" onsubmit ='return ConfirmDelete()'>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <a href="{{ route('panel.catagory.edit', [$category->id])}}" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Edit</a>
+                      </div>
+                    <div class="col-md-3">
+                      <form method="POST" action="{{route('panel.category.delete')}}" onsubmit ='return ConfirmDelete()'>
                       {{csrf_field()}}
                       <input type="hidden" name="id" value="{{$category->id}}">
                     <button class="btn btn-sm btn-danger" type="submit"><i class="fa fa-close"></i> Delete</button>
                     </form>
+                  </div>
+                  </div>
                   </td>
                 </tr>
               @endforeach

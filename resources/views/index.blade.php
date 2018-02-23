@@ -453,9 +453,9 @@
 			</section> <!-- /.Upcoming-Events -->
 
 			<!-- testimonial section _________________________________ -->
-			<section class="testimonial-section">
-				<div class="testimonial-shape-img"><img src="{{ asset('images/shape/shape-3.png')}}" alt="shape-img"></div><!-- /.shape-img -->
-				<div class="testimonial-opact testimonial-opact-v-two">
+			<section class="testimonial-section" >
+				<div class="testimonial-shape-img" ><img src="{{ asset('images/shape/shape-3.png')}}" alt="shape-img"></div><!-- /.shape-img -->
+				<div class="testimonial-opact testimonial-opact-v-two" style="margin-bottom: 10px;">
 					<div class="testimonial-containt">
 
 						<div class="container-fluid-x">

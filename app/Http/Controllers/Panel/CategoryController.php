@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Session;
+use App\Category;
 
 class CategoryController extends Controller
 {
@@ -16,6 +17,10 @@ class CategoryController extends Controller
     }
     public function create(){
       return view ('panel.categories.create');
+    }
+    public function edit($id){
+      $category=Category::find($id);
+      return view ('panel.categories.edit')->withCategory($category);
     }
     public function store(Request $request){
       $this->validate($request,[
@@ -40,5 +45,23 @@ class CategoryController extends Controller
       }
       return redirect()->route('panel.category.index');
 
+    }
+
+    public function update(Request $request, $id)
+    {
+        $this->validate($request,[
+          'name' => 'required',
+        ]);
+
+        // Product Table Filling Up
+        $category = Category::find($id);
+
+        $category->name = $request->name;
+
+
+        $category->save();
+
+        Session::flash('success', 'Product has been edited successfully !');
+        return redirect()->route('panel.category.index');
     }
 }

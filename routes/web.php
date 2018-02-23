@@ -82,4 +82,7 @@ Route::group(['prefix' => 'webpanel',  'middleware' => 'auth'], function()
     Route::post('categories/delete','Panel\CategoryController@delete')->name('panel.category.delete');
     Route::resource('products', 'Panel\ProductController');
     Route::resource('orders','Panel\OrderController');
+    Route::get('catagories/edit/{id}', 'Panel\CategoryController@edit')->name('panel.catagory.edit');
+    Route::post('categories/edit/{id}', 'Panel\CategoryController@update')->name('panel.category.update');
+
 });
