@@ -19,7 +19,9 @@ class CartController extends Controller
      */
     public function index()
     {
+        //Cart::destroy();
         $this->status();
+        //dd(Cart::content());
         return view('Shop.cart')->with('cartItems', Cart::content());
     }
 
@@ -51,7 +53,8 @@ class CartController extends Controller
           'id' => $product->id,
           'name' => $product->name,
           'price' => $product->price,
-          'qty' => 1
+          'qty' => 1,
+          'options' => ['quantity' => $product->quantity]
         ])->associate('Product');
 
         $this->status();

@@ -485,6 +485,7 @@ function roundCircleProgress () {
 // Product value
 function productValue () {
   var inputVal = $("#product-value");
+  //var inputVal = $("li[id='"+fieldName+"']");
   if(inputVal.length) {
     $('#value-decrease').on('click', function() {
         inputVal.html(function(i, val) { return val*1-1 });
