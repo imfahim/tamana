@@ -34,10 +34,10 @@ Route::get('/contact','PagesController@contact')->name('pages.contact');
 
 Route::group(['prefix' => 'shop'], function()
 {
-  Route::get('/', 'ShopController@index')->name('Shop.Index');
+  Route::get('/', 'ShopController@index')->name('shop.index');
   Route::get('filter/{id}','ShopController@filter')->name('shop.filter');
-  Route::get('checkout','CartController@checkout')->name('shop.checkout');
-  Route::post('checkout','CartController@confirm')->name('shop.confirm');
+  Route::post('checkout','CartController@checkout')->name('shop.checkout');
+  Route::post('checkout/confirm','CartController@confirm')->name('shop.confirm');
 
   Route::get('details/{id}', 'ShopController@show')->name('shop.details');
 

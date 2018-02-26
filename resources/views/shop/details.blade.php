@@ -102,7 +102,7 @@
 								</form> <!-- /form -->
 								<h4>Shop Categories :</h4>
 								<ul class="Light-Shop">
-									<li><a href="{{route('Shop.Index')}}">All</a></li>
+									<li><a href="{{route('shop.index')}}">All</a></li>
 									@foreach($categories as $category)
 									<li><a href="{{route('shop.filter',[$category->id])}}">{{$category->name}}</a></li>
 									@endforeach

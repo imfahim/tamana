@@ -22,6 +22,7 @@ class CartController extends Controller
         //Cart::destroy();
         $this->status();
         //dd(Cart::content());
+
         return view('Shop.cart')->with('cartItems', Cart::content());
     }
 
@@ -30,8 +31,18 @@ class CartController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-     public function checkout(){
+     public function checkout(Request $request){
     //   dd(Cart::content());
+    //  dd($request->all());
+      foreach ($request->new_quantity as $new_value) {
+        foreach (Cart::content() as $product) {
+
+          $rowId = Cart::content()->where('id', $product->id)->first()->rowId;
+          Cart::update($rowId, $request->new_quantity[$product->id]);
+        }
+
+      }
+      $this->status();
        return view ('Shop.checkout')->withCartitems(Cart::content());
      }
     public function create()
@@ -61,8 +72,8 @@ class CartController extends Controller
         ])->associate('Product');
 
         $this->status();
-        Session::flash('success', 'Successfully Generated The Cart');
-        return redirect()->route('Shop.cart');
+        Session::flash('success', 'Added to the Cart');
+        return redirect()->back();
     }
 
     /**
@@ -133,10 +144,15 @@ class CartController extends Controller
         'total'=>Session::get('order.total')
       ]);
       foreach(Cart::content() as $product){
+        $new_quantity = $product->qty;
+
+        if($request->new_quantity){
+          $new_quantity = $request->new_quantity;
+        }
         DB::table('order_details')->insert([
             'order_id'=>$orderid,
             'product_id'=>$product->id,
-            'quantity'=>$product->qty,
+            'quantity'=>$new_quantity,
             'paid_by_option'=>"Cash On Delivery",
             'total'=>$product->subtotal()
         ]);
@@ -148,13 +164,18 @@ class CartController extends Controller
       $this->status();
       Session::flash('success', 'Order Placed Successfully !');
 
-      return redirect()->route('Shop.Index');
+      return redirect()->route('shop.index');
 
     }
 
     private function status()
     {
-      $total = Cart::total()-Cart::tax();
+
+      $tax = doubleval(str_replace(',', '', Cart::tax()));
+      //$total = (Cart::total());
+      $total = doubleval(str_replace(',', '', Cart::total()));
+      $total = $total - $tax;
+
       $subtotal = Cart::subtotal();
       $count = Cart::count();
       Session::put('order.total', $total);

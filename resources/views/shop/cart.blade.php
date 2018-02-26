@@ -86,6 +86,9 @@ color: white;
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading" style="background-color:#7F1F21;color:white; font-size: 40px;"><center><strong>Shopping Cart</strong></center></div>
+          <form id="checkout-form" method="POST" action="{{ route('shop.checkout') }}">
+            {{ csrf_field() }}
+
           @if (!$cartItems->isEmpty())
             <table>
               <tr>
@@ -111,17 +114,21 @@ color: white;
                     <div class="quantity">
                         <div class="input-group">
                           <div class="single-input">
-          									<select class="selectpicker">
+          									<select class="selectpicker" name="new_quantity[{{ $product->id }}]" id="price-select[{{$product->id}}]" onchange="updatePrice({{$product->price}},{{$product->id}})">
                               @for($i = 0; $i < $product->options->quantity; $i++)
-                                <option value="{{ $i }}" {{ ($product->qty === $i) ? ' selected="selected"' : '' }}>{{ $i }}</option>
+                                <!--<option value="{{ $i }}" {{ ($product->qty === $i) ? ' selected="selected"' : '' }}>{{ $i }}</option>-->
+                                <option value="{{$i}}" @if($product->qty==$i)
+                                  selected
+                                  @endif>{{$i}}</option>
                               @endfor
           									</select>
           								</div> <!-- /.single-input -->
                          </div>
                      </div>
                   </td>
-                  <td>{{ $product->subtotal() }}</td>
+                  <td><div id="price[{{$product->id}}]">{{$product->subtotal()}}</div></td>
                   <td>
+
                     <a href="{{ route('cart.destroy', [$product->id]) }}" onclick="event.preventDefault();
                                              document.getElementById('cart-delete-form').submit();"><i style="font-size:24px; color: #7F1F21" class="fa">&#xf00d;</i></a>
 
@@ -129,13 +136,17 @@ color: white;
                       {{ csrf_field() }}
 											<input type="hidden" name="_method" value="delete" />
                     </form>
+
+
                   </td>
 
                 </tr>
                 @endforeach
             </table>
-            <a href="{{route('shop.checkout')}}" class="btn btn-primary pull-right">Checkout</a>
-
+            <input type="hidden" name="_method" value="post" />
+            <a href="#" onclick="event.preventDefault();
+                                     document.getElementById('checkout-form').submit();" class="btn btn-primary pull-right">Checkout</a>
+          </form>
           @else
             <br /><br />
             <div class="col-md-12">
@@ -148,5 +159,14 @@ color: white;
           @endif
       </div>
     </div>
+<script>
 
+function updatePrice(pr,id){
+//alert($("#price["+id+"]").html);
+  var value = document.getElementById("price-select["+ id +"]").value;
+  var total = parseFloat(value * pr);
+  document.getElementById("price["+ id +"]").innerHTML=  total;
+}
+
+</script>
 @endsection

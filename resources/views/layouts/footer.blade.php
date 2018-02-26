@@ -6,7 +6,7 @@
         <div class="item">
           <div class="text-center list-item">
             <i class="fa fa-shopping-cart"></i>
-            <h6><a href="{{route('Shop.Index')}}">Shop</a></h6>
+            <h6><a href="{{route('shop.index')}}">Shop</a></h6>
           </div> <!-- /.list-item -->
         </div> <!-- /.item -->
         <div class="item">
