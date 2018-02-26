@@ -48,12 +48,15 @@ class CartController extends Controller
     public function store(Request $request)
     {
         $product = Product::find($request->product_id);
-
+        $quantity=1;
+        if($request->product_qty){
+          $quantity=$request->product_qty;
+        }
         Cart::add([
           'id' => $product->id,
           'name' => $product->name,
           'price' => $product->price,
-          'qty' => 1,
+          'qty' => $quantity,
           'options' => ['quantity' => $product->quantity]
         ])->associate('Product');
 

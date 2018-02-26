@@ -66,7 +66,14 @@
 																<li><button class="tran3s" id="value-increase"><i class="fa fa-plus" aria-hidden="true"></i></button> </li>
 															</ul>
 														</li>
-														<li><a href="#" class="hvr-float-shadow">Add To Cart</a></li>
+														<li>
+															<form method="POST" action="{{ route('cart.store') }}" class="row" style="background-color:#7F1F21;border-radius: 3px">
+												        {{ csrf_field() }}
+												        <input type="hidden" name="product_id" value="{{ $product->id }}" />
+
+																<center><button type="submit" style="background:#7F1F21;color:white" class="btn">Add To Cart</button></center>
+															</form>
+															</li>
 													</ul>
 												</div>
 											</div>
@@ -79,8 +86,7 @@
 									</ul>
 									<div class="tab-content">
 										<div id="home" class="tab-pane fade in active">
-									    	<p>Google has updated its AdSense ad policies, no longer permitting the use of such ads on pop-under pages. This decision was made because the company believes ads on pop-under pages do not provide a good user experience. “Pop-under ads can be annoying as well, as they will “pop under” your window, so that you don’t see them until you minimize your browser. We do not believe these ads provide a good user experience, and therefore are not suitable for Google ads.”</p>
-									    	<p>Further, Google is no longer permitting the use of its ads on sites that trigger pop-under pages, even if the pop-unders do not contain an ad</p>
+											<p>{{ $product->description }}</p>
 										</div>
 									</div>
 								</div> <!-- /.review-tab -->
