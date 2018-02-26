@@ -7,12 +7,12 @@
 					<div class="banner-opacity">
 						<div class="container">
 							<div class="banner-content">
-								<h1>Shop Details</h1>
-								<p>SPONSOR A CHILD AND CHANGE THEIR LIFE FOR <br>GOOD</p>
+								<h1>Checkout</h1>
+								<p>######### ####<br>####</p>
 								<ul>
 									<li><a href="{{route('index')}}">Home</a></li>
 									<li><span>-</span></li>
-									<li><a href="#">Shop details</a></li>
+									<li><a href="#">Checkout</a></li>
 								</ul>
 								<a href="#" class="hvr-bounce-to-right">Need Our Help</a>
 							</div> <!-- /.banner-content -->

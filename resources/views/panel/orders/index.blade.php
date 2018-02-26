@@ -28,7 +28,7 @@
                 <th>Email</th>
                 <th>Phone</th>
                 <th>Address</th>
-                <th>Ammount</th>
+                <th>Amount</th>
                 <th>Option</th>
               </tr>
             </thead>
@@ -39,7 +39,7 @@
                 <th>Email</th>
                 <th>Phone</th>
                 <th>Address</th>
-                <th>Ammount</th>
+                <th>Amount</th>
                 <th>Option</th>
               </tr>
             </tfoot>
